@@ -91,7 +91,7 @@ const Header = () => {
                     Digital Marketing
                   </Link>
                   {isDropdownOpen && (
-                    <div className="container position-absolute dropdownMenu">
+                    <div className="container">
                       <div className="row">
                         <div className="col">
                           <ul className="dropdown-links">
