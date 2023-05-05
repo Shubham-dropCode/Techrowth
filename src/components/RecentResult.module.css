@@ -1,0 +1,37 @@
+.recentResults {
+  position: relative;
+  font-weight: 500;
+}
+.increaseInVertical {
+  font-size: var(--font-size-smi);
+}
+.increaseInOrganic,
+.increaseInVertical {
+  position: relative;
+  font-weight: 600;
+}
+.increaseInVerticalRevenueParent,
+.recentresult {
+  background-color: var(--light-blue);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.increaseInVerticalRevenueParent {
+  flex: 1;
+  padding: 0 var(--padding-mini);
+  justify-content: space-around;
+  gap: "1.3rem";
+  color: var(--text-grey);
+}
+.recentresult {
+  align-self: stretch;
+  padding: var(--padding-2xl) 0 var(--padding-2xl) var(--padding-3xl);
+  justify-content: center;
+  gap: var(--gap-17xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

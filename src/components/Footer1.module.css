@@ -1,0 +1,149 @@
+.groupChild {
+  background-color: var(--color-steelblue-100);
+}
+.footerInner,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  height: 57.81rem;
+}
+.footerChild {
+  position: absolute;
+  height: 6.82%;
+  width: 27.3%;
+  top: 8.07%;
+  right: 4.82%;
+  bottom: 85.11%;
+  left: 67.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.resources {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.aboutTechrowth {
+  margin: 0;
+}
+.blankLine3 {
+  margin: 0;
+  font-size: 1.71rem;
+  font-weight: 300;
+  font-family: var(--font-inter);
+}
+.businessIntelligence {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+.resourcesAboutTechrowthContainer {
+  position: absolute;
+  top: 2.81rem;
+  left: 4.56rem;
+  line-height: 2.44rem;
+  display: inline-block;
+  width: 53rem;
+  height: 36.5rem;
+}
+.groupItem {
+  background-color: var(--color-steelblue-300);
+}
+.groupItem,
+.rectangleWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.94rem;
+  height: 16.94rem;
+}
+.coIzyaneInovsolutionsContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 2.08rem;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 19rem;
+  height: 12.31rem;
+}
+.groupInner {
+  position: absolute;
+  top: 1.34rem;
+  left: 21.09rem;
+  border-right: 1.1px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 0.07rem;
+  height: 9.78rem;
+}
+.no3731stContainer {
+  position: absolute;
+  top: 0;
+  left: 25.25rem;
+  line-height: 2.08rem;
+  display: inline-block;
+  width: 26.64rem;
+  height: 10.69rem;
+}
+.lineDiv {
+  position: absolute;
+  top: 1.34rem;
+  left: 54.84rem;
+  border-right: 1.1px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 0.07rem;
+  height: 9.78rem;
+}
+.techrowthPvtLtd,
+.termsConditionsContainer {
+  position: absolute;
+  line-height: 2.08rem;
+  display: inline-block;
+}
+.termsConditionsContainer {
+  top: 0;
+  left: 0.14rem;
+  width: 16.01rem;
+  height: 6.86rem;
+}
+.techrowthPvtLtd {
+  top: 8.31rem;
+  left: 0;
+  font-family: var(--font-inter);
+  width: 13.44rem;
+}
+.termsConditionsPrivacyPParent {
+  position: absolute;
+  top: 0;
+  left: 58rem;
+  width: 16.15rem;
+  height: 10.44rem;
+}
+.coIzyaneInovsolutionsLtdMParent,
+.groupParent {
+  position: absolute;
+  top: 2.31rem;
+  left: 5.25rem;
+  width: 74.15rem;
+  height: 12.31rem;
+}
+.groupParent {
+  top: 40.88rem;
+  left: 0.06rem;
+  width: 89.94rem;
+  height: 16.94rem;
+}
+.footer {
+  position: relative;
+  background-color: var(--white);
+  width: 90rem;
+  height: 57.81rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}

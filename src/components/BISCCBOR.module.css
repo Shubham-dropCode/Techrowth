@@ -1,0 +1,274 @@
+.bISCCBOR {
+  position: relative;
+  display: inline-block;
+  width: 76.88rem;
+}
+.experienceTheChange {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--text-grey);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.bisccborIsA {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  font-size: 28px;
+}
+.subheading {
+  width: 76.94rem;
+  height: 3.06rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 12.5rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-grey);
+}
+.bisccborImgIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.definingWhatYour,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 5rem;
+  height: 5rem;
+}
+.definingWhatYour {
+  align-self: stretch;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-work-sans);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 3.38rem;
+}
+.businessParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.groupParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.businessIntentRepresents {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+}
+.intentsParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.audienceSegmentationIs {
+  margin: 0;
+}
+.audienceSegmentationIsContainer,
+.hereWeIdentifyContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 5.31rem;
+  flex-shrink: 0;
+}
+.hereWeIdentifyContainer {
+  height: 6.63rem;
+}
+.channelsParent,
+.col1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.channelsParent {
+  height: 9.5rem;
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.col1 {
+  height: 40.31rem;
+  justify-content: space-between;
+}
+.aClearCommunication {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 4.81rem;
+  flex-shrink: 0;
+}
+.communicationParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupParent2 {
+  align-self: stretch;
+  height: 7.25rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.budget {
+  position: relative;
+  font-weight: 500;
+  font-size: 28px;
+}
+.afterTheOptimization {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 3.38rem;
+  flex-shrink: 0;
+}
+.budgetParent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+ padding: var(--padding-xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.groupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thisIsWhere {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 6.81rem;
+  flex-shrink: 0;
+}
+.optimizationParent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0.38rem 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.withOurApproach {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 4.69rem;
+  flex-shrink: 0;
+}
+.colContainer {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.69rem;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+}
+.easyToMeasure {
+  font-size: 2.13rem;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.strategiesAndSpecific {
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-montserrat);
+}
+.achieveMaximumDigitalContainer {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 4.38rem;
+  flex-shrink: 0;
+  font-size: var(--font-size-6xl);
+}
+.bisccbor,
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  align-self: stretch;
+  /* height: 79.19rem; */
+  flex-shrink: 0;
+  gap: 1.5rem;
+}
+.bisccbor {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  padding: 0rem 8.56rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

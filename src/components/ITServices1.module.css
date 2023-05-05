@@ -1,0 +1,208 @@
+.letOurExpert {
+  margin: 0;
+}
+.letOurExpertContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  color: var(--blue);
+}
+.itServicesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.development {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cmsDevelopmentsupport {
+  margin-bottom: false;
+}
+.cmsDevelopmentsupportWebsit {
+  margin: 0;
+  padding-left: var(--padding-base);
+}
+.cmsDevelopmentsupportWebsitContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--text-grey);
+  text-align: left;
+}
+.developmentParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-6xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  padding: var(--padding-8xl) var(--padding-mini);
+  justify-content: center;
+}
+.frameDiv,
+.frameWrapper,
+.uiuxInteractiveParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uiuxInteractiveParent {
+  padding: var(--padding-3xs) var(--padding-mini);
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameDiv {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  padding: var(--padding-5xl) var(--padding-8xl);
+  justify-content: center;
+}
+.itManagement {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 1.58rem;
+  flex-shrink: 0;
+}
+.techSupportEndContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--color-dimgray-100);
+  text-align: left;
+}
+.itManagementParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-2xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameWrapper1 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  flex-direction: column;
+  padding: var(--padding-14xl) var(--padding-9xl);
+  justify-content: center;
+}
+.frameContainer,
+.frameWrapper1,
+.integrationsParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameContainer {
+  height: 20.31rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.integrationsParent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-smi);
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frameWrapper2,
+.qualityTestingParent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  display: flex;
+  padding: var(--padding-base) var(--padding-3xs);
+  align-items: center;
+}
+.qualityTestingParent {
+  padding: var(--padding-mini) var(--padding-xs);
+  gap: var(--gap-smi);
+}
+.frameParent1,
+.frameWrapper3,
+.qualityTestingParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameWrapper3 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-3xs);
+  justify-content: center;
+}
+.frameParent1 {
+  height: 20.31rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-151xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.frameGroup {
+  height: 42.19rem;
+  flex-shrink: 0;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-xl);
+  color: var(--blue);
+}
+.frameGroup,
+.frameParent,
+.itServices {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  height: 52.38rem;
+  flex-shrink: 0;
+  gap: var(--gap-21xl);
+}
+.itServices {
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-75xl) var(--padding-201xl);
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

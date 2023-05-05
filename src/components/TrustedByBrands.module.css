@@ -1,0 +1,252 @@
+.trustedByThe {
+  position: relative;
+  line-height: 4.99rem;
+}
+.frameIcon,
+.googleLogo1Icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.googleLogo1Icon {
+  width: 9.44rem;
+  height: 5.31rem;
+  object-fit: cover;
+}
+.frameIcon {
+  width: 6.54rem;
+  height: 1.01rem;
+  overflow: hidden;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clutchLogo2d745b01f0SeeklogIcon {
+  position: relative;
+  width: 8.5rem;
+  height: 2.44rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.pngimg1Icon {
+  position: relative;
+  width: 10.69rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div2 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-6xl);
+}
+.glassdoorLogo1Icon {
+  position: relative;
+  width: 10.25rem;
+  height: 5.69rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div3 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.div3,
+.parent,
+.trusted {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.parent {
+  height: 6.7rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-101xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.trusted {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-3xl);
+}
+.ctaChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 65.31rem;
+  height: 9.38rem;
+  object-fit: cover;
+}
+.howCanWe {
+  position: relative;
+  display: inline-block;
+  width: 33.24rem;
+  height: 1.88rem;
+  flex-shrink: 0;
+}
+.groupChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-aliceblue-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 9.41rem;
+  height: 2.81rem;
+}
+.contactUs {
+  position: absolute;
+  top: 0.67rem;
+  left: 1.74rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 5.94rem;
+  height: 1.41rem;
+}
+.rectangleParent {
+  position: relative;
+  width: 9.41rem;
+  height: 2.81rem;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--blue);
+}
+.howCanWeHelpTransformYourParent {
+  position: absolute;
+  top: 3.3rem;
+  left: 6.75rem;
+  width: 51.85rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta {
+  position: relative;
+  width: 65.31rem;
+  height: 9.38rem;
+  flex-shrink: 0;
+}
+.ctaWrapper,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ctaWrapper {
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  overflow: hidden;
+}
+.frameWrapper {
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.b45dc8a806b0a419d8ddcUntitledIcon,
+.googlePartner11Icon {
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.googlePartner11Icon {
+  width: 9.15rem;
+  height: 3.43rem;
+}
+.b45dc8a806b0a419d8ddcUntitledIcon {
+  width: 8.56rem;
+  height: 2.89rem;
+}
+.amazonAdsVerifiedPartner1Icon,
+.maskGroupIcon,
+.shopifyPartners1Icon,
+.solutionPartner1Icon {
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.solutionPartner1Icon {
+  width: 12.47rem;
+  height: 2.81rem;
+}
+.amazonAdsVerifiedPartner1Icon {
+  width: 6.93rem;
+  height: 4.95rem;
+}
+.maskGroupIcon {
+  width: 10.94rem;
+  height: 4.02rem;
+}
+.shopifyPartners1Icon {
+  width: 8.06rem;
+  height: 3.06rem;
+}
+.logos,
+.trustedParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos {
+  align-self: stretch;
+  flex-direction: row;
+}
+.trustedParent {
+  position: absolute;
+  top: 3.81rem;
+  left: 12.06rem;
+  width: 65.31rem;
+  height: 33.9rem;
+  flex-direction: column;
+}
+.trustedByBrands {
+  position: relative;
+  background-color: var(--white);
+  width: 90rem;
+  height: 41.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

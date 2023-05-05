@@ -1,0 +1,288 @@
+.trafficAndRevenue {
+  margin: 0;
+}
+.trafficAndRevenueContainer {
+  align-self: stretch;
+  position: relative;
+}
+.b {
+  position: absolute;
+  top: 3rem;
+  left: 3.44rem;
+}
+.increaseInVertical {
+  position: absolute;
+  top: 7.25rem;
+  left: 0.63rem;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 11.25rem;
+}
+.parent,
+.percentageBox {
+  position: absolute;
+  left: 0;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.parent {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--light-blue);
+  overflow: hidden;
+}
+.percentageBox {
+  top: 2.5rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 3.63rem;
+  width: 5rem;
+  height: 5rem;
+}
+.percentageBoxParent {
+  align-self: stretch;
+  position: relative;
+  width: 12.5rem;
+  flex-shrink: 0;
+}
+.b1 {
+  position: absolute;
+  top: 3.19rem;
+  left: 3.88rem;
+}
+.increaseInOrganic {
+  position: absolute;
+  top: 7.38rem;
+  left: 0.63rem;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 11.25rem;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 3.44rem;
+  width: 5rem;
+  height: 5rem;
+}
+.b2,
+.rateOfPpc {
+  position: absolute;
+  top: 2.94rem;
+  left: 3.5rem;
+}
+.rateOfPpc {
+  top: 7.25rem;
+  left: 2.38rem;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 7.56rem;
+}
+.groupInner {
+  top: 0;
+  left: 3.75rem;
+  width: 5rem;
+  height: 5rem;
+}
+.b3,
+.groupIcon,
+.groupInner {
+  position: absolute;
+}
+.b3 {
+  top: 3.13rem;
+  left: 3.81rem;
+}
+.groupIcon {
+  top: 0;
+  left: 3.5rem;
+  width: 5rem;
+  height: 5rem;
+}
+.groupParent,
+.trafficAndRevenueGeneratedParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.groupParent {
+  height: 15rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 4rem 9.38rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: var(--color-steelblue-400);
+}
+.trafficAndRevenueGeneratedParent {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-15xl);
+}
+.problemsWeHave {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+.frameChild {
+  position: relative;
+  width: 3.13rem;
+  height: 3.13rem;
+  flex-shrink: 0;
+}
+.businessEnquiriesAnd {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.groupContainer {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.frameGroup,
+.groupContainer,
+.groupParent4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  height: 18.13rem;
+  flex-direction: column;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.groupParent4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.frameParent{
+
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.problemsWeHaveSolvedParent {
+  margin: 5rem;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  flex-direction: row;
+  padding: var(--padding-26xl) 0 0;
+  justify-content: flex-start;
+  gap: 3.38rem;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-grey);
+}
+.problemsWeHaveSolvedParent {
+  height: 25.31rem;
+
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 65.31rem;
+  height: 9.38rem;
+  object-fit: cover;
+}
+.facingASimilarContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--blue);
+  text-align: center;
+}
+.contactUsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-9xl);
+  background-color: var(--color-aliceblue-100);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.facingASimilarProblemTalkParent {
+  position: absolute;
+  top: 2.81rem;
+  left: 2.5rem;
+  width: 58.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  position: relative;
+  width: 65.31rem;
+  height: 9.38rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.cta,
+.digitalMarekting {
+  display: flex;
+  align-items: center;
+}
+.cta {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.digitalMarekting {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 71.88rem;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 3.5rem var(--padding-26xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

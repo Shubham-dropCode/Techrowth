@@ -1,0 +1,462 @@
+.logo21Icon {
+  position: relative;
+  width: 19.5rem;
+  height: 4rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-width: 9.38rem;
+}
+.search {
+  border: 1.1px solid var(--color-gainsboro-100);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-mini);
+  background-color: var(--light-blue);
+  border-radius: var(--br-11xl) 7.86px 7.86px var(--br-11xl);
+  box-sizing: border-box;
+  width: 24.94rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-smi);
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 1.88rem;
+  height: 1.88rem;
+  flex-shrink: 0;
+}
+.div,
+.support {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.div {
+  top: 1.13rem;
+  right: 0;
+  width: 7.69rem;
+}
+.support {
+  top: 0;
+  right: 2.09rem;
+  color: var(--blue);
+  width: 5.63rem;
+}
+.parent {
+  position: absolute;
+  top: 0.06rem;
+  right: 0;
+  width: 7.72rem;
+  height: 2.25rem;
+}
+.groupWrapper {
+  position: relative;
+  width: 7.69rem;
+  height: 2.31rem;
+  flex-shrink: 0;
+}
+.frameParent {
+  text-decoration: none;
+  width: 12.13rem;
+  height: 2.81rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  color: inherit;
+}
+.div1,
+.sales {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.div1 {
+  top: 0.88rem;
+  right: 0;
+  width: 7.69rem;
+}
+.sales {
+  top: 0;
+  right: 3.41rem;
+  color: var(--blue);
+  width: 4.25rem;
+  height: 1rem;
+}
+.group {
+  position: relative;
+  width: 7.69rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+.frameGroup {
+  text-decoration: none;
+  width: 10.06rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  color: inherit;
+}
+.frameGroup,
+.phonebutton,
+.topbar,
+.topbar1 {
+  display: flex;
+  flex-direction: row;
+}
+.phonebutton {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 24.66rem;
+  height: 2.81rem;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.topbar,
+.topbar1 {
+  align-items: center;
+}
+.topbar1 {
+  flex: 1;
+  height: 4.06rem;
+  justify-content: space-between;
+}
+.topbar {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-41xl);
+  justify-content: flex-start;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 7.86px;
+  background-color: var(--light-blue);
+  border: 1.1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 11.88rem;
+  height: 2.19rem;
+}
+.div2,
+.revenueDrivenFor {
+  position: absolute;
+  top: 0;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey);
+  text-align: left;
+  display: inline-block;
+}
+.revenueDrivenFor {
+  left: 0;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  width: 9.81rem;
+  height: 0.66rem;
+}
+.div2 {
+  left: 1.56rem;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  width: 5.44rem;
+  height: 0.82rem;
+}
+.groupItem {
+  position: absolute;
+  top: 0.16rem;
+  left: 0;
+  width: 1.33rem;
+  height: 0.65rem;
+}
+.container {
+  position: absolute;
+  top: 0.71rem;
+  left: 1.25rem;
+  width: 7rem;
+  height: 0.82rem;
+}
+.revenueDrivenForOutClientsParent {
+  position: absolute;
+  top: 0.31rem;
+  left: 1.06rem;
+  width: 9.81rem;
+  height: 1.53rem;
+}
+.rectangleParent {
+  position: relative;
+  width: 11.88rem;
+  height: 2.19rem;
+  flex-shrink: 0;
+}
+.revenubutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 12.18rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clientLogin,
+.frameInner {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameInner {
+  width: 1.81rem;
+  height: 1.63rem;
+}
+.clientLogin {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  width: 5.81rem;
+  height: 0.88rem;
+}
+.frameContainer {
+  cursor: pointer;
+  border: 1.1px solid var(--color-gainsboro-100);
+  padding: var(--padding-9xs) var(--padding-4xs);
+  background-color: var(--color-gainsboro-200);
+  border-radius: 7.86px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.loginbutton,
+.revenubuttonParent {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 9.49rem;
+  height: 2.13rem;
+  flex-direction: column;
+}
+.revenubuttonParent {
+  width: 22.48rem;
+  flex-direction: row;
+}
+.analytics,
+.digitalMarketing,
+.home,
+.itServices,
+.whoWeAre {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.home {
+  text-decoration: none;
+  color: var(--blue);
+  width: 2.88rem;
+}
+.analytics {
+  color: var(--text-grey);
+}
+.digitalMarketing {
+  width: 8.1rem;
+  
+}
+.digitalMarketing,
+.itServices,
+.whoWeAre {
+  color: var(--text-grey);
+}
+.itServices {
+  width: 4.44rem;
+}
+.analytics {
+  width: 4.19rem;
+}
+.whoWeAre {
+  width: 5.25rem;
+}
+.links,
+.vectorIcon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.vectorIcon {
+  position: relative;
+  max-width: 100%;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+.navlinks,
+.navlinksInner {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.navlinksInner {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-5xs);
+  background-color: var(--color-gainsboro-200);
+  width: 2.63rem;
+  height: 1.94rem;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.navlinks {
+  align-self: stretch;
+  width: 35.27rem;
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  text-align: left;
+}
+.navbutton {
+  cursor: pointer;
+  border: 1.1px solid var(--color-gainsboro-100);
+  padding: var(--padding-2xs) var(--padding-5xl);
+  background-color: var(--blue);
+  border-radius: var(--br-11xl);
+  justify-content: center;
+}
+.navbutton:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.header,
+.nav,
+.navbutton,
+.navigationBar {
+  display: flex;
+  align-items: center;
+}
+.nav,
+.navbutton,
+.navigationBar {
+  flex-direction: row;
+}
+.nav {
+  flex: 1;
+  background-color: var(--light-blue);
+  padding: var(--padding-4xs) var(--padding-31xl);
+  justify-content: space-between;
+}
+.header,
+.navigationBar {
+  align-self: stretch;
+}
+.navigationBar {
+  justify-content: flex-start;
+}
+.header {
+  z-index: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 1200px) {
+  .search {
+    width: 18.75rem;
+  }
+  .header,
+  .search {
+    display: flex;
+  }
+}
+@media screen and (max-width: 960px) {
+  .logo21Icon {
+    max-width: 50%;
+    height: auto;
+  }
+  .links,
+  .revenubuttonParent,
+  .search {
+    display: none;
+  }
+  .links {
+    flex: unset;
+    align-self: stretch;
+  }
+  .navlinksInner {
+    display: flex;
+  }
+  .navlinks {
+    flex-direction: column;
+  }
+  .navbutton {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo21Icon {
+    max-width: 20%;
+  }
+  .phonebutton {
+    display: flex;
+    width: 12.5rem;
+    height: 28.13rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    box-sizing: border-box;
+    min-width: 20%;
+  }
+  .topbar {
+    padding-left: var(--padding-xl);
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .navlinksInner {
+    display: flex;
+  }
+}

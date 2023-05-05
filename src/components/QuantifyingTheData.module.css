@@ -1,0 +1,176 @@
+.quantifyingTheData1 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 3.82rem;
+  flex-shrink: 0;
+}
+.weSetThe {
+  margin: 0;
+}
+.div,
+.revenueIncrement,
+.weSetTheContainer {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.weSetTheContainer {
+  align-self: stretch;
+  line-height: 1.56rem;
+  font-weight: 500;
+  height: 3.75rem;
+}
+.div {
+  font-weight: 600;
+  width: 11.59rem;
+  height: 6.38rem;
+}
+.revenueIncrement {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  width: 8.5rem;
+  height: 3.6rem;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div1,
+.incrementSocialMediaContainer {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 9.05rem;
+  height: 6.38rem;
+  flex-shrink: 0;
+}
+.incrementSocialMediaContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: center;
+  width: 13.34rem;
+  height: 3.6rem;
+}
+.div2 {
+  font-weight: 600;
+  width: 11.36rem;
+  height: 6.38rem;
+}
+.conversionRate,
+.customerRetention,
+.div2,
+.div3 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.conversionRate {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  width: 9.05rem;
+  height: 3.6rem;
+}
+.div3 {
+  font-weight: 600;
+  width: 11.44rem;
+  height: 6.38rem;
+}
+.customerRetention {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  width: 8.02rem;
+  height: 3.6rem;
+}
+.frameGroup {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-51xl);
+}
+.letsAccomplishGreat {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 1.81rem;
+  flex-shrink: 0;
+}
+.weSetTheStandardForExcellParent {
+  align-self: stretch;
+  height: 21.06rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.getInTouch {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--blue);
+  text-align: left;
+}
+.getInTouchWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--white);
+  border-radius: var(--br-smi);
+  width: 16.12rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  border-radius: var(--br-2xs);
+  overflow: hidden;
+  padding: var(--padding-10xl) var(--padding-15xl);
+  gap: var(--gap-5xs);
+  background-image: url(/public/frame-841@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.frameParent,
+.quantifyingTheData,
+.quantifyingTheDataParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quantifyingTheDataParent {
+  gap: var(--gap-21xl);
+}
+.quantifyingTheData {
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-30xl) var(--padding-203xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

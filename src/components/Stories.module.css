@@ -1,0 +1,381 @@
+.ourInsideStories {
+  align-self: stretch;
+  position: relative;
+  line-height: 4.99rem;
+}
+.frameChild {
+  position: relative;
+  width: 2.2rem;
+  height: 2.19rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 12.31px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.revolutionizingTraditionalBa {
+  margin: 0;
+}
+.revolutionizingTraditionalBaContainer {
+  position: absolute;
+  top: 50%;
+  left: 6.79%;
+  font-weight: 500;
+}
+.div {
+  position: relative;
+  width: 17.5rem;
+  height: 11.25rem;
+  flex-shrink: 0;
+}
+.boostingKidsEngagementContainer {
+  position: absolute;
+  font-weight: 500;
+}
+.transformingFinancialServiceContainer {
+  position: absolute;
+  top: 51.67%;
+  left: 7.5%;
+  font-weight: 500;
+}
+.boostingKidsEngagementContainer {
+  top: 50%;
+  left: 7.86%;
+}
+.frameGroup,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.parent {
+  width: 76.19rem;
+  flex-shrink: 0;
+}
+.frameGroup {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frameWrapper,
+.ourInsideStoriesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+}
+.ourInsideStoriesParent {
+  width: 84.75rem;
+  gap: var(--gap-21xl);
+}
+.clients {
+  font-size: var(--font-size-31xl);
+}
+.discoverWhy100Container {
+  /* margin-bottom: 3rem; */
+  position: relative;
+  line-height: 4.99rem;
+  font-size: var(--font-size-11xl);
+}
+.frameInner {
+  position: relative;
+  width: 2.19rem;
+  height: 2.19rem;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 2.21rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo1Icon {
+  position: relative;
+  width: 7.83rem;
+  height: 3.38rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.weHaveBeenContainer {
+  position: absolute;
+  height: 71.09%;
+  width: 100%;
+  top: 21.8%;
+  left: 0;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 8.14%;
+  width: 59.63%;
+  top: 0;
+  right: 20.13%;
+  bottom: 91.86%;
+  left: 20.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleDiv {
+  position: relative;
+  flex-shrink: 0;
+}
+.weHaveBeenUsingTechrowthFParent {
+  position: relative;
+  width: 15.25rem;
+  height: 14.38rem;
+  flex-shrink: 0;
+}
+.rectangleDiv {
+  border-radius: 0 0 var(--br-mini) var(--br-mini);
+  background-color: var(--blue);
+  width: 17.68rem;
+  height: 0.75rem;
+}
+.div4 {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.child1,
+.child2 {
+  position: absolute;
+  left: 0;
+  width: 17.68rem;
+}
+.child1 {
+  top: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  height: 20rem;
+}
+.child2 {
+  top: 19.25rem;
+  border-radius: 0 0 var(--br-mini) var(--br-mini);
+  background-color: var(--blue);
+  height: 0.75rem;
+}
+.originalLogoB1Icon {
+  position: absolute;
+  top: 0.31rem;
+  left: 6.15rem;
+  width: 5.43rem;
+  height: 3.38rem;
+  object-fit: cover;
+}
+.groupIcon1 {
+  position: relative;
+  width: 9.09rem;
+  height: 1.17rem;
+  flex-shrink: 0;
+}
+.lovedTheServices {
+  position: relative;
+  display: inline-block;
+  width: 15.28rem;
+}
+.groupParent {
+  position: absolute;
+  top: 4.97rem;
+  left: 1.21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xl);
+}
+.abhayahastaLogo1,
+.div5 {
+  position: relative;
+  flex-shrink: 0;
+}
+.div5 {
+  width: 17.68rem;
+  height: 20rem;
+}
+.abhayahastaLogo1 {
+  width: 8.9rem;
+  height: 2.94rem;
+  object-fit: cover;
+}
+.weRecentlyGot {
+  position: absolute;
+  height: 72.29%;
+  width: 100%;
+  top: 27.71%;
+  left: 0;
+  display: inline-block;
+}
+.groupIcon2 {
+  position: absolute;
+  height: 10.35%;
+  width: 58.9%;
+  top: 0;
+  right: 20.29%;
+  bottom: 89.65%;
+  left: 20.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.weRecentlyGotOurSocialMedParent {
+  position: relative;
+  width: 15.5rem;
+  height: 12rem;
+  flex-shrink: 0;
+}
+.div6 {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.logo2Icon {
+  position: relative;
+  width: 8.72rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.groupIcon3 {
+  position: absolute;
+  height: 12.63%;
+  width: 58.18%;
+  top: 0;
+  right: 20.85%;
+  bottom: 87.37%;
+  left: 20.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.teamTechrowthIs {
+  position: absolute;
+  height: 55.15%;
+  width: 100%;
+  top: 33.82%;
+  left: 0;
+  display: inline-block;
+}
+.groupGroup {
+  position: relative;
+  width: 15.63rem;
+  height: 9.5rem;
+  flex-shrink: 0;
+}
+.div7,
+.frameContainer,
+.group {
+  display: flex;
+  align-items: center;
+}
+.div7 {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  height: 19.94rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.frameContainer,
+.group {
+  flex-direction: row;
+  gap: var(--gap-12xl);
+}
+.group {
+  width: 76.54rem;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+.circlesChild {
+  position: relative;
+  width: 0.76rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+}
+.circles {
+  position: absolute;
+  top: 23.5rem;
+  left: 33.03rem;
+  width: 9.41rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.clientReview {
+  position: relative;
+  width: 84.84rem;
+  height: 24.25rem;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--font-size-xs);
+}
+.frameParent,
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 84.75rem;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.stories {
+  background-color: var(--white);
+  width: 90rem;
+  overflow: hidden;
+  padding: var(--padding-39xl) var(--padding-23xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

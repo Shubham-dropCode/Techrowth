@@ -1,0 +1,265 @@
+h2 {
+  color: var(--color-gray);
+}
+button {
+  background-color: var(--blue);
+  color: white;
+  height: 40px;
+  width: 160px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+ul {
+  list-style: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9eef4;
+}
+form h2 {
+  color: #666;
+  font-size: 28px;
+}
+input {
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #bcbcbc;
+  padding: 0 10px;
+}
+textarea {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 50%;
+  margin: 10px;
+  border: 1px solid #bcbcbc;
+  padding: 10px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.companies {
+  width: 70%;
+  margin: 5% 6%;
+}
+.cause {
+  color: var(--text-grey);
+  font-size: 28px;
+}
+.head-img {
+  width: 800px;
+  height: 500px;
+}
+.cause span {
+  color: var(--blue);
+}
+.sales {
+  color: var(--blue);
+  font-size: 20px;
+}
+.strat {
+  color: var(--blue);
+  font-size: 18px;
+}
+.strat-list {
+  color: var(--text-grey);
+  font-size: 18px;
+}
+.strat-list > span {
+  color: var(--color-gray);
+  font-weight: bold;
+  font-size: 18px;
+}
+.divider {
+  margin: 3% 0;
+  border: 0.3px solid black;
+  margin-bottom: 30px;
+}
+.side-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35% 6%;
+}
+.post-categories {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue);
+  height: 450px;
+  width: 70%;
+  border-radius: 50px;
+  margin-bottom: 20%;
+}
+.categories {
+  color: white;
+  text-align: center;
+}
+.post-categories li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-size: 18px;
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+
+.digital-marketing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 70%;
+  color: var(--blue);
+  background-color: #e9eef4;
+  margin: 4% 6%;
+}
+
+.digital-marketing h3{
+  color: white;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: var(--blue);
+  width: 300px;
+  padding: 10px 0;
+}
+
+.it-services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 70%;
+  color: var(--blue);
+  background-color: #edf3fb;
+  margin: 4% 6%;
+}
+.it-services h3{
+  color: white;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: var(--blue);
+  width: 300px;
+  padding: 10px 0;
+}
+
+.business-analytics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 70%;
+  color: var(--blue);
+  background-color: #e9eef4;
+}
+
+.business-analytics h3{
+  color: white;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: var(--blue);
+  width: 300px;
+  padding: 10px 0;
+}
+.lets-connect {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 6%;
+  font-size: 20px;
+}
+.lets-connect h2 {
+  color: #666;
+}
+.contact-location {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+  background-color: var(--blue);
+  border-radius: 50px;
+  color: white;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 30px 0 0 20px;
+}
+.contact p {
+  margin: 0;
+}
+.contact li {
+  margin: 10px 0;
+  padding-right: 5px;
+}
+.phoneIcon {
+  margin: 0 30px 0 10px;
+}
+.locationDivider {
+  border-bottom: 2px solid #fff;
+  width: 70%;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 300px;
+  margin: 20px;
+}
+.location p {
+  margin: 0;
+}
+.location ul {
+padding: 0;
+  margin: 0;
+}
+.location li {
+  margin: 10px 1rem;
+}
+.locationIcon {
+  margin: 0 40px 0 10px;
+}
+.text{
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  form, .companies, .side-cards, .digital-marketing, .it-services, .business-analytics, .lets-connect {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .head-img {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .companies {
+    width: 100%;
+  }
+  .post-categories {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+}
