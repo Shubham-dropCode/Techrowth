@@ -3,7 +3,7 @@ import bgImg from "../assets/rectangle-40292@2x.png";
 
 const ContactUsBar = () => {
   return (
-    <div className="container">
+    <div className="container my-5">
       <div
         className="row d-flex p-5"
         style={{

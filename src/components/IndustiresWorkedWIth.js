@@ -77,7 +77,7 @@ const IndustiresWorkedWIth = () => {
               <div className={styles.frameChild2} />
             </div>
             <div className={styles.groupGroup}>
-              <img className={styles.frameChild} alt="" src="/group.svg" />
+              <img className={styles.frameChild} alt="" src="/group (2).svg" />
               <div className={styles.retail}>Retail</div>
             </div>
           </div>

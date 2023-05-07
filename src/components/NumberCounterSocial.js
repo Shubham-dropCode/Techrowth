@@ -1,7 +1,7 @@
 import styles from "./NumberCounterSocial.module.css";
 const NumberCounterSocial = () => {
   return (
-    <div className={styles.numberCounter}>
+    <div className={styles.numberCounter }>
       <div className={styles.frameParent}>
         <div className={styles.groupParent}>
           <div className={styles.stBlockContentParent}>
@@ -55,7 +55,7 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.ndBlockContentGroup}>
             <div className={styles.ndBlockContent1}>
-              <div className={styles.div5}>{`89+ `}</div>
+              <div className={styles.div5}>89+</div>
               <div className={styles.lastYearAddition}>
                 Last Year Addition in downloads
               </div>

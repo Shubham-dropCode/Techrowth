@@ -148,12 +148,12 @@
   font-family: var(--font-montserrat);
 }
 .groupParent {
-  align-self: stretch;
+  /* gap: 3rem; */
+  /* align-self: stretch; */
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-71xl);
+
+  gap: 4rem;
 }
 .div4,
 .increasedSocialMedia {
@@ -263,12 +263,13 @@
   font-size: var(--font-size-21xl);
 }
 .groupContainer {
-  align-self: stretch;
+  /* align-self: stretch; */
   display: flex;
   flex-direction: row;
-  padding: 0 var(--padding-131xl);
+  /* padding: 0 var(--padding-131xl); */
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 3rem;
   font-family: var(--font-montserrat);
 }
 .frameParent,
@@ -277,6 +278,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 3rem 0 ;
 }
 .frameParent {
   align-self: stretch;
