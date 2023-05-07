@@ -21,8 +21,8 @@ import { useEffect } from "react";
 
 const NewHomepage = () => {
   useEffect(() => {
-    window.scroll(0, 0);
-}, []);
+    window.scrollTo(0, 0);
+  }, [])
 
   const HeroTitel = "Empowering your Online presence, Driving Actual Results";
   const HeroContent =

@@ -1,5 +1,6 @@
 .digitalSolutionsTools,
 .toolsWeUse1 {
+  margin:;
   align-self: stretch;
   position: relative;
 }
@@ -120,7 +121,7 @@
   gap: var(--gap-31xl);
 }
 .toolsPageInner {
-  align-self: stretch;
+  /* align-self: stretch; */
   justify-content: space-between;
 }
 .image10Icon {
@@ -198,10 +199,12 @@
   display: flex;
 }
 .groupParent {
+  margin-top: 1rem;
+  gap: var(--gap-31xl);
   flex-direction: row;
   padding: 0 var(--padding-61xl);
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
 }
 .toolsPage {
   background-color: var(--white);
@@ -283,6 +286,7 @@
 .toolsPageParent,
 .toolsWeUse,
 .toolsWeUseInner {
+  margin: 2rem 0;
   align-self: stretch;
   display: flex;
   flex-direction: column;

@@ -1,3 +1,4 @@
+import ContactUsBar from "./ContactUsBar";
 import styles from "./ToolsWeUseEcommerce.module.css";
 const ToolsWeUseEcommerce = () => {
   return (
@@ -127,7 +128,8 @@ const ToolsWeUseEcommerce = () => {
               </div>
             </div>
           </div>
-          <div className={styles.rectangleParent}>
+          <ContactUsBar/>
+          {/* <div className={styles.rectangleParent}>
             <img
               className={styles.groupChild}
               alt=""
@@ -145,7 +147,7 @@ const ToolsWeUseEcommerce = () => {
                 <div className={styles.contactUs}>Contact Us</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
