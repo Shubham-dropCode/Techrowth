@@ -29,7 +29,7 @@ const DigitalMarketing = () => {
       <Hero title={HeroTitel} content={HeroContent} MyBackgroundImage={heroBg}/>
       <RecentResult/>
       <OneStopSolution1  text={RecentTextRow1} text2={RecentTextRow2} btnText="Contact Us" />
-      <SatisfiedClients />
+      <SatisfiedClients show={false}/>
       <AccelerateYourGrowth />
       <DigitalMarektingComponent/>
       <DigitalMarketingServices1/>
@@ -38,8 +38,6 @@ const DigitalMarketing = () => {
       <ExploreOurCaseStudies/>
       <RevenueGenerated/>
       <ITServices1 />
-      {/* <SatisfiedClients /> */}
-      {/* <FounderNote /> */}
       <BusinessAnalystics />
       <ContactFrom1 />
 

@@ -1,5 +1,7 @@
 import styles from "./OneStopSolution1.module.css";
 
+import ContactUsBar from "./ContactUsBar";
+
 const OneStopSolution1 = ({ text, text2, btnText }) => {
   return (
     <div className={styles.onestopsolution}>
@@ -37,7 +39,7 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
             </div>
           </div>
         </div>
-        <div className={styles.cta}>
+        {/* <div className={styles.cta}>
           <img
             className={styles.ctaChild}
             alt=""
@@ -54,15 +56,8 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
               </div>
             </button>
           </div>
-        </div>
-          {/* <div className="container">
-            <div className="row">
-              <div className="col-8">
-                
-                </div> 
-              <div className="col-4"></div> 
-            </div>
-          </div> */}
+        </div> */}
+          <ContactUsBar/>
       </div>
     </div>
   );

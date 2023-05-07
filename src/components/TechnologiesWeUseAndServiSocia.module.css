@@ -1,0 +1,215 @@
+.technologiesWeUse1 {
+  position: relative;
+}
+.technologiesWeUseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.digitalSolutionsTools {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--text-grey);
+}
+.frameContainer {
+  padding-top: 3rem;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.sproutSocial {
+  position: relative;
+  font-weight: 600;
+}
+.image2Icon {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image2Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.simpleIconshubspot {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-61xl);
+}
+.simpleIconshootsuiteParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameDiv,
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-51xl);
+}
+.frameDiv {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  font-size: var(--font-size-lg);
+}
+.servicesWeServe,
+.technologicalInfrastructureW {
+  align-self: stretch;
+  position: relative;
+}
+.technologicalInfrastructureW {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--text-grey);
+}
+.servicesWeServeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.searchEngineOptimization,
+.socialMediaMarketing {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 11.06rem;
+}
+.searchEngineOptimization {
+  width: 13.44rem;
+}
+.frameChild4 {
+  position: relative;
+  width: 4.06rem;
+  height: 4.06rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.emailMarketing {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 12.94rem;
+}
+.influencerMarketing,
+.ppcServices,
+.socialMediaOptimization {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 12rem;
+}
+.influencerMarketing,
+.socialMediaOptimization {
+  width: 14.13rem;
+}
+.influencerMarketing {
+  width: 10.81rem;
+}
+.frameParent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.performanceMarketing,
+.programmaticMarketing,
+.searchEngineMarketing {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 13.5rem;
+}
+.performanceMarketing,
+.programmaticMarketing {
+  width: 14.63rem;
+}
+.programmaticMarketing {
+  width: 15.38rem;
+}
+.frameParent17 {
+  /* align-self: stretch; */
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-156xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameParent8,
+.frameParent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent9 {
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  font-size: var(--font-size-lg);
+  color: var(--text-grey);
+}
+.frameParent8 {
+  justify-content: center;
+  text-align: center;
+}
+.frameParent,
+.frameParent8 {
+  gap: var(--gap-41xl);
+}
+.frameParent,
+.technologiesWeUse,
+.technologiesWeUseAndServi {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.technologiesWeUse {
+  background-color: var(--light-blue);
+  overflow: hidden;
+  padding: var(--padding-73xl) var(--padding-56xl);
+}
+.technologiesWeUseAndServi {
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

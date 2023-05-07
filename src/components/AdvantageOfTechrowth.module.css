@@ -1,0 +1,86 @@
+.advantageOfTechrowth {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+}
+.weExploreDifferent {
+  margin: 0;
+}
+.div,
+.incrementInGross,
+.weExploreDifferentContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.div,
+.incrementInGross {
+  font-weight: 600;
+}
+.incrementInGross {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  display: inline-block;
+  height: 3.19rem;
+  flex-shrink: 0;
+}
+.parent {
+  width: 12.59rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.incrementInSocial {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}
+.frameParent {
+  gap: 2rem;
+padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.secondPageIntentInner {
+  /* align-self: stretch; */
+  border-radius: var(--br-11xl);
+  background-color: var(--blue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-54xl) var(--padding-30xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+}
+.inTheRealmContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 3.38rem;
+  flex-shrink: 0;
+}
+.secondPageIntent {
+  align-self: stretch;
+  background-color: var(--light-blue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-174xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

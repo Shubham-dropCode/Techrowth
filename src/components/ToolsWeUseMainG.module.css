@@ -1,0 +1,216 @@
+.digitalSolutionsTools,
+.toolsWeUse {
+  align-self: stretch;
+  position: relative;
+}
+.digitalSolutionsTools {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--blue);
+}
+.toolsWeUseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.design {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  text-align: center;
+}
+.frameChild {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.photoshop {
+  position: relative;
+  font-weight: 500;
+}
+.frameContainer,
+.frameDiv {
+  width: 4.6rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv {
+  justify-content: flex-start;
+}
+.frameDiv,
+.frameGroup,
+.frameParent3 {
+  display: flex;
+  align-items: center;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl);
+  justify-content: space-between;
+}
+.frameParent3 {
+  width: 11.84rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.frameChild1,
+.frameWrapper {
+  width: 3.75rem;
+  height: 3.75rem;
+  overflow: hidden;
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 1.13rem;
+}
+.frameWrapper {
+  position: relative;
+  flex-shrink: 0;
+  background-image: url(/public/frame-376@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameParent4 {
+  width: 11.84rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.designParent,
+.frameParent2,
+.frameParent4 {
+  display: flex;
+  align-items: center;
+}
+.frameParent2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.designParent {
+  
+  border-radius: var(--br-11xl);
+  background-color: var(--blue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-10xl) 2rem;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.editing {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+}
+.adobePremierPro {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 10.88rem;
+}
+.adobePremierProWrapper,
+.frameParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.adobePremierProWrapper {
+  align-self: stretch;
+}
+.frameParent6 {
+  gap: var(--gap-8xs);
+}
+.adobeAfterEffects {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 11.81rem;
+  height: 2.38rem;
+  flex-shrink: 0;
+}
+.frameParent5,
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameParent5 {
+  text-align: center;
+}
+.frameParent8 {
+  padding: 0 var(--padding-5xl) 0 var(--padding-28xl);
+}
+.editingParent,
+.frameWrapper1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.editingParent {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  background-color: var(--blue);
+  padding: var(--padding-5xl) var(--padding-smi);
+  gap: var(--gap-mini);
+}
+.frameWrapper1 {
+  width: 26.25rem;
+  flex-shrink: 0;
+}
+.frameParent,
+.toolsweuse,
+.toolsweusemain {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.toolsweuse,
+.toolsweusemain {
+  flex-direction: column;
+  justify-content: center;
+}
+.toolsweuse {
+  gap: var(--gap-21xl);
+}
+.toolsweusemain {
+  margin-bottom: 3rem;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-92xl) var(--padding-251xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

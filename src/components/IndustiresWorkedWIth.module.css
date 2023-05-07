@@ -1,0 +1,227 @@
+.industriesWeveWorked {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0.19rem;
+  background-color: var(--white);
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.groupItem {
+  position: absolute;
+  top: 12.63rem;
+  left: 0;
+  background-color: var(--color-steelblue-100);
+  width: 12.69rem;
+  height: 0.5rem;
+}
+.frameChild {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  flex-shrink: 0;
+}
+.automotive {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 9.61rem;
+}
+.groupContainer {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.rectangleParent {
+  position: relative;
+  width: 12.69rem;
+  height: 13.13rem;
+  flex-shrink: 0;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12.69rem;
+  height: 13.13rem;
+}
+.frameDiv,
+.groupParent2 {
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameDiv {
+  top: 1.56rem;
+  left: 1.44rem;
+  display: flex;
+  align-items: center;
+}
+.groupParent2 {
+  top: 1.63rem;
+  left: 1.63rem;
+  height: 9.63rem;
+}
+.groupParent,
+.groupParent2,
+.groupParent4 {
+  display: flex;
+  align-items: center;
+}
+.groupParent4 {
+  position: absolute;
+  top: 1.88rem;
+  left: 1.56rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.groupParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.frameChild1,
+.frameChild2 {
+  position: relative;
+  background-color: var(--white);
+  width: 12.5rem;
+  height: 12.5rem;
+  flex-shrink: 0;
+}
+.frameChild2 {
+  background-color: var(--color-steelblue-100);
+  width: 12.69rem;
+  height: 0.5rem;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 0;
+  left: 17.69rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 6.72rem;
+  height: 5.93rem;
+  flex-shrink: 0;
+}
+.vectorParent {
+  position: absolute;
+  top: 1.5rem;
+  left: 19.25rem;
+  width: 9.61rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.manufacturing {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 12.69rem;
+}
+.groupParent7 {
+  position: absolute;
+  top: 2.75rem;
+  left: 0;
+  width: 12.69rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameParent {
+  position: relative;
+  width: 30.38rem;
+  height: 13.13rem;
+  flex-shrink: 0;
+}
+.rectangleParent4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.retail {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 5.94rem;
+}
+.groupGroup {
+  position: absolute;
+  top: 2.81rem;
+  left: 3.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.travel {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 5.5rem;
+}
+.groupParent9 {
+  position: absolute;
+  top: 2.63rem;
+  left: 3.13rem;
+  width: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.industiresWorkedWith,
+.industriesWeveWorkedWithParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.industriesWeveWorkedWithParent {
+  border-radius: var(--br-11xl);
+  background-color: var(--light-blue);
+  height: 43.69rem;
+  flex-shrink: 0;
+  padding: var(--padding-19xl) var(--padding-75xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
+.industiresWorkedWith {
+  background-color: var(--white);
+  padding: var(--padding-23xl) var(--padding-81xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

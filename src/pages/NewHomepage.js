@@ -17,8 +17,13 @@ import heroBg from "../assets/rectangle-216@2x.png";
 
 import styles from "./NewHomepage.module.css";
 import Testimonial from "../components/Testimonial";
+import { useEffect } from "react";
 
 const NewHomepage = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+}, []);
+
   const HeroTitel = "Empowering your Online presence, Driving Actual Results";
   const HeroContent =
     "Join the Techrowth Revolution Experience Exceptional Results and elevate your business to new levels with our result-oriented strategy framework BISCCBOR!";
@@ -41,7 +46,7 @@ const NewHomepage = () => {
       <DigitalMarketingServices1 />
       <ITServices1 />
       <BusinessAnalystics />
-      <SatisfiedClients />
+      <SatisfiedClients/>
       <FounderNote />
       <ContactFrom1 />
       <Stories />

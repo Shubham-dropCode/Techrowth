@@ -5,6 +5,8 @@ body {
   line-height: normal;
   overflow-x: hidden;
 }
+
+
 :root {
   /* fonts */
   --font-montserrat: Montserrat;

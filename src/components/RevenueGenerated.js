@@ -45,13 +45,13 @@ const RevenueGenerated = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row rounded" style={{ backgroundColor: "#EFF3F6" }}>
+      <div className="container mt-5 mx-0 w-100">
+        <div className="row border-3 p-4 w-100" style={{ backgroundColor: "#EFF3F6",borderRadius:"30px" }}>
           <div className="col-12">
-            <div>
+            <div style={{fontSize:"18px"}}>
               Attract and retain customers, suppliers, and partners with
-              Techrowth digital marketing. Boost revenue by
-              <span> 17-25%.</span>
+              Techrowth digital marketing. <br/> Boost revenue by
+              <span className="h1" style={{fontWeight:"700",color:"#0076a2"}}> 17-25%.</span>
             </div>
           </div>
         </div>

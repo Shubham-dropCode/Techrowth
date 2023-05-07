@@ -1,0 +1,300 @@
+.digitalSolutionsTools,
+.toolsWeUse1 {
+  align-self: stretch;
+  position: relative;
+}
+.digitalSolutionsTools {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--blue);
+}
+.toolsWeUseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-31xl);
+}
+.frameChild {
+  position: relative;
+  width: 3.13rem;
+  height: 3.13rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.shopify {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.25rem;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.image9Icon {
+  position: relative;
+  width: 3.13rem;
+  height: 3.13rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bigCommerce,
+.wixStores,
+.zenCart {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 5.44rem;
+}
+.bigCommerce,
+.wixStores {
+  width: 8.94rem;
+}
+.wixStores {
+  width: 7.13rem;
+}
+.image5Parent {
+  width: 7.13rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.amazonPay {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 9.19rem;
+}
+.frameContainer {
+  width: 7.19rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.image7Icon {
+  position: relative;
+  width: 3.06rem;
+  height: 3.13rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.woocommerce {
+  position: relative;
+  font-weight: 500;
+}
+.image7Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+}
+.openCart {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.88rem;
+}
+.frameParent,
+.toolsPageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.toolsPageInner {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.image10Icon {
+  position: absolute;
+  top: 0;
+  left: 0.91rem;
+  width: 3.13rem;
+  height: 3.13rem;
+  object-fit: cover;
+}
+.dcart {
+  position: absolute;
+  top: 3.44rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 4.94rem;
+}
+.image10Parent {
+  position: relative;
+  width: 4.94rem;
+  height: 4.81rem;
+  flex-shrink: 0;
+}
+.squarespaceCommerce {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 12.56rem;
+}
+.image6Parent {
+  width: 7.88rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.paypal,
+.zapier {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 4.56rem;
+}
+.zapier {
+  width: 5rem;
+}
+.weebly {
+  margin: 0;
+}
+.weeblyECommerce {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 8.56rem;
+}
+.image12Icon {
+  position: relative;
+  width: 6.55rem;
+  height: 3.13rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.stripe {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 4.81rem;
+}
+.groupParent,
+.toolsPage {
+  align-self: stretch;
+  display: flex;
+}
+.groupParent {
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.toolsPage {
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 69.63rem;
+  height: 9.38rem;
+  object-fit: cover;
+}
+.experienceExplosiveGrowth {
+  font-weight: 500;
+  display: inline-block;
+}
+.experienceExplosiveGrowth,
+.experienceExplosiveGrowthWiWrapper,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42.44rem;
+  height: 1.88rem;
+}
+.groupItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-aliceblue-100);
+  border-radius: var(--br-11xl);
+  width: 9.99rem;
+  height: 2.81rem;
+}
+.contactUs {
+  position: absolute;
+  top: 0.67rem;
+  left: 1.84rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 6.3rem;
+  height: 1.41rem;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0.06rem;
+  left: 51.57rem;
+  width: 9.99rem;
+  height: 2.81rem;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--blue);
+}
+.groupContainer {
+  position: absolute;
+  top: 2.81rem;
+  left: 3.13rem;
+  width: 61.56rem;
+  height: 2.88rem;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 9.38rem;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+}
+.toolsPageParent {
+  gap: var(--gap-21xl);
+}
+.toolsPageParent,
+.toolsWeUse,
+.toolsWeUseInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.toolsWeUse {
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-25xl) var(--padding-144xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

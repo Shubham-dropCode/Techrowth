@@ -108,6 +108,7 @@
   justify-content: flex-start;
 }
 .frameInput {
+  width: 100%;
   border: 1px solid var(--color-silver);
   font-family: var(--font-montserrat);
   font-size: var(--font-size-mini);
@@ -178,12 +179,16 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.child,
+.child {
+  align-self: stretch;
+  height: 5rem;
+}
 .div {
   align-self: stretch;
-  background-color: var(--white);
+  /* background-color: var(--white); */
 }
 .child {
+  width: auto;
   border: 1px solid var(--color-silver);
   font-family: var(--font-montserrat);
   font-size: var(--font-size-mini);
@@ -263,7 +268,7 @@
   position: relative;
   background-color: var(--white);
   width: 90rem;
-  height: 43.94rem;
+  height: 34.94rem;
   flex-shrink: 0;
   overflow: hidden;
   text-align: center;

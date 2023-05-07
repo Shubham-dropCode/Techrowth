@@ -1,0 +1,100 @@
+.servicesWeServe,
+.technologicalInfrastructureW {
+  align-self: stretch;
+  position: relative;
+}
+.technologicalInfrastructureW {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--blue);
+}
+.servicesWeServeParent {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.logoDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameParent1,
+.frameParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-8xs);
+}
+.frameParent1 {
+  justify-content: center;
+  text-align: center;
+}
+.frameParent2 {
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameDiv,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameContainer,
+.frameGroup {
+  flex-direction: column;
+  justify-content: center;
+}
+.frameGroup {
+  gap: var(--gap-24xl);
+}
+.frameContainer {
+  border-radius: var(--br-11xl);
+  background-color: var(--light-blue);
+  overflow: hidden;
+  padding: var(--padding-35xl) var(--padding-31xl);
+}
+.frameWrapper {
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--blue);
+}
+.frameParent,
+.frameWrapper,
+.servicesweserve,
+.servicesweserve1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.servicesweserve,
+.servicesweserve1 {
+  justify-content: center;
+}
+.servicesweserve {
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-49xl) var(--padding-181xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

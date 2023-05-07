@@ -9,7 +9,7 @@ const DigitalMarketingServices1 = () => {
             <b className={styles.digitalMarketingServices1}>
               Digital Marketing Services
             </b>
-            <div className={styles.intentWeServe}>Intent We serve</div>
+            <div className={styles.intentWeServe} >Intent We serve</div>
           </div>
           <div className={styles.frameWrapper}>
             <div className={styles.frameGroup}>

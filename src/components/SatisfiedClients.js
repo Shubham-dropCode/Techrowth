@@ -1,15 +1,17 @@
 import styles from "./SatisfiedClients.module.css";
 
-const SatisfiedClients = () => {
+const SatisfiedClients = ({show}) => {
   return (
     <div className={styles.satisfiedClients}>
       <div className={styles.frameParent}>
-        <div className={styles.joinTheRanksOfOurSatisfieParent}>
-          <div className={styles.joinTheRanks}>
-            Join the Ranks of Our Satisfied Clients
+        {show ?? (
+          <div className={styles.joinTheRanksOfOurSatisfieParent}>
+            <div className={styles.joinTheRanks}>
+              Join the Ranks of Our Satisfied Clients
+            </div>
+            <b className={styles.andCounting}>100+ and Counting</b>
           </div>
-          <b className={styles.andCounting}>100+ and Counting</b>
-        </div>
+        )}
         <div className={styles.frameWrapper}>
           <div className={styles.frameContainer}>
             <div className={styles.frameGroup}>

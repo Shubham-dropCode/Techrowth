@@ -50,19 +50,17 @@ const ContactForm1 = () => {
             </div>
           </div>
           <div className={styles.takeAdvantageOfTheOpportunParent}>
-            <div className={styles.takeAdvantageOfContainer}>
-              <p
-                className={styles.takeAdvantageOf}
-              >{`Take advantage of the opportunity to work with our team of experts `}</p>
+            <div className={styles.takeAdvantageOfContainer +"mt-4"}>
               <p className={styles.takeAdvantageOf}>
-                and achieve your goals. Contact us today
+                Take advantage of the opportunity to work <br/> with our  team of
+                experts and achieve your goals. Contact us today
               </p>
             </div>
             <div className={styles.frameParent1}>
               <div className={styles.frameWrapper1}>
                 <div className={styles.frameParent2}>
                   <input
-                    className={styles.frameInner}
+                    className={styles.frameInput}
                     type="text"
                     placeholder="Full Name"
                   />
@@ -77,13 +75,13 @@ const ContactForm1 = () => {
               <div className={styles.frameWrapper1}>
                 <div className={styles.parent}>
                   <input
-                    className={styles.input}
+                    className={styles.frameInput}
                     type="text"
                     placeholder="Phone No."
                   />
                   <div className={styles.wrapper}>
                     <input
-                      className={styles.input1}
+                      className={styles.frameInput}
                       type="text"
                       placeholder="Company Name"
                     />
@@ -97,7 +95,7 @@ const ContactForm1 = () => {
                   placeholder="How can we help?"
                 />
               </div>
-              <button className={styles.letsGetStartedWrapper}>
+              <button className={styles.letsGetStartedWrapper + "w-auto mb-3"}>
                 <div className={styles.letsGetStarted}>Let’s get Started!</div>
               </button>
             </div>
