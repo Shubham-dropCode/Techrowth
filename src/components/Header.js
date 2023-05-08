@@ -147,9 +147,9 @@ const Header = () => {
                       <div className="row">
                         <div className="col">
                           <ul className="dropdown-links">
-                            <li>
+                            {/* <li>
                               <Link to="/ITMain">IT Main</Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link to="/DevelopmentPage">Development</Link>
                             </li>
