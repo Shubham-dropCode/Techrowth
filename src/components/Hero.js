@@ -1,5 +1,5 @@
-import Breadcrumbs from "./Breadcrumbs";
 import styles from "./Hero.module.css";
+import Breadcrumbs from "./Breadcrumbs";
 import RecentResult from "./RecentResult";
 
 const Hero = ({ title, content, MyBackgroundImage }) => {

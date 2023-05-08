@@ -9,11 +9,13 @@
   color: var(--blue);
 }
 .interestedInSoftwareDevelopParent {
-  align-self: stretch;
+  text-align: center;
+  width: 100%;
+  /* align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start; */
 }
 .frameChild {
   position: relative;
