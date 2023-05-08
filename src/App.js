@@ -17,6 +17,14 @@ import Blog from "./pages/Blog";
 import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import IntentPrototype from "./pages/IntentPrototype";
+import Content from "./pages/Content";
+import DevelopmentPage from "./pages/DevelopmentPage";
+import UiUxInterface from "./pages/UiUxInterface";
+import IntegrationPage from "./pages/IntegrationPage";
+import WhoWeAre from "./pages/WhoWeAre";
+import ITMain from "./pages/ITMain"
+import QualityTestingPage from "./pages/QualityTestingPage"
+import ITManagement from "./pages/ITManagement";
 
 function App() {
   const action = useNavigationType();
@@ -67,6 +75,14 @@ function App() {
         <Route path="/IntentPrototype" element={<IntentPrototype />} />
         <Route path="/Resource" element={<Resource />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path="/Content" element={<Content/>} />
+        <Route path="/DevelopmentPage" element={<DevelopmentPage/>} />
+        <Route path="/IntegrationPage" element={<IntegrationPage/>} />
+        <Route path="/ITMain" element={<ITMain/>} />
+        <Route path="/QualityTestingPage" element={<QualityTestingPage/>} />
+        <Route path="/UiUxInterface" element={<UiUxInterface/>} />
+        <Route path="/WhoWeAre" element={<WhoWeAre/>} />
+        <Route path="/ITManagement" element={<ITManagement/>} />
       </Routes>
       <Footer />
     </>

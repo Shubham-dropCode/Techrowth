@@ -1,0 +1,54 @@
+.tools,
+.weAreProficient {
+  align-self: stretch;
+  position: relative;
+}
+.weAreProficient {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--blue);
+}
+.toolsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  width: 2.19rem;
+  height: 2.19rem;
+  flex-shrink: 0;
+}
+.frameItem {
+  width: 7.5rem;
+  height: 6.25rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameParent,
+.groupParent,
+.interestedinsoftwaredevelopmenInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameParent,
+.interestedinsoftwaredevelopmenInner {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-21xl);
+}
+.interestedinsoftwaredevelopmenInner {
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

@@ -18,7 +18,7 @@ const ContactUsBar = () => {
             Discover how Techrowth can help grow your Business.
           </p>
         </div>
-        <div className="col-4 text-center ">
+        <div className="col-4 text-center d-flex justify-content-center align-items-center">
           <button
             type="button"
             class="btn btn-light w-auto"

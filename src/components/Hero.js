@@ -1,7 +1,10 @@
+import Breadcrumbs from "./Breadcrumbs";
 import styles from "./Hero.module.css";
+import RecentResult from "./RecentResult";
 
 const Hero = ({ title, content , MyBackgroundImage }) => {
   return (
+    <>
     <div className={styles.hero}>
       <div className={styles.empoweringYourOnlinePresencParent} style={{backgroundImage:`url(${MyBackgroundImage})`}}>
         <div className={styles.empoweringYourOnlineContainer}>
@@ -19,6 +22,9 @@ const Hero = ({ title, content , MyBackgroundImage }) => {
         </div>
       </div>
     </div>
+    <RecentResult/>
+    <Breadcrumbs/>
+    </>
   );
 };
 

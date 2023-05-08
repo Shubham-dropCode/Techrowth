@@ -260,6 +260,7 @@
   object-fit: cover;
 }
 .microsoftOffice {
+  font-size: 18px;
   position: relative;
   font-weight: 500;
 }
@@ -279,10 +280,11 @@
   justify-content: center;
 }
 .frameContainer {
+  justify-content: space-between;
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-4xl);
-  align-items: center;
+  align-items: flex-start;
   gap: var(--gap-81xl);
   text-align: left;
   font-size: var(--font-size-5xl);
@@ -371,8 +373,8 @@
 }
 .contentCurationWrapper {
   position: relative;
-  width: 6.13rem;
-  height: 3.38rem;
+  /* width: 6.13rem;
+  height: 3.38rem; */
   flex-shrink: 0;
 }
 .frameParent5 {

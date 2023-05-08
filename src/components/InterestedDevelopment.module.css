@@ -1,0 +1,213 @@
+.interestedInSoftware,
+.weOfferThe {
+  align-self: stretch;
+  position: relative;
+}
+.weOfferThe {
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  color: var(--blue);
+}
+.interestedInSoftwareDevelopParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  flex-shrink: 0;
+}
+.eCommerce {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+}
+.ourTeamWorks {
+  margin: 0;
+}
+.ourTeamWorksContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--text-grey);
+  display: inline-block;
+  height: 3.38rem;
+  flex-shrink: 0;
+}
+.weHaveDeveloped {
+  font-weight: 500;
+}
+.eCommercePortals {
+  font-size: var(--font-size-lg);
+  color: var(--text-grey);
+}
+.weHaveDevelopedContainer {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 2.81rem;
+  flex-shrink: 0;
+}
+.eCommerceParent,
+.groupParent {
+  display: flex;
+  align-items: flex-start;
+}
+.eCommerceParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.groupParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.mobileApplications {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+}
+.weSpecializeInContainer {
+  position: relative;
+  color: var(--text-grey);
+  display: inline-block;
+  width: 26.19rem;
+  height: 3.38rem;
+  flex-shrink: 0;
+}
+.optimizedAndDevelopedContainer {
+  position: relative;
+  display: inline-block;
+  width: 28.13rem;
+  height: 1.19rem;
+  flex-shrink: 0;
+}
+.groupContainer,
+.mobileApplicationsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobileApplicationsParent {
+  flex: 1;
+  height: 9.19rem;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.groupContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.platforms {
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--blue);
+}
+.installedAndOptimizedContainer {
+  position: relative;
+  display: inline-block;
+  width: 23.88rem;
+  height: 1.19rem;
+  flex-shrink: 0;
+}
+.cmsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.cmsParent,
+.frameContainer,
+.frameDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  height: 8.56rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameContainer {
+  flex: 1;
+  padding-left: 1rem;
+  /* height: 34.32rem; */
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.websites {
+  font-size: var(--font-size-lg);
+  font-family: var(--font-montserrat);
+  color: var(--text-grey);
+}
+.ourTeamHasContainer {
+  position: relative;
+  display: inline-block;
+  width: 25.94rem;
+  height: 1.19rem;
+  flex-shrink: 0;
+}
+.corporateWebsiteParent,
+.webApplicationsParent {
+  flex: 1;
+  height: 9.06rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.webApplicationsParent {
+  height: 9.63rem;
+}
+.b,
+.span2 {
+  font-family: var(--font-montserrat);
+}
+.span2 {
+  font-weight: 500;
+}
+.weHaveIncreasedContainer {
+  position: relative;
+  display: inline-block;
+  width: 23.31rem;
+  height: 1.19rem;
+  flex-shrink: 0;
+}
+.frameGroup,
+.frameParent {
+  /* align-self: stretch; */
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xl) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--blue);
+}
+.frameParent {
+  border-radius: var(--br-11xl);
+  background-color: var(--light-blue);
+  flex-direction: column;
+  padding: var(--padding-54xl) var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

@@ -6,9 +6,13 @@ import { useState } from "react";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleDropdown = () => {
+  const toggleDropdownDM = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+  const toggleDropdownIT = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -84,7 +88,7 @@ const Header = () => {
 
                 <div className="dropdown" style={{ border: "none" }}>
                   <Link
-                    onClick={toggleDropdown}
+                    onClick={toggleDropdownDM}
                     className={styles.digitalMarketing}
                     style={{ border: "none" }}
                   >
@@ -121,7 +125,7 @@ const Header = () => {
                               <Link to="/Resource">Resource</Link>
                             </li>
                             <li>
-                              <Link to="">Content</Link>
+                              <Link to="/Content">Content</Link>
                             </li>
                           </ul>
                         </div>
@@ -129,9 +133,46 @@ const Header = () => {
                     </div>
                   )}
                 </div>
-            
 
-                <div className={styles.itServices}>IT Services</div>
+                <div className="dropdown" style={{ border: "none" }}>
+                  <Link
+                    onClick={toggleDropdownIT}
+                    className={styles.digitalMarketing}
+                    style={{ border: "none" }}
+                  >
+                    IT SERVICES
+                  </Link>
+                  {isOpen && (
+                    <div className="container">
+                      <div className="row">
+                        <div className="col">
+                          <ul className="dropdown-links">
+                            <li>
+                              <Link to="/ITMain">IT Main</Link>
+                            </li>
+                            <li>
+                              <Link to="/DevelopmentPage">Development</Link>
+                            </li>
+                            <li>
+                              <Link to="/UiUxInterface">UI/UX Interface</Link>
+                            </li>
+                            <li>
+                              <Link to="/ITManagement">IT Management</Link>
+                            </li>
+                            <li>
+                              <Link to="/IntegrationPage">Integrations </Link>
+                            </li>
+                            <li>
+                              <Link to="/QualityTestingPage">
+                                Quality Testing
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
                 <div className={styles.analytics}>Analytics</div>
                 <div className={styles.whoWeAre}>Who we are</div>
               </div>
