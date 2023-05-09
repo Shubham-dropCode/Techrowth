@@ -15,9 +15,9 @@ const GraphicDesign = () => {
     window.scroll(0, 0);
   }, []);
 
-  const HeroTitel = "Empowering your Online presence, Driving Actual Results";
+  const HeroTitel = "Graphics and Design";
   const HeroContent =
-    "Join the Techrowth Revolution Experience Exceptional Results and elevate your business to new levels with our result-oriented strategy framework BISCCBOR!";
+    "Unleash the essence of your individuality through our aid, and let the world bask in the brilliance of your unique brand style.";
   const RecentText =
     "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
   return (

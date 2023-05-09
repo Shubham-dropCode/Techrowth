@@ -1,20 +1,34 @@
-import { Link } from "react-router-dom";
-import useDropdownMenu from "react-accessible-dropdown-menu-hook";
+import { Link, useLocation } from "react-router-dom";
 
 import styles from "./Header.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import DropdownMenu from "./DropdownMenu";
+import DropdownMenuIT from "./DropdownMenuIT";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
-  const toggleDropdownDM = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-  const toggleDropdownIT = () => {
-    setIsOpen(!isOpen);
-  };
+  useEffect(() => {
+    setIsDropdownOpen(false);
+    setIsOpen(false);
+  }, [location]);
 
+  const handleMouseEnter = () => {
+    setIsDropdownOpen(true);
+    setIsOpen(false)
+  };
+  const handleDataFromChild = (data) => {
+    setIsDropdownOpen(data);
+  };
+  const handleMouseEnterIT = () => {
+    setIsOpen(true);
+    setIsDropdownOpen(false)
+  };
+  const handleDataFromChildIT = (data) => {
+    setIsOpen(data);
+  };
   return (
     <>
       <header className={styles.header}>
@@ -88,13 +102,15 @@ const Header = () => {
 
                 <div className="dropdown" style={{ border: "none" }}>
                   <Link
-                    onClick={toggleDropdownDM}
+                    to="/DigitalMarketing"
+                    onMouseEnter={handleMouseEnter}
                     className={styles.digitalMarketing}
                     style={{ border: "none" }}
                   >
                     Digital Marketing
                   </Link>
-                  {isDropdownOpen && (
+
+                  {/* {isDropdownOpen && (
                     <div className="container">
                       <div className="row">
                         <div className="col">
@@ -131,25 +147,26 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
 
                 <div className="dropdown" style={{ border: "none" }}>
                   <Link
-                    onClick={toggleDropdownIT}
+                    // onClick={toggleDropdown}
+                    onMouseEnter={handleMouseEnterIT}
                     className={styles.digitalMarketing}
                     style={{ border: "none" }}
                   >
                     IT SERVICES
                   </Link>
-                  {isOpen && (
+                  {/* {isOpen && (
                     <div className="container">
                       <div className="row">
                         <div className="col">
                           <ul className="dropdown-links">
-                            {/* <li>
+                            <li>
                               <Link to="/ITMain">IT Main</Link>
-                            </li> */}
+                            </li>
                             <li>
                               <Link to="/DevelopmentPage">Development</Link>
                             </li>
@@ -171,7 +188,7 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
                 <div className={styles.analytics}>Analytics</div>
                 <div className={styles.whoWeAre}>Who we are</div>
@@ -185,6 +202,18 @@ const Header = () => {
             </button>
           </div>
         </div>
+        {isDropdownOpen && (
+          <DropdownMenu
+            onMouseEnter={handleMouseEnter}
+            sendDataToParent={handleDataFromChild}
+          />
+        )}
+        {isOpen && (
+          <DropdownMenuIT
+            onMouseEnter={handleMouseEnterIT}
+            sendDataToParent={handleDataFromChildIT}
+          />
+        )}
       </header>
     </>
   );

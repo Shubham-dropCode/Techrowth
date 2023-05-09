@@ -21,7 +21,7 @@ const ITServices1 = () => {
               <div className={styles.developmentParent}>
                 <div className={styles.development}>Development</div>
                 <div className={styles.cmsDevelopmentsupportWebsitContainer}>
-                  <ul className={styles.cmsDevelopmentsupportWebsit}>
+                  <ol className={styles.cmsDevelopmentsupportWebsit}>
                     <li className={styles.cmsDevelopmentsupport}>
                       CMS Development/Support
                     </li>
@@ -38,7 +38,7 @@ const ITServices1 = () => {
                       Ecommerce Software
                     </li>
                     <li>Mobile Application development</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const ITServices1 = () => {
                   className={styles.development}
                 >{`UI/UX & Interactive`}</div>
                 <div className={styles.cmsDevelopmentsupportWebsitContainer}>
-                  <ul className={styles.cmsDevelopmentsupportWebsit}>
+                  <ol className={styles.cmsDevelopmentsupportWebsit}>
                     <li className={styles.cmsDevelopmentsupport}>
                       Website Design
                     </li>
@@ -65,7 +65,7 @@ const ITServices1 = () => {
                       Conversion Rate Optimization
                     </li>
                     <li>Rapid Web Design</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ const ITServices1 = () => {
               <div className={styles.itManagementParent}>
                 <div className={styles.itManagement}>IT Management</div>
                 <div className={styles.techSupportEndContainer}>
-                  <ul className={styles.cmsDevelopmentsupportWebsit}>
+                  <ol className={styles.cmsDevelopmentsupportWebsit}>
                     <li className={styles.cmsDevelopmentsupport}>
                       Tech Support
                     </li>
@@ -85,7 +85,7 @@ const ITServices1 = () => {
                     </li>
                     <li className={styles.cmsDevelopmentsupport}>Consulting</li>
                     <li>Infrastructure</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const ITServices1 = () => {
               <div className={styles.integrationsParent}>
                 <div className={styles.development}>Integrations</div>
                 <div className={styles.cmsDevelopmentsupportWebsitContainer}>
-                  <ul className={styles.cmsDevelopmentsupportWebsit}>
+                  <ol className={styles.cmsDevelopmentsupportWebsit}>
                     <li className={styles.cmsDevelopmentsupport}>
                       New Software Integration.
                     </li>
@@ -109,7 +109,7 @@ const ITServices1 = () => {
                       CRM Installation
                     </li>
                     <li>E-commerce Section Integration on Websites</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ const ITServices1 = () => {
               <div className={styles.qualityTestingParent}>
                 <div className={styles.development}>Quality Testing</div>
                 <div className={styles.cmsDevelopmentsupportWebsitContainer}>
-                  <ul className={styles.cmsDevelopmentsupportWebsit}>
+                  <ol className={styles.cmsDevelopmentsupportWebsit}>
                     <li className={styles.cmsDevelopmentsupport}>
                       Functional Testing
                     </li>
@@ -134,7 +134,7 @@ const ITServices1 = () => {
                       Compatibility Testing
                     </li>
                     <li>Regression Testing</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
             </div>

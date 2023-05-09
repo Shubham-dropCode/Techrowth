@@ -14,15 +14,15 @@ import ContactFrom1 from "../components/ContactForm1";
 import Stories from "../components/Stories";
 import TrustedByBrands from "../components/TrustedByBrands";
 import heroBg from "../assets/rectangle-216@2x.png";
-
 import styles from "./NewHomepage.module.css";
 import Testimonial from "../components/Testimonial";
 import { useEffect } from "react";
+import DropdownMenu from "../components/DropdownMenu";
 
 const NewHomepage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
+  }, []);
 
   const HeroTitel = "Empowering your Online presence, Driving Actual Results";
   const HeroContent =
@@ -45,8 +45,10 @@ const NewHomepage = () => {
       <BoostingYourBottomLine />
       <DigitalMarketingServices1 />
       <ITServices1 />
+      {/* <DropdownMenu /> */}
+
       <BusinessAnalystics />
-      <SatisfiedClients/>
+      <SatisfiedClients />
       <FounderNote />
       <ContactFrom1 />
       <Stories />

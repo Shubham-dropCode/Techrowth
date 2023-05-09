@@ -240,10 +240,11 @@
   font-family: var(--font-montserrat);
 }
 .achieveMaximumDigitalContainer {
-  align-self: stretch;
+  /* align-self: stretch; */
+margin-top: 2rem;
   position: relative;
   display: inline-block;
-  height: 4.38rem;
+  /* height: 4.38rem; */
   flex-shrink: 0;
   font-size: var(--font-size-6xl);
 }

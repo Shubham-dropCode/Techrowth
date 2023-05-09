@@ -12,7 +12,7 @@
   font-family: var(--font-montserrat);
   font-size: var(--font-size-mini);
   background-color: var(--light-blue);
-  border-radius: var(--br-11xl) 7.86px 7.86px var(--br-11xl);
+  border-radius: 20px;
   box-sizing: border-box;
   width: 24.94rem;
   flex-shrink: 0;
@@ -24,8 +24,8 @@
 }
 .frameChild {
   position: relative;
-  width: 1.88rem;
-  height: 1.88rem;
+  /* width: 1.88rem;
+  height: 1.88rem; */
   flex-shrink: 0;
 }
 .div,
@@ -37,7 +37,7 @@
 .div {
   top: 1.13rem;
   right: 0;
-  width: 7.69rem;
+  /* width: 7.69rem; */
 }
 .support {
   top: 0;
@@ -149,7 +149,7 @@
   border: 1.1px solid var(--color-gainsboro-100);
   box-sizing: border-box;
   width: 11.88rem;
-  height: 2.19rem;
+  height: 2.35rem;
 }
 .div2,
 .revenueDrivenFor {
@@ -248,7 +248,7 @@
 .revenubuttonParent {
   flex-shrink: 0;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 .loginbutton {
@@ -256,12 +256,12 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  width: 9.49rem;
-  height: 2.13rem;
+  /* width: 9.49rem;
+  height: 2.13rem; */
   flex-direction: column;
 }
 .revenubuttonParent {
-  width: 22.48rem;
+  /* width: 22.48rem; */
   flex-direction: row;
 }
 .analytics,
@@ -309,9 +309,9 @@
   overflow: hidden;
 }
 .links {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
   gap: var(--gap-mid);
@@ -324,7 +324,7 @@
 }
 .navlinks,
 .navlinksInner {
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   align-items: center;
   justify-content: center;
 }
@@ -341,11 +341,12 @@
   box-sizing: border-box;
 }
 .navlinks {
-  align-self: stretch;
-  width: 35.27rem;
+  /* align-self: stretch;
+  width: 35.27rem; */
   display: flex;
+  align-self:center ;
   flex-direction: row;
-  gap: var(--gap-21xl);
+  /* gap: var(--gap-21xl); */
 }
 .contactUs {
   position: relative;
@@ -368,10 +369,13 @@
 }
 .header,
 .nav,
-.navbutton,
+.navbutton{
+  
+  display: flex;
+  /* align-items: center; */
+}
 .navigationBar {
   display: flex;
-  align-items: center;
 }
 .nav,
 .navbutton,

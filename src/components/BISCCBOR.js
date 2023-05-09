@@ -19,11 +19,11 @@ const BISCCBOR = () => {
             goals.
           </div>
         </div>
-        <img
+        {/* <img
           className={styles.bisccborImgIcon}
           alt=""
           src="/bisccbor-img@2x.png"
-        />
+        /> */}
         <div className="container">
           <img src={bisccbor}  width={1100}/>
         </div>

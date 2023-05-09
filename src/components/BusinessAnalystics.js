@@ -1,6 +1,6 @@
 import styles from "./BusinessAnalystics.module.css";
 
-const BusinessAnalystics = () => {
+const BusinessAnalystics = ({show}) => {
   return (
     <div className={styles.businessAnalystics}>
       <div className={styles.frameParent}>
@@ -55,74 +55,80 @@ const BusinessAnalystics = () => {
           </div>
         </div>
       </div>
-      <div className={styles.businessAnalysticsInner}>
-        <div className={styles.frameParent1}>
-          <div className={styles.parent}>
-            <div className={styles.div}>
-              <div className={styles.div1}>24%</div>
-              <div className={styles.revenueIncrement}>
-                <p className={styles.unlockThePower}>Revenue</p>
-                <p className={styles.unlockThePower}>Increment</p>
+      {show && (
+        <div>
+          <div className={styles.businessAnalysticsInner}>
+            <div className={styles.frameParent1}>
+              <div className={styles.parent}>
+                <div className={styles.div}>
+                  <div className={styles.div1}>24%</div>
+                  <div className={styles.revenueIncrement}>
+                    <p className={styles.unlockThePower}>Revenue</p>
+                    <p className={styles.unlockThePower}>Increment</p>
+                  </div>
+                </div>
+                <div className={styles.div2}>
+                  <div className={styles.div1}>987</div>
+                  <div className={styles.seoAudits}>SEO Audits</div>
+                </div>
+                <div className={styles.div4}>
+                  <div className={styles.div1}>22%</div>
+                  <div className={styles.seoAudits}>Conversion Rate</div>
+                </div>
+                <div className={styles.div6}>
+                  <div className={styles.div1}>172</div>
+                  <div className={styles.seoAudits}>Mobile Apps</div>
+                </div>
+              </div>
+              <div className={styles.group}>
+                <div className={styles.div8}>
+                  <div className={styles.div9}>415</div>
+                  <div className={styles.websitesMade}>Websites Made</div>
+                </div>
+                <div className={styles.div10}>
+                  <div className={styles.div11}>36%</div>
+                  <div className={styles.customerRetention}>
+                    Customer Retention
+                  </div>
+                </div>
+                <div className={styles.div12}>
+                  <div className={styles.div13}>11%</div>
+                  <div className={styles.socialMediaInteractionContainer}>
+                    <p className={styles.unlockThePower}>
+                      Social Media Interaction
+                    </p>
+                    <p className={styles.unlockThePower}>Increment</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className={styles.div2}>
-              <div className={styles.div1}>987</div>
-              <div className={styles.seoAudits}>SEO Audits</div>
-            </div>
-            <div className={styles.div4}>
-              <div className={styles.div1}>22%</div>
-              <div className={styles.seoAudits}>Conversion Rate</div>
-            </div>
-            <div className={styles.div6}>
-              <div className={styles.div1}>172</div>
-              <div className={styles.seoAudits}>Mobile Apps</div>
-            </div>
           </div>
-          <div className={styles.group}>
-            <div className={styles.div8}>
-              <div className={styles.div9}>415</div>
-              <div className={styles.websitesMade}>Websites Made</div>
-            </div>
-            <div className={styles.div10}>
-              <div className={styles.div11}>36%</div>
-              <div className={styles.customerRetention}>Customer Retention</div>
-            </div>
-            <div className={styles.div12}>
-              <div className={styles.div13}>11%</div>
-              <div className={styles.socialMediaInteractionContainer}>
-                <p className={styles.unlockThePower}>
-                  Social Media Interaction
-                </p>
-                <p className={styles.unlockThePower}>Increment</p>
+          <div className={styles.businessAnalysticsChild}>
+            <div className={styles.instanceParent}>
+              <div className={styles.rectangleWrapper}>
+                <img
+                  className={styles.instanceChild}
+                  alt=""
+                  src="/rectangle-40291@2x.png"
+                />
+              </div>
+              <div className={styles.wonderingIfYouCouldBeAPaParent}>
+                <div className={styles.wonderingIfYouContainer}>
+                  <p className={styles.unlockThePower}>
+                    Wondering if you could be a part of a success story?
+                  </p>
+                  <p className={styles.unlockThePower}>
+                    Book a free consultation today and learn more!
+                  </p>
+                </div>
+                <button className={styles.contactUsWrapper} autoFocus>
+                  <div className={styles.contactUs}>Contact Us</div>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className={styles.businessAnalysticsChild}>
-        <div className={styles.instanceParent}>
-          <div className={styles.rectangleWrapper}>
-            <img
-              className={styles.instanceChild}
-              alt=""
-              src="/rectangle-40291@2x.png"
-            />
-          </div>
-          <div className={styles.wonderingIfYouCouldBeAPaParent}>
-            <div className={styles.wonderingIfYouContainer}>
-              <p className={styles.unlockThePower}>
-                Wondering if you could be a part of a success story?
-              </p>
-              <p className={styles.unlockThePower}>
-                Book a free consultation today and learn more!
-              </p>
-            </div>
-            <button className={styles.contactUsWrapper} autoFocus>
-              <div className={styles.contactUs}>Contact Us</div>
-            </button>
-          </div>
-        </div>
-      </div>
+      )}
     </div>
   );
 };

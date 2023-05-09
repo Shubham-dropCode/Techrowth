@@ -191,11 +191,12 @@
 }
 .frameContainer,
 .frameDiv {
-  align-self: stretch;
+  /* align-self: stretch; */
   display: flex;
   align-items: center;
 }
 .frameDiv {
+  gap: 7rem;
   flex-direction: row;
   justify-content: space-between;
 }

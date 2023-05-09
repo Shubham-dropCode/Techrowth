@@ -12,7 +12,7 @@ const Hero = ({ title, content, MyBackgroundImage }) => {
         >
           <div className={styles.empoweringYourOnlineContainer}>
             <div className="col-6">
-              <p className={styles.empoweringYour + "my-3"}>{title}</p>
+              <p className={styles.empoweringYour + "my-4"}><b>{title}</b></p>
               <div className={styles.joinTheTechrowthContainer}>
                 <p className={styles.empoweringYour + "my-3"}>
                   <span>{content}</span>

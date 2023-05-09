@@ -16,6 +16,7 @@ import BusinessAnalystics from "../components/BusinessAnalystics";
 import ContactFrom1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
 import Breadcrumbs from "../components/Breadcrumbs";
+import ContactUsBar from "../components/ContactUsBar";
 
 const DigitalMarketing = () => {
   const HeroTitel = "Unleash the power of your brand voice with Techrowth";
@@ -29,7 +30,7 @@ const DigitalMarketing = () => {
     <>
       <Hero title={HeroTitel} content={HeroContent} MyBackgroundImage={heroBg}/>
       <RecentResult/>
-      {/* <Breadcrumbs/> */}
+      <Breadcrumbs/>
       <OneStopSolution1  text={RecentTextRow1} text2={RecentTextRow2} btnText="Contact Us" />
       <SatisfiedClients show={false}/>
       <AccelerateYourGrowth />
@@ -38,9 +39,11 @@ const DigitalMarketing = () => {
       <Testimonial/>
       <BISCCBOR/>
       <ExploreOurCaseStudies/>
+      <ContactUsBar/>
       <RevenueGenerated/>
+
       <ITServices1 />
-      <BusinessAnalystics />
+      <BusinessAnalystics show={false}/>
       <ContactFrom1 />
 
       <TrustedByBrands /> 

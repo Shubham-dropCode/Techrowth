@@ -48,12 +48,13 @@
 }
 .frameParent {
   margin-top: 4rem;
-  height: 9.44rem;
+  padding: 0 7rem;
+  /* height: 9.44rem; */
   flex-shrink: 0;
   flex-direction: row;
   /* padding: 0 var(--padding-151xl); */
   box-sizing: border-box;
-  gap: 13rem;
+  gap: 2rem;
   font-size: var(--font-size-17xl);
 }
 .revenueGeneratedThroughOurParent,

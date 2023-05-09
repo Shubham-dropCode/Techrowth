@@ -211,7 +211,8 @@
   justify-content: center;
 }
 .frameParent {
-  height: 34.5rem;
+  margin-top: 2rem;
+  /* height: 34.5rem; */
   flex-shrink: 0;
   gap: var(--gap-21xl);
 }
