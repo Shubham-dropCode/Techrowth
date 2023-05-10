@@ -1,0 +1,266 @@
+.dontLetIt,
+.lookingToSolve {
+  align-self: stretch;
+  position: relative;
+}
+.lookingToSolve {
+  font-weight: 600;
+}
+.dontLetIt {
+  font-size: var(--font-size-xl);
+  color: var(--text-grey);
+  display: inline-block;
+  height: 1.87rem;
+  flex-shrink: 0;
+}
+.lookingToSolveANaggingBusParent {
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild {
+  position: relative;
+  width: 3.13rem;
+  height: 3.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.contactUs {
+  font-weight: 600;
+  display: inline-block;
+  width: 9.38rem;
+}
+.contactUs,
+.mobileSupport {
+  position: relative;
+}
+.contactUsParent,
+.frameDiv,
+.mobileSupport9180731629Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.mobileSupport9180731629Parent {
+  justify-content: flex-start;
+  font-size: var(--font-size-mid);
+}
+.contactUsParent,
+.frameDiv {
+  justify-content: center;
+}
+.frameDiv {
+  position: absolute;
+  top: 1.19rem;
+  left: 2.38rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.location {
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+}
+.location,
+.lusakaZambia {
+  align-self: stretch;
+  position: relative;
+}
+.frameParent1,
+.locationParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationParent {
+  width: 20.25rem;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.frameParent1 {
+  position: absolute;
+  top: 10.63rem;
+  left: 2.38rem;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+}
+.frameContainer {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--blue);
+  height: 28.44rem;
+  overflow: hidden;
+}
+.submit {
+  position: relative;
+  font-weight: 600;
+}
+.submitWrapper {
+  position: absolute;
+  top: 24.81rem;
+  left: 15.31rem;
+  border-radius: var(--br-11xl);
+  background-color: var(--blue);
+  border: 0.8px solid var(--white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-25xl);
+  align-items: center;
+  justify-content: center;
+}
+.letUsKnow {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 113px);
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  color: var(--text-grey);
+}
+.fullNameWrapper,
+.groupChild {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-silver);
+}
+.fullNameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-16xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 18.13rem;
+  height: 3.13rem;
+}
+.emailgmailcom {
+  position: absolute;
+  top: 1.04rem;
+  left: 2.4rem;
+  display: inline-block;
+  width: 9.54rem;
+  height: 1.1rem;
+}
+.rectangleParent {
+  position: relative;
+  width: 18.13rem;
+  height: 3.13rem;
+}
+.div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyName,
+.phoneNo {
+  position: absolute;
+  top: 1.04rem;
+  left: 2.2rem;
+  display: inline-block;
+  width: 5.42rem;
+  height: 1.1rem;
+}
+.companyName {
+  left: 2.33rem;
+  width: 8.44rem;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 37.5rem;
+  height: 6.25rem;
+}
+.message {
+  position: absolute;
+  top: 1.13rem;
+  left: 2rem;
+}
+.groupDiv {
+  position: relative;
+  width: 37.5rem;
+  height: 6.25rem;
+}
+.div3,
+.frameParent3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.div3 {
+  align-self: stretch;
+  align-items: center;
+}
+.frameParent3 {
+  position: absolute;
+  top: 5.19rem;
+  left: 0;
+  width: 37.5rem;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-300);
+}
+.frameParent2 {
+  align-self: stretch;
+  position: relative;
+  width: 37.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+}
+.frameParent {
+  position: absolute;
+  top: 4rem;
+  left: 3.31rem;
+  width: 69.06rem;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--blue);
+  font-family: var(--font-montserrat);
+}

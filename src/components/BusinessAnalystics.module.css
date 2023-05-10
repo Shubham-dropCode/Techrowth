@@ -10,6 +10,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-6xl);
+  text-align: center;
   font-weight: 500;
   color: var(--blue);
   display: inline-block;
@@ -175,6 +176,7 @@
   height: 4.77rem;
 }
 .websitesMade {
+  text-align: center;
   top: 5.63rem;
   left: 0;
   font-size: var(--font-size-xl);
@@ -202,6 +204,7 @@
 }
 .customerRetention {
   top: 5.38rem;
+  text-align: center;
   left: 0;
   font-size: var(--font-size-xl);
   font-weight: 500;
@@ -260,6 +263,7 @@
   overflow: hidden;
 }
 .businessAnalysticsInner {
+  margin-bottom: 4rem;
   align-self: stretch;
   background-color: var(--light-blue);
   display: flex;
@@ -286,7 +290,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 77.75rem;
+  width: 65.75rem;
   height: 8.13rem;
 }
 .wonderingIfYouContainer {
@@ -319,7 +323,7 @@
   position: absolute;
   top: 2.81rem;
   left: 6.28rem;
-  width: 65.14rem;
+  width: 54.14rem;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -329,7 +333,7 @@
 }
 .instanceParent {
   position: relative;
-  width: 77.75rem;
+  width: 65.75rem;
   height: 8.13rem;
   flex-shrink: 0;
 }

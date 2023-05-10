@@ -1,7 +1,7 @@
 import React from "react";
 import bgImg from "../assets/rectangle-40292@2x.png";
 
-const ContactUsBar = () => {
+const ContactUsBar = ({content , btnTxt}) => {
   return (
     <div className="container my-5">
       <div
@@ -14,16 +14,15 @@ const ContactUsBar = () => {
       >
         <div className="col-8 my-1 a p-0">
           <p className="text-white" style={{ fontSize: "18px" }}>
-            Interested in Getting In ? <br />
-            Discover how Techrowth can help grow your Business.
+            {content}
           </p>
         </div>
-        <div className="col-4 text-center d-flex justify-content-center align-items-center">
+        <div className="col-4 text-center d-flex justify-content-end align-items-center">
           <button
             type="button"
-            class="btn btn-light w-auto"
+            className="btn btn-light w-75"
             style={{ borderRadius: "15px" }}
-          >Book a consultant</button>
+          ><b>{btnTxt}</b></button>
         </div>
       </div>
     </div>

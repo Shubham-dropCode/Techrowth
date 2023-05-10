@@ -101,6 +101,7 @@
   font-size: var(--font-size-51xl);
 }
 .letsAccomplishGreat {
+  margin-top: 1rem;
   align-self: stretch;
   position: relative;
   font-weight: 500;

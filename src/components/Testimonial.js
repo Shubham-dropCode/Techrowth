@@ -7,7 +7,7 @@ const Testimonial = () => {
     <div className={styles.stories}>
       <div className={styles.frameParent}>
       <div className={styles.discoverWhy100Container}>
-        Discover why <b> 100+ </b>Clients rave about our services
+        Discover why <span className="h1"><b> 100+ Clients</b></span> rave about our services
       </div>
       <div className={styles.clientReview}>
         <div className={styles.frameContainer}>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                 src="/abhayahasta-logo-1@2x.png"
               />
               <div className={styles.weRecentlyGotOurSocialMedParent}>
-                <div className={styles.weRecentlyGot}>
+                <div className={styles.weHaveBeenContainer}>
                   "We recently got our social media marketing services which
                   were impressive. Not only did they understand our requirements
                   quickly, but they also came up with a few suggestions from
@@ -66,7 +66,7 @@ const Testimonial = () => {
               <img className={styles.logo2Icon} alt="" src="/logo-2@2x.png" />
               <div className={styles.groupGroup}>
                 <img className={styles.groupIcon3} alt="" src="/group5.svg" />
-                <div className={styles.teamTechrowthIs}>
+                <div className={styles.weHaveBeenContainer}>
                   "Team Techrowth is so good at planning and execution of
                   digital marketing strategies. They helped my business scale up
                   in just six months at an affordable price. Thank You, guys,
@@ -77,7 +77,7 @@ const Testimonial = () => {
             </div>
           </div>
           <button className={styles.groupWrapper}>
-            <img className={styles.frameInner} alt="" src="/group-3591.svg" />
+            <img className={styles.frameInner} alt="" src="/group-359.svg" />
           </button>
         </div>
         {/* <div className={styles.circles}>

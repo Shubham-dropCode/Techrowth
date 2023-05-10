@@ -36,7 +36,7 @@ const AccelerateYourGrowth = () => {
         </div>
         <div className={styles.frameContainer}>
           <button className={styles.frameButton}>
-            <img className={styles.groupIcon} alt="" src="/group.svg" />
+            <img className={styles.groupIcon} alt="" src="/group-358.svg" />
           </button>
           <div className={styles.a31483e59ee069da94c581Parent}>
             <img

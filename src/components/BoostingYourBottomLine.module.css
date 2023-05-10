@@ -67,10 +67,12 @@
   margin-bottom: false;
 }
 .seoServicesEcommerceService {
+  list-style-type: circle;
   margin: 0;
   padding-left: var(--padding-2xl);
 }
 .seoServicesEcommerceContainer {
+  /* display: list-item; */
   position: absolute;
   top: 2.44rem;
   left: 0;

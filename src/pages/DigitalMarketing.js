@@ -16,22 +16,24 @@ import BusinessAnalystics from "../components/BusinessAnalystics";
 import ContactFrom1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
 import Breadcrumbs from "../components/Breadcrumbs";
+import ContactUsForm from "../components/ContactUsForm";
 import ContactUsBar from "../components/ContactUsBar";
 
 const DigitalMarketing = () => {
   const HeroTitel = "Unleash the power of your brand voice with Techrowth";
   const HeroContent =
     "Unlock the potential of your brand and seize future growth opportunities with our result-driven strategies. Our extensive digital channels can help you reach a wider audience, boost brand visibility, and drive growth.";
-  const RecentTextRow1 =
-    "Take guidance from Expert Professionals!" ;
-  const RecentTextRow2 =
-    "Maximize the potential of your online reach with our digital marketing solutions!";
+  const RecentText =
+    "Take guidance from Expert Professionals! Maximize the potential of your online reach with our digital marketing solutions!";
+    const cotactBarContent =
+    "Wondering if you could be a part of a success story? Book a free consultation today and learn more!";
   return (
     <>
       <Hero title={HeroTitel} content={HeroContent} MyBackgroundImage={heroBg}/>
       <RecentResult/>
       <Breadcrumbs/>
-      <OneStopSolution1  text={RecentTextRow1} text2={RecentTextRow2} btnText="Contact Us" />
+      <OneStopSolution1  />
+      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
       <SatisfiedClients show={false}/>
       <AccelerateYourGrowth />
       <DigitalMarektingComponent/>
@@ -39,12 +41,12 @@ const DigitalMarketing = () => {
       <Testimonial/>
       <BISCCBOR/>
       <ExploreOurCaseStudies/>
-      <ContactUsBar/>
+      <ContactUsBar content={cotactBarContent} btnTxt="Contact Us"/>
       <RevenueGenerated/>
 
       <ITServices1 />
-      <BusinessAnalystics show={false}/>
-      <ContactFrom1 />
+      <BusinessAnalystics show={false} onDisplay={true}/>
+      <ContactUsForm />
 
       <TrustedByBrands /> 
 

@@ -55,7 +55,7 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.ndBlockContentGroup}>
             <div className={styles.ndBlockContent1}>
-              <div className={styles.div5}>89+</div>
+              <div className={styles.div6}>89+</div>
               <div className={styles.lastYearAddition}>
                 Last Year Addition in downloads
               </div>

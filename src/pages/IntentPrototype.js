@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import heroBg from "../assets/rectangle-216@2x.png";
+import heroBg from "../assets/intentbgimg.jpg";
 import RecentResult from "../components/RecentResult";
 import BusinessAnalystics from "../components/BusinessAnalystics";
 import ToolsWeUseMainG from "../components/ToolsWeUseMainG";
@@ -12,13 +12,15 @@ import { useEffect } from "react";
 import DigitalMarektingComponent from "../components/DigitalMarektingComponent";
 import DigitalMarketingServices1 from "../components/DigitalMarketingServices1";
 import styles from "../components/DigitalMarketingServices1.module.css";
+import ContactUsBar from "../components/ContactUsBar";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 const IntentPrototype = () => {
   const HeroTitel = "Intent";
   const HeroContent =
     "Business intent is what an organization wants to achieve, whether it's in the short or long term. It could be anything, from improving customer service to reaching a specific objective.";
   const RecentText =
-    "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
+    "Become a class apart with our Cutting-Edge Marketing Tactics. Contact ou experts today!";
   return (
     <>
       <>
@@ -28,6 +30,7 @@ const IntentPrototype = () => {
           MyBackgroundImage={heroBg}
         />
         {/* <RecentResult /> */}
+        <Breadcrumbs/>
         <AdvantageOfTechrowth />
         {/* <BusinessAnalystics /> */}
         <div className={styles.digitalMarketingServices}>
@@ -47,19 +50,19 @@ const IntentPrototype = () => {
                 <div className="container">
                   <div className="row g-3">
                     <div className="col-3 py-3">
-                      <img src="/frame-34.svg" className="py-3" />
+                      <img src="/Frame 459.png" className="py-3" />
                       <div style={{fontSize:"18px",color:"#000"}}>Email Marketing Tools</div>
                     </div>
                     <div className="col-3 py-3">
-                      <img src="/frame-34.svg" className="py-3" />
+                      <img src="/Frame 104.png" className="py-3" />
                       <div style={{fontSize:"18px",color:"#000"}}>Customer Analystics Tools</div>
                     </div>
                     <div className="col-3 py-3">
-                      <img src="/frame-34.svg" className="py-3" />
+                      <img src="/Frame 105.png" className="py-3" />
                       <div style={{fontSize:"18px",color:"#000"}}>Customer Relationship Management (CRM) Platforms</div>
                     </div>
                     <div className="col-3 py-3">
-                      <img src="/frame-34.svg" className="py-3" />
+                      <img src="/Frame 448.png" className="py-3" />
                       <div style={{fontSize:"18px",color:"#000"}}>Social Media Channels</div>
                     </div>
                     
@@ -288,58 +291,14 @@ const IntentPrototype = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.frameContainer}>
-                <div className={styles.frameDiv}>
-                  <div className={styles.frameParent1}>
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/frame-545@2x.png"
-                    />
-                    <div className={styles.socialMediaServicesContainer}>
-                      <p className={styles.unleashYourBrands}>Social Media</p>
-                      <p className={styles.unleashYourBrands}>Services</p>
-                    </div>
-                  </div>
-                  <div className={styles.frameParent1}>
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/frame-546@2x.png"
-                    />
-                    <div className={styles.socialMediaServicesContainer}>
-                      <p className={styles.unleashYourBrands}>{`Graphic &`}</p>
-                      <p className={styles.unleashYourBrands}>Design</p>
-                    </div>
-                  </div>
-                  <div className={styles.frameParent1}>
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/frame-547@2x.png"
-                    />
-                    <div className={styles.socialMediaServicesContainer}>
-                      E-Commerce
-                    </div>
-                  </div>
-                  <div className={styles.frameParent1}>
-                    <img
-                      className={styles.frameChild}
-                      alt=""
-                      src="/frame-548@2x.png"
-                    />
-                    <div className={styles.socialMediaServicesContainer}>
-                      Content
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
         {/* <AccelerateYourGrowth /> */}
-        <ToolsWeUseMainG />
-        <TechnologiesWeUseAndServiSocia />
+        {/* <ToolsWeUseMainG /> */}
+        {/* <TechnologiesWeUseAndServiSocia /> */}
+        <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
         <ContactFrom1 />
 
         <TrustedByBrands />

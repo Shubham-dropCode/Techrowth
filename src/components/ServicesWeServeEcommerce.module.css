@@ -187,7 +187,7 @@
 }
 .frameGroup {
   border-radius: var(--br-11xl);
-  background-color: var(--color-whitesmoke-300);
+  background-color: "#F6F9FC";
   border: 3px solid var(--blue);
   box-sizing: border-box;
   width: 55.88rem;

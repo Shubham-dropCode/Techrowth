@@ -128,7 +128,7 @@ const ToolsWeUseEcommerce = () => {
               </div>
             </div>
           </div>
-          <ContactUsBar/>
+
           {/* <div className={styles.rectangleParent}>
             <img
               className={styles.groupChild}

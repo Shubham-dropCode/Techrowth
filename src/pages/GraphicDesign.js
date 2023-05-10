@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import heroBg from "../assets/rectangle-216@2x.png";
+import heroBg from "../assets/DigitalMarketingBg.jpg";
 import RecentResult from "../components/RecentResult";
 import BusinessAnalystics from "../components/BusinessAnalystics";
 import ToolsWeUseMainG from "../components/ToolsWeUseMainG";
@@ -8,7 +8,9 @@ import TechnologiesWeUseAndServiSocia from "../components/TechnologiesWeUseAndSe
 import TrustedByBrands from "../components/TrustedByBrands";
 import ContactFrom1 from "../components/ContactForm1";
 import { useEffect } from "react";
+import GraphicDesignCounter from "../components/GraphicDesignCounter";
 
+import ContactUsBar from '../components/ContactUsBar'
 
 const GraphicDesign = () => {
   useEffect(() => {
@@ -29,10 +31,12 @@ const GraphicDesign = () => {
       />
       <RecentResult />
       {/* <OneStopSolution1 text={RecentText} btnText="Book a Consultation!" /> */}
-      <BusinessAnalystics />
+      {/* <BusinessAnalystics show={true} onDisplay={false} titleDiplay={false}/> */}
+      <GraphicDesignCounter/>
       {/* <AccelerateYourGrowth /> */}
       <ToolsWeUseMainG />
-      <TechnologiesWeUseAndServiSocia />
+      {/* <TechnologiesWeUseAndServiSocia /> */}
+      <ContactUsBar content="Drive your Success With Unique Brand Elements. Book your Consultation Today!" btnTxt="Contact Us" />
       <ContactFrom1 />
 
       <TrustedByBrands />

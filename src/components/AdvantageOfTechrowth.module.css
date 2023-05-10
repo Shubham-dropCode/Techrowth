@@ -27,6 +27,7 @@
 }
 .parent {
   width: 12.59rem;
+  font-size: 36px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;

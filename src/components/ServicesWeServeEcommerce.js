@@ -25,7 +25,7 @@ const ServicesWeServeEcommerce = () => {
           <div className={styles.servicesWeServeParent}>
             <b className={styles.servicesWeServe1}>Services we serve</b>
             <div className={styles.technologicalInfrastructureWWrapper}>
-              <div style={{fontWeight:"500"}}>
+              <div style={{ fontWeight: "500" }}>
                 Technological Infrastructure we Employ
               </div>
             </div>

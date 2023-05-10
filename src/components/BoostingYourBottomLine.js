@@ -37,8 +37,11 @@ const BoostingYourBottomLine = () => {
                     Drive Website Traffic
                   </div>
                   <div className={styles.seoServicesEcommerceContainer}>
-                    <ul className={styles.seoServicesEcommerceService}>
-                      <li className={styles.seoServices}>SEO Services</li>
+                    <ul
+                      className={styles.seoServicesEcommerceService}
+                      style={{ listStyle: "circle", color: "black" }}
+                    >
+                      <li>SEO Services</li>
                       <li className={styles.seoServices}>Ecommerce Services</li>
                       <li className={styles.seoServices}>Lead Generation</li>
                       <li>Content Marketing Services</li>

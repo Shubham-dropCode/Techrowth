@@ -18,6 +18,7 @@ import styles from "./NewHomepage.module.css";
 import Testimonial from "../components/Testimonial";
 import { useEffect } from "react";
 import DropdownMenu from "../components/DropdownMenu";
+import ContactUsBar from "../components/ContactUsBar";
 
 const NewHomepage = () => {
   useEffect(() => {
@@ -39,6 +40,8 @@ const NewHomepage = () => {
       />
       <RecentResult />
       <OneStopSolution1 text={RecentText} btnText="Book a Consultation!" />
+      <ContactUsBar content={RecentText} btnTxt="Book a Consultation!" />
+
       <AccelerateYourGrowth />
       <ExploreOurCaseStudies />
       <QuantifyingTheData />
@@ -47,7 +50,7 @@ const NewHomepage = () => {
       <ITServices1 />
       {/* <DropdownMenu /> */}
 
-      <BusinessAnalystics />
+      <BusinessAnalystics show={true} onDisplay={true}/>
       <SatisfiedClients />
       <FounderNote />
       <ContactFrom1 />

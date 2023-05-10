@@ -1,59 +1,79 @@
 import styles from "./BusinessAnalystics.module.css";
 
-const BusinessAnalystics = ({show}) => {
+const BusinessAnalystics = ({ show, onDisplay, titleDiplay }) => {
   return (
     <div className={styles.businessAnalystics}>
       <div className={styles.frameParent}>
-        <div className={styles.businessAnalyticsParent}>
-          <div className={styles.businessAnalytics}>Business Analytics </div>
-          <div className={styles.unlockThePowerContainer}>
-            <p className={styles.unlockThePower}>
-              Unlock the power of data - elevate your performance
-            </p>
-            <p className={styles.unlockThePower}>
-              {" "}
-              with our Analytics services 
-            </p>
+        {titleDiplay && (
+          <div className={styles.businessAnalyticsParent}>
+            <div className={styles.businessAnalytics}>Business Analytics </div>
+            <div className={styles.unlockThePowerContainer}>
+              <p className={styles.unlockThePower}>
+                Unlock the power of data - elevate your performance
+              </p>
+              <p className={styles.unlockThePower}>
+                {" "}
+                with our Analytics services 
+              </p>
+            </div>
           </div>
-        </div>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameWrapper}>
-            <div className={styles.groupParent}>
-              <img className={styles.frameChild} alt="" src="/group-572.svg" />
-              <div className={styles.analyticsInsightsContainer}>
-                <p className={styles.unlockThePower}>Analytics</p>
-                <p className={styles.unlockThePower}>{`& Insights`}</p>
+        )}
+        {onDisplay && (
+          <div className={styles.frameGroup}>
+            <div className={styles.frameWrapper}>
+              <div className={styles.groupParent}>
+                <img
+                  className={styles.frameChild}
+                  alt=""
+                  src="/group-572.svg"
+                />
+                <div className={styles.analyticsInsightsContainer}>
+                  <p className={styles.unlockThePower}>Analytics</p>
+                  <p className={styles.unlockThePower}>{`& Insights`}</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.frameContainer}>
+              <div className={styles.groupParent}>
+                <img
+                  className={styles.frameChild}
+                  alt=""
+                  src="/group-573.svg"
+                />
+                <div className={styles.analyticsInsightsContainer}>
+                  <p className={styles.unlockThePower}>Customized</p>
+                  <p className={styles.unlockThePower}>Dashboards</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.frameDiv}>
+              <div className={styles.groupParent}>
+                <img
+                  className={styles.frameChild}
+                  alt=""
+                  src="/SocialMedaiAnalytics.png"
+                />
+                <div className={styles.analyticsInsightsContainer}>
+                  <p className={styles.unlockThePower}>Social media</p>
+                  <p className={styles.unlockThePower}>Analytics</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.frameWrapper1}>
+              <div className={styles.groupParent}>
+                <img
+                  className={styles.frameChild}
+                  alt=""
+                  src="/group-574.svg"
+                />
+                <div className={styles.analyticsInsightsContainer}>
+                  <p className={styles.unlockThePower}>Mobile</p>
+                  <p className={styles.unlockThePower}>Analytics </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameContainer}>
-            <div className={styles.groupParent}>
-              <img className={styles.frameChild} alt="" src="/group-573.svg" />
-              <div className={styles.analyticsInsightsContainer}>
-                <p className={styles.unlockThePower}>Customized</p>
-                <p className={styles.unlockThePower}>Dashboards</p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.frameDiv}>
-            <div className={styles.groupParent}>
-              <img className={styles.frameChild} alt="" src="/group1.svg" />
-              <div className={styles.analyticsInsightsContainer}>
-                <p className={styles.unlockThePower}>Social media</p>
-                <p className={styles.unlockThePower}>Analytics</p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.frameWrapper1}>
-            <div className={styles.groupParent}>
-              <img className={styles.frameChild} alt="" src="/group-574.svg" />
-              <div className={styles.analyticsInsightsContainer}>
-                <p className={styles.unlockThePower}>Mobile</p>
-                <p className={styles.unlockThePower}>Analytics </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        )}
       </div>
       {show && (
         <div>
@@ -112,6 +132,7 @@ const BusinessAnalystics = ({show}) => {
                   src="/rectangle-40291@2x.png"
                 />
               </div>
+
               <div className={styles.wonderingIfYouCouldBeAPaParent}>
                 <div className={styles.wonderingIfYouContainer}>
                   <p className={styles.unlockThePower}>

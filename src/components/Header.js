@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import {AiOutlineSearch} from "react-icons/ai"
 
 import styles from "./Header.module.css";
 import { useEffect, useState } from "react";
@@ -41,6 +42,7 @@ const Header = () => {
             <Link to="/">
               <img className={styles.logo21Icon} alt="" src="/logo@2x.png" />
             </Link>
+            <AiOutlineSearch className="position-absolute" size={33} style={{left:"59%"}}/>
             <input className={styles.search} type="text" placeholder="SEARCH" />
             <div className={styles.phonebutton}>
               <a className={styles.frameParent} href="tel:+91 8073162943">
@@ -52,7 +54,7 @@ const Header = () => {
                 <div className={styles.groupWrapper}>
                   <div className={styles.parent}>
                     <div className={styles.div}>+91 8073162943</div>
-                    <div className={styles.support}>Support</div>
+                    <div className={styles.support}>Sales</div>
                   </div>
                 </div>
               </a>
@@ -60,7 +62,7 @@ const Header = () => {
                 <img className={styles.frameChild} alt="" src="/frame-23.svg" />
                 <div className={styles.group}>
                   <div className={styles.div1}>+91 8073162943</div>
-                  <div className={styles.sales}>Sales</div>
+                  <div className={styles.sales}>Support</div>
                 </div>
               </a>
             </div>
@@ -129,7 +131,7 @@ const Header = () => {
                   
                 </div>
                 <div className={styles.analytics}>Analytics</div>
-                <div className={styles.whoWeAre}><Link to="/WhoWeAre" style={{color:"#666"}}>Who we are</Link></div>
+                <div className={styles.whoWeAre} onMouseEnter={handleMouseEnterMenu}><Link to="/WhoWeAre" style={{color:"#666"}}>Who we are</Link></div>
               </div>
               <button className={styles.navlinksInner}>
                 <img className={styles.vectorIcon} alt="" src="/vector-1.svg" />

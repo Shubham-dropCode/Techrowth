@@ -12,7 +12,7 @@
   font-family: var(--font-montserrat);
   font-size: var(--font-size-mini);
   background-color: var(--light-blue);
-  border-radius: 20px;
+  border-radius: 12px;
   box-sizing: border-box;
   width: 24.94rem;
   flex-shrink: 0;
@@ -41,7 +41,7 @@
 }
 .support {
   top: 0;
-  right: 2.09rem;
+  right: 1.50rem;
   color: var(--blue);
   width: 5.63rem;
 }
@@ -98,10 +98,11 @@
 }
 .frameGroup {
   text-decoration: none;
+  gap: 1rem;
   width: 10.06rem;
   height: 2.75rem;
   flex-shrink: 0;
-  padding: 0 var(--padding-8xs) 0 0;
+  /* padding: 0 var(--padding-8xs) 0 0; */
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +116,7 @@
   flex-direction: row;
 }
 .phonebutton {
-  border-radius: var(--br-11xl);
+  border-radius:  2rem 0 0 2rem ;
   background-color: var(--color-whitesmoke-200);
   width: 24.66rem;
   height: 2.81rem;
@@ -137,7 +138,7 @@
   align-self: stretch;
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-xl) var(--padding-41xl);
+  padding: 1rem 0rem 1rem 1rem;
   justify-content: flex-start;
 }
 .groupChild {

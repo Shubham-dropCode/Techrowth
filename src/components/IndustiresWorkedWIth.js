@@ -53,7 +53,7 @@ const IndustiresWorkedWIth = () => {
               <div className={styles.frameChild2} />
             </div>
             <div className={styles.vectorParent}>
-              <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+              <img className={styles.vectorIcon} alt="" src="/Realstates.png" />
               <div className={styles.automotive}>Real Estate</div>
             </div>
             <div className={styles.rectangleGroup}>

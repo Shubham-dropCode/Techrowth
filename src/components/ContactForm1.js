@@ -2,7 +2,7 @@ import styles from "./ContactForm1.module.css";
 
 const ContactForm1 = () => {
   return (
-    <div className={styles.contactform}>
+    <div id="ContectFrom" className={styles.contactform}>
       <div className={styles.contactformInner}>
         <div className={styles.frameParent}>
           <div className={styles.frameWrapper}>
@@ -50,10 +50,14 @@ const ContactForm1 = () => {
             </div>
           </div>
           <div className={styles.takeAdvantageOfTheOpportunParent}>
-            <div className={styles.takeAdvantageOfContainer +"mt-4"}>
+            <div className={styles.takeAdvantageOfContainer + "mt-4"}>
               <p className={styles.takeAdvantageOf}>
-                Take advantage of the opportunity to work <br/> with our  team of
-                experts and achieve your goals. Contact us today
+                <b>
+                  {" "}
+                  Take advantage of the opportunity to work with our team of
+                  experts <br />
+                  and achieve your goals. Contact us today
+                </b>
               </p>
             </div>
             <div className={styles.frameParent1}>
@@ -73,19 +77,18 @@ const ContactForm1 = () => {
                 </div>
               </div>
               <div className={styles.frameWrapper1}>
-                <div className={styles.parent}>
+                <div className={styles.frameParent2}>
                   <input
                     className={styles.frameInput}
                     type="text"
                     placeholder="Phone No."
                   />
-                  <div className={styles.wrapper}>
-                    <input
-                      className={styles.frameInput}
-                      type="text"
-                      placeholder="Company Name"
-                    />
-                  </div>
+
+                  <input
+                    className={styles.frameInput}
+                    type="text"
+                    placeholder="Company Name"
+                  />
                 </div>
               </div>
               <div className={styles.div}>

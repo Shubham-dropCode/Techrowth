@@ -3,6 +3,7 @@ import styles from "./OneStopSolution1.module.css";
 import ContactUsBar from "./ContactUsBar";
 
 const OneStopSolution1 = ({ text, text2, btnText }) => {
+  
   return (
     <div className={styles.onestopsolution}>
       <div className={styles.frameParent}>
@@ -57,7 +58,6 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
             </button>
           </div>
         </div> */}
-          <ContactUsBar/>
       </div>
     </div>
   );

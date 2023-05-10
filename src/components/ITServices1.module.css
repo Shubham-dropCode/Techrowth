@@ -200,7 +200,7 @@
 .itServices {
   background-color: var(--white);
   overflow: hidden;
-  padding: 3rem var(--padding-201xl);
+  /* padding: 3rem var(--padding-201xl); */
   text-align: center;
   font-size: var(--font-size-16xl);
   color: var(--text-grey);

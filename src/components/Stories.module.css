@@ -26,6 +26,7 @@
   mix-blend-mode: multiply;
 }
 .revolutionizingTraditionalBa {
+
   margin: 0;
 }
 .revolutionizingTraditionalBaContainer {
@@ -124,7 +125,7 @@
   position: absolute;
   height: 71.09%;
   width: 100%;
-  top: 21.8%;
+  top: 36.8%;
   left: 0;
   display: inline-block;
 }
@@ -202,6 +203,7 @@
 }
 .lovedTheServices {
   position: relative;
+  top: 27px;
   display: inline-block;
   width: 15.28rem;
 }

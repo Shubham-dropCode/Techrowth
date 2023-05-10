@@ -2,6 +2,9 @@ import styles from "./ITServices1.module.css";
 
 const ITServices1 = () => {
   return (
+    <div className="container">
+
+    
     <div className={styles.itServices}>
       <div className={styles.frameParent}>
         <div className={styles.itServicesParent}>
@@ -141,6 +144,7 @@ const ITServices1 = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
