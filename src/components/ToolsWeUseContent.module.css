@@ -94,9 +94,10 @@
   width: 9.63rem;
 }
 .div1 {
-  top: 2.25rem;
+  font-size: 2rem;
+  top: 1.5rem;
   left: 6.29rem;
-  font-size: var(--font-size-13xl);
+ 
   text-align: left;
 }
 .ndBlockContentWrapper {
@@ -126,9 +127,10 @@
   position: absolute;
 }
 .div2 {
-  top: 0;
+  top: -.5rem;
   left: 0;
   font-weight: 500;
+  font-size: 2rem;
 }
 .wrapper {
   top: 2.25rem;
@@ -173,8 +175,9 @@
   font-weight: 500;
 }
 .div3 {
-  top: 0;
-  left: 4.56rem;
+  font-size: 2rem;
+  top: -.3rem;
+  left: 4rem;
 }
 .revampedContentQuarterly {
   top: 2.81rem;

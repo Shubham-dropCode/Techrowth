@@ -9,6 +9,7 @@ import ContactForm1 from "../components/ContactForm1";
 import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsBar from "../components/ContactUsBar";
+import ContactUsForm from "../components/ContactUsForm"
 const Ecommerce = () => {
   const HeroTitel = "E-Commerce";
   const HeroContent =
@@ -23,11 +24,12 @@ const Ecommerce = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs/>
+      <Breadcrumbs />
       <ServicesWeServeEcommerce />
       <ToolsWeUseEcommerce />
-      <ContactForm1 />
-      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
+      {/* <ContactForm1 /> */}
+      <ContactUsForm/>
+      <ContactUsBar content={RecentText} btnTxt="Contact Us" />
 
       <TrustedByBrands />
     </>

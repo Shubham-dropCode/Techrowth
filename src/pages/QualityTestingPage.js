@@ -1,5 +1,5 @@
 import React from "react";
-import heroBg from "../assets/UIUX.jpg";
+import heroBg from "../assets/Qualitybg.jpg";
 import Hero from "../components/Hero";
 import styles from "../components/InterestedDevelopment.module.css";
 import ContactUsBar from "../components/ContactUsBar";

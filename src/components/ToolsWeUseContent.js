@@ -8,7 +8,7 @@ const ToolsWeUseContent = () => {
             <div className={styles.groupContainer}>
               <div className={styles.stBlockContentWrapper}>
                 <div className={styles.stBlockContent}>
-                  <div className={styles.div}>89</div>
+                  <div className={styles.div1}>89</div>
                   <div className={styles.companyProfilesCreated}>
                     Company Profiles Created per year
                   </div>

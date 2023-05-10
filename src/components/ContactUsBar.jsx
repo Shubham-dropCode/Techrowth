@@ -3,7 +3,7 @@ import bgImg from "../assets/rectangle-40292@2x.png";
 
 const ContactUsBar = ({content , btnTxt}) => {
   return (
-    <div className="container my-5">
+    <div className="container my-5" style={{padding:"0 5rem"}}>
       <div
         className="row d-flex p-5"
         style={{

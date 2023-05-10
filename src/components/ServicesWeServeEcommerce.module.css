@@ -80,8 +80,8 @@
   overflow: hidden;
   flex-direction: row;
   padding: 3rem ;
-  justify-content: space-around;
-  gap: var(--gap-110xl);
+  justify-content: center;
+  gap: 10rem;
 }
 .servicesWeServe1 {
   position: relative;
@@ -187,10 +187,11 @@
 }
 .frameGroup {
   border-radius: var(--br-11xl);
-  background-color: "#F6F9FC";
+  /* background-color: "#F6F9FC"; */
+  background-color: #F6F9FC;
   border: 3px solid var(--blue);
   box-sizing: border-box;
-  width: 55.88rem;
+  /* width: 55.88rem; */
   overflow: hidden;
   padding: 3rem;
   justify-content: center;

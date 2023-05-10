@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 // import styles from "../components/Hero.module.css";
 import heroBg from "../assets/UIUX.jpg";
+
 import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import InterestedDevelopement from "../components/InterestedDevelopment";
@@ -15,9 +16,9 @@ const UiUxInterface = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-  const HeroTitel = "Empowering your Online presence, Driving Actual Results";
+  const HeroTitel = "Leave your mark through an interactive User Interface!";
   const HeroContent =
-    "Join the Techrowth Revolution Experience Exceptional Results and elevate your business to new levels with our result-oriented strategy framework BISCCBOR!";
+    "Transform your online business presence with our UI/UX expertise. Our team of experts fabricate visually stunning and user-friendly interfaces that captivate your customers' attention and keep them engaged.";
   const RecentText =
     "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
   return (

@@ -8,7 +8,7 @@ const Hero = ({ title, content, MyBackgroundImage }) => {
       <div className={styles.hero}>
         <div
           className={styles.empoweringYourOnlinePresencParent}
-          style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed" }}
+          style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed",  backgroundPosition: "center" }}
         >
           <div className={styles.empoweringYourOnlineContainer}>
             <div className="col-6">

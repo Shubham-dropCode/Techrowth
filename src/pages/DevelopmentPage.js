@@ -19,14 +19,12 @@ const DevelopmentPage = () => {
           <div className={styles.empoweringYourOnlineContainer}>
             <div className="col-6">
               <p className={styles.empoweringYour + "my-3"}>
-                Empowering your Online presence, Driving Actual Results
+              Realize the full potential of your idea with Techrowth’s Team
               </p>
               <div className={styles.joinTheTechrowthContainer}>
                 <p className={styles.empoweringYour + "my-3"}>
                   <span>
-                    Join the Techrowth Revolution Experience Exceptional Results
-                    and elevate your business to new levels with our
-                    result-oriented strategy framework BISCCBOR!
+                  Our IT services cover CMS, website accessibility, e-commerce, mobile apps, and beyond. Unleash the potential of your vision for a brighter future with our experts and expertise.
                   </span>
                 </p>
               </div>

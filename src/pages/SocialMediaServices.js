@@ -6,9 +6,9 @@ import NumberCounterSocial from "../components/NumberCounterSocial";
 import IndustriesWorkedWith from "../components/IndustiresWorkedWIth";
 import TechnologiesWeUseAndServiSocia from "../components/TechnologiesWeUseAndServiSocia";
 import ContactUsBar from "../components/ContactUsBar";
-import ContactForm1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
 import RecentResult from "../components/RecentResult";
+import ContactUsForm from "../components/ContactUsForm";
 
 const SocialMediaServices = () => {
   const HeroTitel = "Social Media Services";
@@ -23,13 +23,13 @@ const SocialMediaServices = () => {
         content={HeroContent}
         MyBackgroundImage={heroBg}
       />
-      <RecentResult/>
+      <RecentResult />
       <Breadcrumb />
       <NumberCounterSocial />
       <IndustriesWorkedWith />
       <TechnologiesWeUseAndServiSocia />
-      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
-      <ContactForm1  />
+      <ContactUsBar content={RecentText} btnTxt="Contact Us" />
+      <ContactUsForm />
 
       <TrustedByBrands />
     </>

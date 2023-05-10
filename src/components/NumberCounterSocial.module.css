@@ -1,7 +1,8 @@
 .div {
+  font-size: 2rem;
   position: absolute;
-  top: 0;
-  left: 2.63rem;
+  top: -.5rem;
+  left: 2.4rem;
   font-weight: 500;
 }
 .increasedCustomerEngagement {
@@ -49,6 +50,7 @@
   flex-shrink: 0;
 }
 .div1 {
+  font-size: 2rem;
   position: absolute;
   top: 0;
   left: 3.25rem;
@@ -83,9 +85,10 @@
 }
 .div2,
 .increasedCustomerInteraction {
+  font-size: 2rem;
   position: absolute;
-  top: 2.94rem;
-  left: 3.56rem;
+  top: 2.5rem;
+  left: 4rem;
   font-weight: 500;
 }
 .increasedCustomerInteraction {
@@ -126,12 +129,13 @@
 .customerConversionIncreased,
 .div3 {
   position: absolute;
+  font-size: 2rem;
   top: 2.44rem;
   left: 4.19rem;
   font-weight: 500;
 }
 .customerConversionIncreased {
-  top: 5.19rem;
+  top: 6.5rem;
   left: 1.25rem;
   font-size: var(--font-size-lg);
   color: var(--text-grey);
@@ -157,8 +161,9 @@
 }
 .div4,
 .increasedSocialMedia {
+  font-size: 2rem;
   position: absolute;
-  top: 2.19rem;
+  top: 2.5rem;
   left: 1.25rem;
   font-weight: 500;
 }
@@ -199,6 +204,7 @@
 }
 .div5,
 .lastYearAddition {
+  font-size: 2rem;
   position: absolute;
   top: 2.06rem;
   left: 4.06rem;
@@ -233,9 +239,10 @@
 }
 .div6,
 .increasedSocialMedia1 {
+  font-size: 2rem;
   position: absolute;
-  top: 2.13rem;
-  left: 3.69rem;
+  top: 2.3rem;
+  left: 4rem;
   font-weight: 500;
 }
 .increasedSocialMedia1 {

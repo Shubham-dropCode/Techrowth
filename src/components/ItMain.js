@@ -1,5 +1,8 @@
+import ContactUsBar from "./ContactUsBar";
 import styles from "./ItMain.module.css";
+import ItMainCounter from "./ItMainCounter";
 const ItMain = () => {
+  const RecentText = "Ready to take your business to new heights? Book a free consultation today and know more"
   return (
     <div className={styles.itMain}>
       <div className={styles.frameParent}>
@@ -35,6 +38,7 @@ const ItMain = () => {
           </div>
         </div>
       </div>
+      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
       <div className={styles.exploreOtherServicesParent}>
         <div className={styles.exploreOtherServices}>
           Explore Other Services
@@ -216,6 +220,7 @@ const ItMain = () => {
           </div>
         </div>
       </div>
+      {/* <ItMainCounter/> */}
       <div className={styles.frameParent8}>
         <div className={styles.howToPickYourItFirmParent}>
           <div className={styles.n1Parent}>

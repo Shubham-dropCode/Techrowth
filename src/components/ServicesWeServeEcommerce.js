@@ -10,13 +10,13 @@ const ServicesWeServeEcommerce = () => {
               Total Revenue Generated
             </div>
           </div>
-          <div className={styles.parent}>
+          <div className={styles.mnParent}>
             <div className={styles.div}>34%</div>
             <div className={styles.revenueIncreasedWrapper}>
               <div className={styles.revenueIncreased}> Revenue Increased</div>
             </div>
           </div>
-          <div className={styles.group}>
+          <div className={styles.mnParent}>
             <div className={styles.div}>55%</div>
             <div className={styles.salesIncreased}>Sales Increased</div>
           </div>

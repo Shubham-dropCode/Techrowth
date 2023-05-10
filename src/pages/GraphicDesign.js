@@ -2,15 +2,17 @@ import React from "react";
 import Hero from "../components/Hero";
 import heroBg from "../assets/DigitalMarketingBg.jpg";
 import RecentResult from "../components/RecentResult";
-import BusinessAnalystics from "../components/BusinessAnalystics";
+
 import ToolsWeUseMainG from "../components/ToolsWeUseMainG";
-import TechnologiesWeUseAndServiSocia from "../components/TechnologiesWeUseAndServiSocia";
+
 import TrustedByBrands from "../components/TrustedByBrands";
-import ContactFrom1 from "../components/ContactForm1";
+
 import { useEffect } from "react";
 import GraphicDesignCounter from "../components/GraphicDesignCounter";
 
-import ContactUsBar from '../components/ContactUsBar'
+import ContactUsBar from "../components/ContactUsBar";
+import ContactUsForm from "../components/ContactUsForm";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 const GraphicDesign = () => {
   useEffect(() => {
@@ -20,8 +22,7 @@ const GraphicDesign = () => {
   const HeroTitel = "Graphics and Design";
   const HeroContent =
     "Unleash the essence of your individuality through our aid, and let the world bask in the brilliance of your unique brand style.";
-  const RecentText =
-    "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
+
   return (
     <>
       <Hero
@@ -30,14 +31,17 @@ const GraphicDesign = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      {/* <OneStopSolution1 text={RecentText} btnText="Book a Consultation!" /> */}
-      {/* <BusinessAnalystics show={true} onDisplay={false} titleDiplay={false}/> */}
-      <GraphicDesignCounter/>
-      {/* <AccelerateYourGrowth /> */}
+      <Breadcrumbs/>
+
+      <GraphicDesignCounter />
+
       <ToolsWeUseMainG />
-      {/* <TechnologiesWeUseAndServiSocia /> */}
-      <ContactUsBar content="Drive your Success With Unique Brand Elements. Book your Consultation Today!" btnTxt="Contact Us" />
-      <ContactFrom1 />
+
+      <ContactUsBar
+        content="Drive your Success With Unique Brand Elements. Book your Consultation Today!"
+        btnTxt="Contact Us"
+      />
+      <ContactUsForm />
 
       <TrustedByBrands />
     </>

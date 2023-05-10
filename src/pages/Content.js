@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Hero from '../components/Hero'
 import RecentResult from '../components/RecentResult'
-import OneStopSolution1 from '../components/OneStopSolution1'
-import heroBg from "../assets/rectangle-216@2x.png";
+import heroBg from "../assets/ContentImage.jpg";
 import ToolsWeUseContent from '../components/ToolsWeUseContent';
 import ContactUsBar from '../components/ContactUsBar';
 import TrustedByBrands from '../components/TrustedByBrands';
-import ContactForm1 from '../components/ContactForm1';
+import ContactUsForm from '../components/ContactUsForm';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 
 const Content = () => {
@@ -14,9 +14,9 @@ const Content = () => {
         window.scrollTo(0, 0);
       }, [])
     
-      const HeroTitel = "Empowering your Online presence, Driving Actual Results";
+      const HeroTitel = "Content";
       const HeroContent =
-        "Join the Techrowth Revolution Experience Exceptional Results and elevate your business to new levels with our result-oriented strategy framework BISCCBOR!";
+        "Bringing your brand voice out to the public is as important as making flawless products. Let us help you with your content creation on all fronts.        ";
       const RecentText =
         "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
   return (
@@ -27,9 +27,10 @@ const Content = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
+      <Breadcrumbs/>
       <ToolsWeUseContent/>
       <ContactUsBar/>
-      <ContactForm1 />
+      <ContactUsForm />
 
       <TrustedByBrands />
 

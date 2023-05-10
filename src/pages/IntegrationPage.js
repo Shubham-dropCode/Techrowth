@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "../components/OneStopSolution1.module.css";
 import Hero from "../components/Hero";
-import heroBg from "../assets/rectangle-216@2x.png";
+import heroBg from "../assets/Integrationbg.jpg";
 import ToolsSlider from "../components/ToolsSlider";
 import ContactUsBar from "../components/ContactUsBar";
 import ContactForm1 from "../components/ContactForm1";
@@ -13,9 +13,9 @@ const IntegrationPage = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-  const HeroTitel = "Empowering your Online presence, Driving Actual Results";
+  const HeroTitel = "Let Techrowth be your guide towards a journey of ever-expanding growth.";
   const HeroContent =
-    "Join the Techrowth Revolution Experience Exceptional Results and elevate your business to new levels with our result-oriented strategy framework BISCCBOR!";
+    "Integration is becoming a rising phoenix by turning the ashes of all your past interactions into a springboard for your rebirth in sales. With the power of technology, you can unlock limitless possibilities for your business.";
   const RecentText =
     "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
   return (
