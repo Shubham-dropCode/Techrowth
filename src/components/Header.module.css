@@ -269,6 +269,7 @@
 .home,
 .itServices,
 .whoWeAre {
+  /* color: #666; */
   position: relative;
   font-size: var(--font-size-smi);
   font-weight: 600;

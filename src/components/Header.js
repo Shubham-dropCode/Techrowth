@@ -26,6 +26,10 @@ const Header = () => {
     setIsOpen(true);
     setIsDropdownOpen(false)
   };
+  const handleMouseEnterMenu = () => {
+    setIsOpen(false);
+    setIsDropdownOpen(false)
+  };
   const handleDataFromChildIT = (data) => {
     setIsOpen(data);
   };
@@ -96,7 +100,7 @@ const Header = () => {
             </div>
             <nav className={styles.navlinks}>
               <div className={styles.links}>
-                <Link to="/" className={styles.home}>
+                <Link to="/" className={styles.home} onMouseEnter={handleMouseEnterMenu}>
                   Home
                 </Link>
 
@@ -110,44 +114,7 @@ const Header = () => {
                     Digital Marketing
                   </Link>
 
-                  {/* {isDropdownOpen && (
-                    <div className="container">
-                      <div className="row">
-                        <div className="col">
-                          <ul className="dropdown-links">
-                            <li>
-                              <Link to="/DigitalMarketing">
-                                Digital Marketing
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/IntentPrototype">
-                                Intents We Serve
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/SocialMediaServices">Services</Link>
-                            </li>
-                            <li>
-                              <Link to="/GraphicDesign">Graphic & Design</Link>
-                            </li>
-                            <li>
-                              <Link to="/Ecommerce">E-commerce</Link>
-                            </li>
-                            <li>
-                              <Link to="/Blog">Blog</Link>
-                            </li>
-                            <li>
-                              <Link to="/Resource">Resource</Link>
-                            </li>
-                            <li>
-                              <Link to="/Content">Content</Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  )} */}
+               
                 </div>
 
                 <div className="dropdown" style={{ border: "none" }}>
@@ -159,39 +126,10 @@ const Header = () => {
                   >
                     IT SERVICES
                   </Link>
-                  {/* {isOpen && (
-                    <div className="container">
-                      <div className="row">
-                        <div className="col">
-                          <ul className="dropdown-links">
-                            <li>
-                              <Link to="/ITMain">IT Main</Link>
-                            </li>
-                            <li>
-                              <Link to="/DevelopmentPage">Development</Link>
-                            </li>
-                            <li>
-                              <Link to="/UiUxInterface">UI/UX Interface</Link>
-                            </li>
-                            <li>
-                              <Link to="/ITManagement">IT Management</Link>
-                            </li>
-                            <li>
-                              <Link to="/IntegrationPage">Integrations </Link>
-                            </li>
-                            <li>
-                              <Link to="/QualityTestingPage">
-                                Quality Testing
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  )} */}
+                  
                 </div>
                 <div className={styles.analytics}>Analytics</div>
-                <div className={styles.whoWeAre}>Who we are</div>
+                <div className={styles.whoWeAre}><Link to="/WhoWeAre" style={{color:"#666"}}>Who we are</Link></div>
               </div>
               <button className={styles.navlinksInner}>
                 <img className={styles.vectorIcon} alt="" src="/vector-1.svg" />

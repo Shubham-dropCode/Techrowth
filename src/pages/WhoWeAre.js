@@ -1,9 +1,12 @@
-import React from 'react'
-
-const WhoWeAre = () => {
+import React from "react";
+import WhoWeAre from "../components/WhoWeAre";
+const WhoWeArePage = () => {
   return (
-    <div>WhoWeAre</div>
-  )
-}
+    <>
+      <WhoWeAre />
+      {/* who we are */}
+    </>
+  );
+};
 
-export default WhoWeAre
+export default WhoWeArePage;
