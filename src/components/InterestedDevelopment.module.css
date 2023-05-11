@@ -204,7 +204,8 @@
   border-radius: var(--br-11xl);
   background-color: var(--light-blue);
   flex-direction: column;
-  padding: var(--padding-54xl) var(--padding-5xl);
+  padding: 4rem 0;
+  /* padding: var(--padding-54xl) var(--padding-5xl); */
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);

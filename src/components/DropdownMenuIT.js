@@ -6,8 +6,12 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
     const data = false;
     sendDataToParent(data);
   };
+  const handleMouseLeave = () => {
+    const data = false;
+    sendDataToParent(data)
+  }
   return (
-    <div className="container-fluid" style={{ backgroundColor: "#E9EEF4" }}>
+    <div className="container-fluid position-absolute" style={{ backgroundColor: "#E9EEF4",top:"20%",zIndex:"1" }}>
       <div className="row py-4 px-4" style={{ gap: "2rem" }}>
         <div className="col text-white" style={{ backgroundColor: "#0076A2" }}>
           <ul className="text-center px-0 py-3">

@@ -2,7 +2,11 @@ import styles from "./Hero.module.css";
 import Breadcrumbs from "./Breadcrumbs";
 import RecentResult from "./RecentResult";
 
-const Hero = ({ title, content, MyBackgroundImage }) => {
+const Hero = ({ title, content, MyBackgroundImage ,sendDataToParent}) => {
+  const handleClick = () => {
+    const data = false;
+    sendDataToParent(data);
+  };
   return (
     <>
       <div className={styles.hero}>

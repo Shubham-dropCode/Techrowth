@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import {AiOutlineSearch} from "react-icons/ai"
+import { AiOutlineSearch } from "react-icons/ai";
 
 import styles from "./Header.module.css";
 import { useEffect, useState } from "react";
@@ -18,31 +18,35 @@ const Header = () => {
 
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
-    setIsOpen(false)
+    setIsOpen(false);
   };
   const handleDataFromChild = (data) => {
     setIsDropdownOpen(data);
   };
   const handleMouseEnterIT = () => {
     setIsOpen(true);
-    setIsDropdownOpen(false)
+    setIsDropdownOpen(false);
   };
   const handleMouseEnterMenu = () => {
     setIsOpen(false);
-    setIsDropdownOpen(false)
+    setIsDropdownOpen(false);
   };
   const handleDataFromChildIT = (data) => {
     setIsOpen(data);
   };
   return (
     <>
-      <header className={styles.header}>
+      <header className={styles.header} onMouseLeave={handleMouseEnterMenu}>
         <div className={styles.topbar}>
           <div className={styles.topbar1} id="TopHeader">
             <Link to="/">
               <img className={styles.logo21Icon} alt="" src="/logo@2x.png" />
             </Link>
-            <AiOutlineSearch className="position-absolute" size={33} style={{left:"59%"}}/>
+            <AiOutlineSearch
+              className="position-absolute"
+              size={33}
+              style={{ left: "59%" }}
+            />
             <input className={styles.search} type="text" placeholder="SEARCH" />
             <div className={styles.phonebutton}>
               <a className={styles.frameParent} href="tel:+91 8073162943">
@@ -102,7 +106,11 @@ const Header = () => {
             </div>
             <nav className={styles.navlinks}>
               <div className={styles.links}>
-                <Link to="/" className={styles.home} onMouseEnter={handleMouseEnterMenu}>
+                <Link
+                  to="/"
+                  className={styles.home}
+                  onMouseEnter={handleMouseEnterMenu}
+                >
                   Home
                 </Link>
 
@@ -115,8 +123,6 @@ const Header = () => {
                   >
                     Digital Marketing
                   </Link>
-
-               
                 </div>
 
                 <div className="dropdown" style={{ border: "none" }}>
@@ -128,10 +134,16 @@ const Header = () => {
                   >
                     IT SERVICES
                   </Link>
-                  
                 </div>
                 <div className={styles.analytics}>Analytics</div>
-                <div className={styles.whoWeAre} onMouseEnter={handleMouseEnterMenu}><Link to="/WhoWeAre" style={{color:"#666"}}>Who we are</Link></div>
+                <div
+                  className={styles.whoWeAre}
+                  onMouseEnter={handleMouseEnterMenu}
+                >
+                  <Link to="/WhoWeAre" style={{ color: "#666" }}>
+                    Who we are
+                  </Link>
+                </div>
               </div>
               <button className={styles.navlinksInner}>
                 <img className={styles.vectorIcon} alt="" src="/vector-1.svg" />
@@ -144,12 +156,14 @@ const Header = () => {
         </div>
         {isDropdownOpen && (
           <DropdownMenu
+    
             onMouseEnter={handleMouseEnter}
             sendDataToParent={handleDataFromChild}
           />
         )}
         {isOpen && (
           <DropdownMenuIT
+          
             onMouseEnter={handleMouseEnterIT}
             sendDataToParent={handleDataFromChildIT}
           />

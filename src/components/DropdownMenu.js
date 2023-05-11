@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const DropdownMenu = ({sendDataToParent}) => {
+const DropdownMenu = ({ sendDataToParent }) => {
   const handleClick = () => {
     const data = false;
     sendDataToParent(data);
   };
   return (
     <div
-      className="container-fluid"
-      style={{ backgroundColor: "#E9EEF4", zIndex: "1" }}
+      className="container-fluid position-absolute"
+      style={{ backgroundColor: "#E9EEF4", zIndex: "1", top: "20%" }}
     >
       <div className="row py-4 px-4" style={{ gap: "2rem" }}>
         <div className="col text-white" style={{ backgroundColor: "#0076A2" }}>
@@ -75,47 +75,32 @@ const DropdownMenu = ({sendDataToParent}) => {
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Enquiry/ Lead Generation
+                SMM
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Cross Selling/Up selling
+                SEO
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Reactivation
+                Email
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Remarketing
+                PPC
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Engagment
+                SMO
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Branding
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Redownloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                downloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Ecommerce Service
+                SEM
               </Link>
             </li>
           </ul>
@@ -129,47 +114,42 @@ const DropdownMenu = ({sendDataToParent}) => {
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Enquiry/ Lead Generation
+                Logo Desing
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Cross Selling/Up selling
+                Branding Materials
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Reactivation
+                Brochure
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Remarketing
+                Company Profiles
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Engagment
+                Catalogs
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Branding
+                Video Editing Photoshoot t/Video Graphics Packaging
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Redownloading
+                Photoshoot t/Video Graphics
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                downloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Ecommerce Service
+                Packaging
               </Link>
             </li>
           </ul>
@@ -183,47 +163,32 @@ const DropdownMenu = ({sendDataToParent}) => {
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Enquiry/ Lead Generation
+                Explainer videos
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Cross Selling/Up selling
+                Product Listings
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Reactivation
+                Ecommerce seo
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Remarketing
+                Ecommerce PPC
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Engagment
+                Social Media Shops
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Branding
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Redownloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                downloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Ecommerce Service
+                Google Shop
               </Link>
             </li>
           </ul>
@@ -237,47 +202,27 @@ const DropdownMenu = ({sendDataToParent}) => {
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Enquiry/ Lead Generation
+                Website
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Cross Selling/Up selling
+                Copywriting
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Reactivation
+                Proofreading
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Remarketing
+                Blogs/Articles
               </Link>
             </li>
             <li>
               <Link to="" onClick={handleClick} className="text-white">
-                Engagment
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Branding
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Redownloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                downloading
-              </Link>
-            </li>
-            <li>
-              <Link to="" onClick={handleClick} className="text-white">
-                Ecommerce Service
+                Content Curation
               </Link>
             </li>
           </ul>
