@@ -108,7 +108,7 @@ const Header = () => {
               <div className={styles.links}>
                 <Link
                   to="/"
-                  className={styles.home}
+                  className={styles.analytics}
                   onMouseEnter={handleMouseEnterMenu}
                 >
                   Home
@@ -127,7 +127,7 @@ const Header = () => {
 
                 <div className="dropdown" style={{ border: "none" }}>
                   <Link
-                    // onClick={toggleDropdown}
+                    to="/ITMain"
                     onMouseEnter={handleMouseEnterIT}
                     className={styles.digitalMarketing}
                     style={{ border: "none" }}
@@ -156,14 +156,12 @@ const Header = () => {
         </div>
         {isDropdownOpen && (
           <DropdownMenu
-    
             onMouseEnter={handleMouseEnter}
             sendDataToParent={handleDataFromChild}
           />
         )}
         {isOpen && (
           <DropdownMenuIT
-          
             onMouseEnter={handleMouseEnterIT}
             sendDataToParent={handleDataFromChildIT}
           />

@@ -1,8 +1,11 @@
 import ContactUsBar from "./ContactUsBar";
 import styles from "./ItMain.module.css";
-import ItMainCounter from "./ItMainCounter";
+import Testimonial from "../components/Testimonial"
+import ExploreOurCaseStudies from "../components/ExploreOurCaseStudies";
+import FrameComponent from "../components/FrameComponent"
 const ItMain = () => {
-  const RecentText = "Ready to take your business to new heights? Book a free consultation today and know more"
+  const RecentText =
+    "Ready to take your business to new heights? Book a free consultation today and know more";
   return (
     <div className={styles.itMain}>
       <div className={styles.frameParent}>
@@ -20,12 +23,7 @@ const ItMain = () => {
               <p className={styles.yearsOfAverage}>Team Experience</p>
             </div>
           </div>
-          <div className={styles.parent}>
-            <div className={styles.div}>100%</div>
-            <div className={styles.yearsOfAverageContainer}>
-              Prove Track Record
-            </div>
-          </div>
+          
           <div className={styles.parent}>
             <div className={styles.div}>200+</div>
             <div className={styles.yearsOfAverageContainer}>
@@ -36,190 +34,15 @@ const ItMain = () => {
             <div className={styles.technology}>114+</div>
             <div className={styles.clientTestimonials}>Client Testimonials</div>
           </div>
-        </div>
-      </div>
-      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
-      <div className={styles.exploreOtherServicesParent}>
-        <div className={styles.exploreOtherServices}>
-          Explore Other Services
-        </div>
-        <div className={styles.frameContainer}>
-          <div className={styles.frameParent1}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
-              <div className={styles.groupParent}>
-                <div className={styles.groupParent}>
-                  <div className={styles.groupChild} />
-                </div>
-                <img
-                  className={styles.groupItem}
-                  alt=""
-                  src="/frame-1081@2x.png"
-                />
-                <div
-                  className={styles.digitalMarketing}
-                >{`Digital Marketing `}</div>
-                <img
-                  className={styles.arrowRightIcon}
-                  alt=""
-                  src="/arrowright.svg"
-                />
-              </div>
-            </div>
-            <div className={styles.unlockThePotential}>
-              Unlock the potential of your brand and seize future growth
-              opportunities with our result-driven strategies. Our extensive
-              digital channels can help you reach a wider audience, boost brand
-              visibility, and drive growth.
-            </div>
-            <div className={styles.frameWrapper}>
-              <div className={styles.frameParent2}>
-                <div className={styles.servicesParent}>
-                  <div className={styles.frameParent3}>
-                    <img
-                      className={styles.frameItem}
-                      alt=""
-                      src="/frame-1128@2x.png"
-                    />
-                    <div className={styles.intent}>Intent</div>
-                  </div>
-                </div>
-                <div className={styles.servicesParent}>
-                  <div className={styles.services}>Services</div>
-                  <img
-                    className={styles.frameInner}
-                    alt=""
-                    src="/frame-1130@2x.png"
-                  />
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.eCommerce}>E-commerce</div>
-                    <img
-                      className={styles.frameIcon}
-                      alt=""
-                      src="/frame-1131@2x.png"
-                    />
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.content}>Content</div>
-                    <img
-                      className={styles.frameChild1}
-                      alt=""
-                      src="/frame-1132@2x.png"
-                    />
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div
-                      className={styles.graphicsDesigns}
-                    >{`Graphics & Designs`}</div>
-                    <img
-                      className={styles.frameChild2}
-                      alt=""
-                      src="/frame-1133@2x.png"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.rectangleGroup}>
-            <div className={styles.rectangleDiv} />
-            <div className={styles.unlockThePowerOfDataEleParent}>
-              <div className={styles.unlockThePower}>
-                Unlock the power of data - elevate your performance with our
-                Analytics services 
-              </div>
-              <div className={styles.groupContainer}>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent4}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1139@2x.png"
-                        />
-                        <div
-                          className={styles.intent}
-                        >{`Analytics & Insights`}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent5}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1140@2x.png"
-                        />
-                        <div className={styles.intent}>
-                          Customized Dashboards
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent6}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1141@2x.png"
-                        />
-                        <div
-                          className={styles.intent}
-                        >{`Social Media Analytics `}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent7}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1142@2x.png"
-                        />
-                        <div className={styles.intent}>Mobile Analytics</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.rectangleContainer}>
-              <div className={styles.groupInner} />
-              <div className={styles.businessAnalyticsParent}>
-                <div className={styles.businessAnalytics}>
-                  Business Analytics
-                </div>
-                <img
-                  className={styles.arrowRightIcon1}
-                  alt=""
-                  src="/arrowright1.svg"
-                />
-                <img
-                  className={styles.groupChild1}
-                  alt=""
-                  src="/frame-1094@2x.png"
-                />
-              </div>
+          <div className={styles.parent}>
+            <div className={styles.div}>100%</div>
+            <div className={styles.yearsOfAverageContainer}>
+              Prove Track <br></br>Record
             </div>
           </div>
         </div>
       </div>
+      <ContactUsBar content={RecentText} btnTxt="Contact Us" />
       {/* <ItMainCounter/> */}
       <div className={styles.frameParent8}>
         <div className={styles.howToPickYourItFirmParent}>
@@ -334,6 +157,7 @@ const ItMain = () => {
           />
         </div>
       </div>
+
       <div className={styles.digite}>
         <div className={styles.frameParent10}>
           <div className={styles.frameParent11}>
@@ -346,7 +170,7 @@ const ItMain = () => {
             <div className={styles.logo1Parent}>
               <b className={styles.b1}>172+</b>
               <div className={styles.mobileApplicationsDeveloped}>
-                Mobile Applications Developed
+                Mobile Applications<br/> Developed
               </div>
             </div>
             <div className={styles.logo1Parent}>
@@ -647,7 +471,9 @@ const ItMain = () => {
           </div>
         </div>
       </div>
-      <div className={styles.discoverWhy100ClientsRaveWrapper}>
+
+      <Testimonial/>
+      {/* <div className={styles.discoverWhy100ClientsRaveWrapper}>
         <div className={styles.discoverWhy100Container}>
           <span>{`Discover why `}</span>
           <b className={styles.clients}>100+ Clients</b>
@@ -751,7 +577,7 @@ const ItMain = () => {
             <img className={styles.groupIcon} alt="" src="/group-3591.svg" />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={styles.frameParent23}>
         <div className={styles.kracParent}>
           <div className={styles.exploreOtherServices}>KRAC</div>
@@ -764,44 +590,10 @@ const ItMain = () => {
           <img
             className={styles.iconSymbole1}
             alt=""
-            src="/icon-symbole-1@2x.png"
+            src="/KRACimg.png"
           />
-          <div className={styles.oneStopSolution}>
-            <b>K</b>
-            <span>ICK-OFF</span>
-          </div>
-          <img className={styles.groupIcon5} alt="" src="/group3.svg" />
-          <img
-            className={styles.iconSymbole1}
-            alt=""
-            src="/icon-symbole-2@2x.png"
-          />
-          <div className={styles.roadmap}>
-            <b>R</b>
-            <span>OADMAP </span>
-          </div>
-          <img className={styles.groupIcon5} alt="" src="/group4.svg" />
-          <img
-            className={styles.iconSymbole1}
-            alt=""
-            src="/icon-symbole-4@2x.png"
-          />
-          <div className={styles.oneStopSolution}>
-            <b>A</b>
-            <span>CTION </span>
-          </div>
-          <img className={styles.groupIcon5} alt="" src="/group5.svg" />
-          <img
-            className={styles.iconSymbole1}
-            alt=""
-            src="/icon-symbole-6@2x.png"
-          />
-          <div className={styles.oneStopSolution}>
-            <b>C</b>
-            <span>LOSURE </span>
-          </div>
-          <img className={styles.groupIcon5} alt="" src="/group6.svg" />
         </div>
+          
         <div className={styles.experienceASoftwareDevelopmParent}>
           <div className={styles.experienceASoftwareContainer}>
             <span>{`Experience a software development cycle that really kicks it up a notch with `}</span>
@@ -820,7 +612,7 @@ const ItMain = () => {
             stress-free for any business. 
           </div>
         </div>
-        <div className={styles.frameParent24}>
+        {/* <div className={styles.frameParent24}>
           <div className={styles.frameParent25}>
             <div className={styles.groupParent20}>
               <div className={styles.lineParent3}>
@@ -939,8 +731,14 @@ const ItMain = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <FrameComponent/>
       </div>
+      <ExploreOurCaseStudies />
+      <ContactUsBar
+        content="Wondering if you can get the right expert? Book a free consultation today and become part of a success story!"
+        btnTxt="Contact Us"
+      />
       <div className={styles.frameParent27}>
         <div className={styles.howToPickYourItFirmParent}>
           <div className={styles.intent}>How to pick your IT firm? </div>
@@ -1024,7 +822,7 @@ const ItMain = () => {
             <span
               className={styles.weveDrivenOver}
             >{`We’ve driven over `}</span>
-            <b className={styles.b5}>548,623</b>
+            <b className={styles.b5}>548,623 <br/></b>
             <span className={styles.weveDrivenOver}> Leads for clients </span>
           </div>
           <div className={styles.frameParent37}>
@@ -1155,7 +953,7 @@ const ItMain = () => {
                 <div className={styles.groupChild28} />
               </div>
               <div className={styles.vectorParent}>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+                <img className={styles.vectorIcon} alt="" src="/Realstates.png" />
                 <div className={styles.automotive}>Real Estate</div>
               </div>
             </div>
@@ -1181,6 +979,187 @@ const ItMain = () => {
                   src="/group-568.svg"
                 />
                 <div className={styles.travel}>Travel</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.exploreOtherServicesParent}>
+        <div className={styles.exploreOtherServices}>
+          Explore Other Services
+        </div>
+        <div className={styles.frameContainer}>
+          <div className={styles.frameParent1}>
+            <div className={styles.rectangleParent}>
+              <div className={styles.frameChild} />
+              <div className={styles.groupParent}>
+                <div className={styles.groupParent}>
+                  <div className={styles.groupChild} />
+                </div>
+                <img
+                  className={styles.groupItem}
+                  alt=""
+                  src="/frame-1081@2x.png"
+                />
+                <div
+                  className={styles.digitalMarketing}
+                >{`Digital Marketing `}</div>
+                <img
+                  className={styles.arrowRightIcon}
+                  alt=""
+                  src="/arrowright.svg"
+                />
+              </div>
+            </div>
+            <div className={styles.unlockThePotential}>
+              Unlock the potential of your brand and seize future growth
+              opportunities with our result-driven strategies. Our extensive
+              digital channels can help you reach a wider audience, boost brand
+              visibility, and drive growth.
+            </div>
+            <div className={styles.frameWrapper}>
+              <div className={styles.frameParent2}>
+                <div className={styles.servicesParent}>
+                  <div className={styles.frameParent3}>
+                    <img
+                      className={styles.frameItem}
+                      alt=""
+                      src="/frame-1128@2x.png"
+                    />
+                    <div className={styles.intent}>Intent</div>
+                  </div>
+                </div>
+                <div className={styles.servicesParent}>
+                  <div className={styles.services}>Services</div>
+                  <img
+                    className={styles.frameInner}
+                    alt=""
+                    src="/frame-1130@2x.png"
+                  />
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.eCommerceParent}>
+                    <div className={styles.eCommerce}>E-commerce</div>
+                    <img
+                      className={styles.frameIcon}
+                      alt=""
+                      src="/frame-1131@2x.png"
+                    />
+                  </div>
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.eCommerceParent}>
+                    <div className={styles.content}>Content</div>
+                    <img
+                      className={styles.frameChild1}
+                      alt=""
+                      src="/frame-1132@2x.png"
+                    />
+                  </div>
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.eCommerceParent}>
+                    <div
+                      className={styles.graphicsDesigns}
+                    >{`Graphics & Designs`}</div>
+                    <img
+                      className={styles.frameChild2}
+                      alt=""
+                      src="/frame-1133@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.rectangleGroup}>
+            <div className={styles.rectangleDiv} />
+            <div className={styles.unlockThePowerOfDataEleParent}>
+              <div className={styles.unlockThePower}>
+                Unlock the power of data - elevate your performance with our
+                Analytics services 
+              </div>
+              <div className={styles.groupContainer}>
+                <div className={styles.groupDiv}>
+                  <div className={styles.frameWrapper4}>
+                    <div className={styles.eCommerceParent}>
+                      <div className={styles.frameParent4}>
+                        <img
+                          className={styles.frameChild3}
+                          alt=""
+                          src="/frame-1139@2x.png"
+                        />
+                        <div
+                          className={styles.intent}
+                        >{`Analytics & Insights`}</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.frameWrapper4}>
+                    <div className={styles.eCommerceParent}>
+                      <div className={styles.frameParent5}>
+                        <img
+                          className={styles.frameChild3}
+                          alt=""
+                          src="/frame-1140@2x.png"
+                        />
+                        <div className={styles.intent}>
+                          Customized Dashboards
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.frameWrapper4}>
+                    <div className={styles.eCommerceParent}>
+                      <div className={styles.frameParent6}>
+                        <img
+                          className={styles.frameChild3}
+                          alt=""
+                          src="/frame-1141@2x.png"
+                        />
+                        <div
+                          className={styles.intent}
+                        >{`Social Media Analytics `}</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.groupDiv}>
+                  <div className={styles.frameWrapper4}>
+                    <div className={styles.eCommerceParent}>
+                      <div className={styles.frameParent7}>
+                        <img
+                          className={styles.frameChild3}
+                          alt=""
+                          src="/frame-1142@2x.png"
+                        />
+                        <div className={styles.intent}>Mobile Analytics</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.rectangleContainer}>
+              <div className={styles.groupInner} />
+              <div className={styles.businessAnalyticsParent}>
+                <div className={styles.businessAnalytics}>
+                  Business Analytics
+                </div>
+                <img
+                  className={styles.arrowRightIcon1}
+                  alt=""
+                  src="/arrowright1.svg"
+                />
+                <img
+                  className={styles.groupChild1}
+                  alt=""
+                  src="/frame-1094@2x.png"
+                />
               </div>
             </div>
           </div>

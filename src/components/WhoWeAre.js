@@ -1,17 +1,16 @@
 import styles from "./WhoWeAre.module.css";
+import WhoWeAreImg from "../assets/who we are img.png";
 const WhoWeAre = () => {
   return (
     <div className={styles.whoWeAre}>
       <div className={styles.rectangleParent}>
-        <div className="parent">
-          <img
-            className={styles.frameChild}
-            alt=""
-            src="/rectangle-4050@2x.png"
-          />
-          {/* <div className="overlay">
-            <div className="text">WHO WE ARE</div>
-          </div> */}
+        <div
+          className="parent"
+          style={{ backgroundImage: `url(${WhoWeAreImg})` }}
+        >
+          <img alt="" src={WhoWeAreImg} className="position-relative" />
+
+          <div className="text position-absolute text-white" style={{top:"175px", left:"38%",fontSize:"50px" ,fontWeight:"700"}}>Who We Are</div>
         </div>
         <div className={styles.frameWrapper}>
           <div className={styles.searchingForRelevant21stCeParent}>
@@ -24,7 +23,7 @@ const WhoWeAre = () => {
               </p>
             </div>
             <div className={styles.meetOurExpertsContainer}>
-              <p className={styles.searchingForRelevant21stCe} >
+              <p className={styles.searchingForRelevant21stCe}>
                 Meet our experts, who are geared towards guiding you in
                 attaining your organizational objectives. Delivering smart,
                 useful, and efficient solutions that benefit your company is our
@@ -153,7 +152,13 @@ const WhoWeAre = () => {
                       </div>
                     </div>
                     <div className={styles.reliabilityIsOneContainer}>
-                      <p className={styles.searchingForRelevant21stCe + " position-absolute"} style={{top:"30px"}}>
+                      <p
+                        className={
+                          styles.searchingForRelevant21stCe +
+                          " position-absolute"
+                        }
+                        style={{ top: "30px" }}
+                      >
                         Reliability is one of the fundamental tenets of our
                         client relationships. The results we speak of have
                         earned the trust of our clients repeatedly. We strive to
@@ -185,7 +190,13 @@ const WhoWeAre = () => {
                         </div>
                       </div>
                       <div className={styles.oneOfOurContainer}>
-                        <p className={styles.searchingForRelevant21stCe+ " position-absolute"} style={{top:"30px"}}>
+                        <p
+                          className={
+                            styles.searchingForRelevant21stCe +
+                            " position-absolute"
+                          }
+                          style={{ top: "30px" }}
+                        >
                           One of our primary goals is to achieve full customer
                           satisfaction by delivering best-in-class solutions. We
                           maintain our originality by staying ahead of the curve
@@ -211,9 +222,9 @@ const WhoWeAre = () => {
           <img
             className={styles.groupChild}
             alt=""
-            src="/rectangle-4060@2x.png"
+            src="/TeamImg.jpeg"
           />
-          <div className="overlay"/>
+          <div className="overlay" />
           <div className={styles.groupItem} />
         </div>
       </div>
@@ -665,7 +676,6 @@ const WhoWeAre = () => {
           </button>
         </div>
       </div>
-      
     </div>
   );
 };

@@ -1,7 +1,7 @@
 .frameChild {
   position: relative;
   border-radius: var(--br-xl) var(--br-xl) 0 0;
-  
+  background:linear-gradient(0deg, rgba(36, 67, 189, 0.3), rgba(20, 9, 16, 0.3));
   width: 77.5rem;
   height: 25rem;
   object-fit: cover;
@@ -18,6 +18,7 @@
   color: var(--color-black);
 }
 .searchingForRelevant21stCe {
+  margin-top: 1rem ;
   /* position: absolute;
   top: 30px; */
   margin: 0;
@@ -26,8 +27,9 @@
   align-self: stretch;
   position: relative;
   display: inline-block;
-  height: 1.94rem;
+  /* height: 1.94rem; */
   flex-shrink: 0;
+  margin-top: 1rem;
 }
 .meetOurExpertsContainer {
   position: relative;
@@ -739,6 +741,7 @@
 .groupParent13 {
   width: 66.25rem;
   display: flex;
+  gap: 2rem;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
@@ -759,6 +762,7 @@
 .exploreOtherServices {
   align-self: stretch;
   position: relative;
+  margin-top: 4rem;
   font-weight: 600;
 }
 .groupChild10 {
@@ -1447,6 +1451,7 @@
   /* box-sizing: border-box; */
   /* width: 100%; */
   overflow: hidden;
+  margin: 4rem 0;
   /* padding: var(--padding-58xl) 4.5rem; */
   text-align: center;
   font-size: var(--font-size-31xl);

@@ -1,7 +1,7 @@
 import styles from "./InterestedDevelopment.module.css";
 const InterestedDevelopment = () => {
   return (
-    <div className="container my-5">
+    <div className="container-fluid " style={{padding:"4rem  6rem 0rem 6rem"}}>
       <div className="row">
         <div className={styles.frameParent}>
           <div className={styles.interestedInSoftwareDevelopParent}>
@@ -34,7 +34,7 @@ const InterestedDevelopment = () => {
                       className={styles.weHaveDeveloped}
                     >{`We have developed more than `}</span>
                     <b className={styles.eCommercePortals}>
-                      31 e-commerce portals.
+                      31 e-commerce <br/> portals.
                     </b>
                   </div>
                 </div>

@@ -1,10 +1,12 @@
 import React from "react";
-import heroBg from "../assets/ITmainBg.jpg";
+import heroBg from "../assets/newitMainbg.jpg";
 
 import ItMain from "../components/ItMain";
 import Hero from "../components/Hero";
 import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
+import ContactUsForm from "../components/ContactUsForm";
+import TrustedByBrands from "../components/TrustedByBrands";
 
 const ITMain = () => {
   const HeroTitel =
@@ -21,6 +23,8 @@ const ITMain = () => {
       <RecentResult />
       <Breadcrumbs />
       <ItMain />
+      <ContactUsForm/>
+      <TrustedByBrands/>
     </>
   );
 };

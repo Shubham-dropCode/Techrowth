@@ -28,8 +28,8 @@ const Ecommerce = () => {
       <ServicesWeServeEcommerce />
       <ToolsWeUseEcommerce />
       {/* <ContactForm1 /> */}
-      <ContactUsForm/>
       <ContactUsBar content={RecentText} btnTxt="Contact Us" />
+      <ContactUsForm/>
 
       <TrustedByBrands />
     </>

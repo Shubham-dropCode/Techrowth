@@ -15,7 +15,7 @@ const Hero = ({ title, content, MyBackgroundImage ,sendDataToParent}) => {
           style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed",  backgroundPosition: "center" }}
         >
           <div className={styles.empoweringYourOnlineContainer}>
-            <div className="col-6">
+            <div className="col-8">
               <p className={styles.empoweringYour + "my-4"}><b>{title}</b></p>
               <div className={styles.joinTheTechrowthContainer}>
                 <p className={styles.empoweringYour + "my-3"}>

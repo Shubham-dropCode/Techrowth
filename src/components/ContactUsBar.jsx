@@ -13,7 +13,7 @@ const ContactUsBar = ({content , btnTxt}) => {
         }}
       >
         <div className="col-8 my-1 a p-0">
-          <p className="text-white" style={{ fontSize: "18px" }}>
+          <p className="text-white text-left" style={{ fontSize: "18px" }}>
             {content}
           </p>
         </div>
@@ -21,7 +21,7 @@ const ContactUsBar = ({content , btnTxt}) => {
           <button
             type="button"
             className="btn btn-light w-75"
-            style={{ borderRadius: "15px" }}
+            style={{ borderRadius: "15px", color:"#0076A2" }}
           ><b>{btnTxt}</b></button>
         </div>
       </div>

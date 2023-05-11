@@ -18,7 +18,7 @@ const Content = () => {
       const HeroContent =
         "Bringing your brand voice out to the public is as important as making flawless products. Let us help you with your content creation on all fronts.        ";
       const RecentText =
-        "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
+        "A Content Curation To Bring Your Ideas Out & Establish A Brand Voice with Authority! Consult our Experts now!";
   return (
     <>
      <Hero
@@ -26,10 +26,10 @@ const Content = () => {
         content={HeroContent}
         MyBackgroundImage={heroBg}
       />
-      <RecentResult />
+      <RecentResult/>
       <Breadcrumbs/>
       <ToolsWeUseContent/>
-      <ContactUsBar/>
+      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
       <ContactUsForm />
 
       <TrustedByBrands />

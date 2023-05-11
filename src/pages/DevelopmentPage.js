@@ -5,10 +5,12 @@ import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import InterestedDevelopement from "../components/InterestedDevelopment";
 import ToolsSlider from "../components/ToolsSlider";
-import ContactForm1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
+import ContactUsForm from "../components/ContactUsForm"
+import ContactUsBar from "../components/ContactUsBar";
 
 const DevelopmentPage = () => {
+  const RecentText = "Let us help your Potential Flourish Access the power of our Result-Driven Development Cycle for Your Business’s Growth!"
   return (
     <>
       <div className={styles.hero}>
@@ -39,7 +41,8 @@ const DevelopmentPage = () => {
       <Breadcrumbs />
       <InterestedDevelopement />
       <ToolsSlider />
-      <ContactForm1 />
+      <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
+      <ContactUsForm />
 
       <TrustedByBrands />
     </>

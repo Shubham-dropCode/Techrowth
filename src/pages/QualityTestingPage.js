@@ -7,11 +7,16 @@ import automaticTesting from "../assets/testing.png";
 import ManualTesting from "../assets/testing (1).png";
 import ContactForm1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
+import RecentResult from "../components/RecentResult";
+import Breadcrumbs from "../components/Breadcrumbs";
+import ContactUsForm from "../components/ContactUsForm";
 const QualityTestingPage = () => {
   const HeroTitel =
     "A service focused on transforming software from good to great!";
   const HeroContent =
     "By using advanced testing techniques we ensure that your software has a strong foundation and a user-friendly interface that won't crumble over time.";
+  const RecentText =
+    "Let us take your business to the next level with our expert IT services";
   return (
     <>
       <Hero
@@ -19,7 +24,8 @@ const QualityTestingPage = () => {
         content={HeroContent}
         MyBackgroundImage={heroBg}
       />
-
+      <RecentResult />
+      <Breadcrumbs />
       <div className="container my-5">
         <div className="row">
           <div className={styles.interestedInSoftwareDevelopParent}>
@@ -27,7 +33,7 @@ const QualityTestingPage = () => {
               className={styles.interestedInSoftware}
               style={{ fontSize: "36px", color: "#666" }}
             >
-              Interested in Software Development ?
+              Interested in Quality Testing ?{" "}
             </b>
             <div
               className={styles.weOfferThe}
@@ -45,21 +51,28 @@ const QualityTestingPage = () => {
                   src="/group-816.svg"
                 />
                 <div className={styles.eCommerceParent}>
-                  <div className={styles.eCommerce}>E-commerce</div>
-                  <div className={styles.ourTeamWorksContainer}>
+                  <div className={styles.eCommerce} style={{color:"#666"}}>
+                    Database & Platform Testing
+                  </div>
+                  {/* <div className={styles.ourTeamWorksContainer}>
                     <p className={styles.ourTeamWorks}>
                       Our team works closely with you to understand your
                       business needs and deliver customized e-commerce solutions
                       that drive sales and increase customer loyalty.
                     </p>
+                  </div> */}
+                  <div className={styles.weHaveDevelopedContainer}>
+                    <span className={styles.weHaveDeveloped}>
+                      Increased data security and reliability with
+                    </span>
+                    <b className={styles.eCommercePortals}>95% uptime</b>
                   </div>
                   <div className={styles.weHaveDevelopedContainer}>
-                    <span
-                      className={styles.weHaveDeveloped}
-                    >{`We have developed more than `}</span>
-                    <b className={styles.eCommercePortals}>
-                      31 e-commerce portals.
-                    </b>
+                    <span className={styles.weHaveDeveloped}>
+                      Reduced query response time by
+                      <b className={styles.eCommercePortals}> 20% </b>
+                      resulting in faster transaction processing
+                    </span>
                   </div>
                 </div>
               </div>
@@ -70,28 +83,29 @@ const QualityTestingPage = () => {
                   src="/group-819.svg"
                 />
                 <div className={styles.mobileApplicationsParent}>
-                  <div className={styles.mobileApplications}>
-                    Mobile Applications
+                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                    Usability Testing
                   </div>
-                  <div className={styles.weSpecializeInContainer}>
+                  {/* <div className={styles.weSpecializeInContainer}>
                     <p className={styles.ourTeamWorks}>
                       We specialize in delivering exceptional user experiences
                       for mobile users, helping you reach your target audience
                       and achieve your business goals.
                     </p>
-                  </div>
+                  </div> */}
                   <div className={styles.optimizedAndDevelopedContainer}>
-                    <span
-                      className={styles.weHaveDeveloped}
-                    >{`Optimized and developed more than `}</span>
-                    <b className={styles.eCommercePortals}>
-                      172 mobile applications.
-                    </b>
+                    <span className={styles.weHaveDeveloped}>
+                      Identified and resolved issues with navigation, layout,
+                      and design resulting in a{" "}
+                      <b className={styles.eCommercePortals}>25%</b> decrease in
+                      bounce rates Increased customer engagement and loyalty by
+                      up to <b className={styles.eCommercePortals}>20%</b>
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className={styles.frameContainer}>
+            <div className={styles.frameContainer }>
               <div className={styles.groupParent}>
                 <img
                   className={styles.frameChild}
@@ -99,22 +113,32 @@ const QualityTestingPage = () => {
                   src="/group-817.svg"
                 />
                 <div className={styles.corporateWebsiteParent}>
-                  <div className={styles.mobileApplications}>
-                    Corporate Website
+                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                    Functional & Security Testing{" "}
                   </div>
-                  <div className={styles.weSpecializeInContainer}>
+                  {/* <div className={styles.weSpecializeInContainer}>
                     <p className={styles.ourTeamWorks}>
                       Our team is dedicated to delivering user-friendly and
                       efficient applications that help you achieve your business
                       goals.
                     </p>
+                  </div> */}
+                  <div className={styles.ourTeamHasContainer}>
+                    <p className={styles.ourTeamWorks}>
+                      <span className={styles.weHaveDeveloped}>
+                        Increased customer trust in the company's products,
+                        resulting in a{" "}
+                      </span>
+                      <b className={styles.websites}>15% increase in sales</b>
+                      <span className={styles.platforms}>.</span>
+                    </p>
                   </div>
                   <div className={styles.ourTeamHasContainer}>
                     <p className={styles.ourTeamWorks}>
-                      <span
-                        className={styles.weHaveDeveloped}
-                      >{`Our team has reworked and enhanced over `}</span>
-                      <b className={styles.websites}>34 websites</b>
+                      <span className={styles.weHaveDeveloped}>
+                        Reduced the risk of data breaches and
+                      </span>
+                      <b className={styles.websites}> cyber attacks by 50%</b>
                       <span className={styles.platforms}>.</span>
                     </p>
                   </div>
@@ -127,23 +151,26 @@ const QualityTestingPage = () => {
                   src="/group-818.svg"
                 />
                 <div className={styles.webApplicationsParent}>
-                  <div className={styles.mobileApplications}>
-                    Web Applications
+                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                    Compatibility Testing{" "}
                   </div>
-                  <div className={styles.weSpecializeInContainer}>
+                  {/* <div className={styles.weSpecializeInContainer}>
                     <p className={styles.ourTeamWorks}>
                       Our expert team ensures that your website is up-to-date
                       and running smoothly, so you can focus on growing your
                       business.
                     </p>
-                  </div>
+                  </div> */}
                   <div className={styles.weHaveDevelopedContainer}>
                     <p className={styles.ourTeamWorks}>
-                      <span
-                        className={styles.weHaveDeveloped}
-                      >{`Increased productivity and generated over `}</span>
+                      <span className={styles.weHaveDeveloped}>
+                        Ensured compatibility across various platforms, devices,
+                        and operating systems resulting in a
+                        <b className={styles.websites}> 40%</b> increase in
+                        customer satisfaction 
+                      </span>
                       <b className={styles.websites}>
-                        $144 million in revenue.
+                        {" "} $144 million in revenue.
                       </b>
                     </p>
                   </div>
@@ -163,15 +190,15 @@ const QualityTestingPage = () => {
         >
           <div
             className="col-3 py-3 d-flex align-items-center justify-content-center"
-            style={{ backgroundColor: "#0076A2", borderRadius: "20px" }}
+            style={{ backgroundColor: "#0076A2", borderRadius: "50px" }}
           >
             <img src={automaticTesting} width={35} />
             <div className="pl-4 text-white">Automatic Testing</div>
           </div>
 
           <div
-            className="col-3 py-4 d-flex align-items-center justify-content-center"
-            style={{ backgroundColor: "#E9EEF4", borderRadius: "20px" }}
+            className="col-3 py-3 d-flex align-items-center justify-content-center"
+            style={{ backgroundColor: "#E9EEF4", borderRadius: "50px" }}
           >
             <img src={ManualTesting} width={35} />
             <div className="pl-4" style={{ color: "#0076A2" }}>
@@ -181,8 +208,8 @@ const QualityTestingPage = () => {
         </div>
       </div>
 
-      <ContactUsBar />
-      <ContactForm1 />
+      <ContactUsBar content={RecentText} btnTxt="Contact Us" />
+      <ContactUsForm />
       <TrustedByBrands />
     </>
   );

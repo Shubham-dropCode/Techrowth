@@ -437,7 +437,8 @@
   color: var(--blue);
 }
 .exploreOtherServicesParent {
-  height: 49.5rem;
+  /* height: 49.5rem; */
+  margin: 4rem 0;
   flex-direction: column;
   gap: var(--gap-41xl);
   font-size: var(--font-size-16xl);
@@ -552,34 +553,34 @@
 .marketingBudgetsSpent {
   position: relative;
   display: inline-block;
-  width: 19.75rem;
+  /* width: 19.75rem; */
 }
 .marketingBudgetsSpent {
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   font-weight: 500;
-  width: 20.88rem;
+  /* width: 20.88rem; */
 }
 .b1,
 .mobileApplicationsDeveloped {
   position: relative;
   display: inline-block;
-  width: 8.44rem;
+  /* width: 8.44rem; */
 }
 .mobileApplicationsDeveloped {
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   font-weight: 500;
-  width: 19.13rem;
+  /* width: 19.13rem; */
 }
 .b2,
 .revenueGenerated {
   position: relative;
   display: inline-block;
-  width: 24.13rem;
+  /* width: 24.13rem; */
 }
 .revenueGenerated {
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   font-weight: 500;
-  width: 22.63rem;
+  /* width: 22.63rem; */
 }
 .frameParent11 {
   align-self: stretch;
@@ -603,7 +604,7 @@
 .standAloneSoftwares {
   top: 4.44rem;
   left: 0;
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   font-weight: 500;
   width: 18.63rem;
 }
@@ -627,7 +628,7 @@
 .satisfiedClients {
   top: 4.44rem;
   left: 0;
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   font-weight: 500;
   width: 13.69rem;
 }
@@ -663,6 +664,7 @@
 }
 .digite {
   justify-content: center;
+  margin: 4rem 0;
   color: var(--blue);
 }
 .accelerateYourGrowth {
@@ -719,7 +721,7 @@
   background-color: var(--blue);
   display: flex;
   flex-direction: row;
-  padding: var(--padding-smi) var(--padding-7xl);
+  padding: 1rem 1.4rem;
   align-items: center;
   justify-content: center;
   text-align: left;
@@ -789,7 +791,8 @@
 }
 .groupParent3 {
   align-self: stretch;
-  height: 6.13rem;
+  /* height: 6.13rem; */
+  margin: 4rem 0 ;
   flex-direction: row;
   gap: var(--gap-mini);
 }
@@ -852,6 +855,7 @@
   align-self: stretch;
   flex: 1;
   display: flex;
+  padding-left: 1rem;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -988,6 +992,7 @@
 }
 .ctaWrapper {
   position: relative;
+  margin-top: 4rem;
   border-radius: var(--br-11xl);
   background-color: var(--white);
   overflow: hidden;
@@ -1311,7 +1316,9 @@
   gap: var(--gap-xl);
 }
 .frameParent16 {
-  height: 46.25rem;
+  margin: 4rem 0;
+  gap: 2rem;
+  /* height: 46.25rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1518,8 +1525,8 @@
 }
 .iconSymbole1 {
   position: relative;
-  width: 4.85rem;
-  height: 12.36rem;
+  /* width: 4.85rem;
+  height: 12.36rem; */
   object-fit: cover;
 }
 .groupIcon5 {
@@ -2047,6 +2054,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
   align-items: center;
   justify-content: flex-start;
   color: var(--white);

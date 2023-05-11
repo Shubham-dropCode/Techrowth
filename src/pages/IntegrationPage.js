@@ -8,6 +8,7 @@ import ContactForm1 from "../components/ContactForm1";
 import TrustedByBrands from "../components/TrustedByBrands";
 import Breadcrumbs from "../components/Breadcrumbs";
 import RecentResult from "../components/RecentResult";
+import ContactUsForm from "../components/ContactUsForm";
 
 const IntegrationPage = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const IntegrationPage = () => {
   const HeroContent =
     "Integration is becoming a rising phoenix by turning the ashes of all your past interactions into a springboard for your rebirth in sales. With the power of technology, you can unlock limitless possibilities for your business.";
   const RecentText =
-    "Interested in Getting In ? Discover how Techrowth can help grow your Business.";
+    "Explore a portfolio of successful IT projects and see how we can help your business grow.";
   return (
     <>
       <Hero
@@ -31,7 +32,7 @@ const IntegrationPage = () => {
         <div className={styles.frameGroup}>
           <div className={styles.parent}>
             <div className={styles.div} style={{ fontSize: "36px" }}>
-              7+
+              233
             </div>
             <div className={styles.yearsOfAverageContainer}>
               <p className={styles.yearsOfAverage}>
@@ -77,8 +78,8 @@ const IntegrationPage = () => {
         </div>
       </div>
       <ToolsSlider />
-      <ContactUsBar />
-      <ContactForm1 />
+      <ContactUsBar content={RecentText} btnTxt="Contact Us" />
+      <ContactUsForm />
       <TrustedByBrands />
     </>
   );

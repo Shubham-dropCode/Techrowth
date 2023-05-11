@@ -6,11 +6,12 @@ import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import InterestedDevelopement from "../components/InterestedDevelopment";
 import ToolsSlider from "../components/ToolsSlider";
-import ContactForm1 from "../components/ContactForm1";
+// import ContactForm1 from "../components/ContactForm1";
+import ContactUsForm from "../components/ContactUsForm";
 import styles from "../components/InterestedDevelopment.module.css";
-
 import TrustedByBrands from "../components/TrustedByBrands";
 import Hero from "../components/Hero";
+import ContactUsBar from "../components/ContactUsBar";
 
 const UiUxInterface = () => {
   useEffect(() => {
@@ -29,17 +30,18 @@ const UiUxInterface = () => {
         MyBackgroundImage={heroBg}
       />
 
-      {/* <InterestedDevelopement /> */}
+      <RecentResult />
+      <Breadcrumbs />
       <div className="container my-5">
         <div className="row">
           <div className={styles.frameParent}>
             <div className={styles.interestedInSoftwareDevelopParent}>
               <b className={styles.interestedInSoftware}>
-                Interested in Software Development ?
+                Interested in UI/UX Design ?
               </b>
-              <div
-                className={styles.weOfferThe}
-              >{`We offer the following Software Solutions `}</div>
+              <div className={styles.weOfferThe}>
+                We offer the following Software Solutions
+              </div>
             </div>
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
@@ -47,25 +49,22 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-816.svg"
+                    src="/frame (1).png"
                   />
                   <div className={styles.eCommerceParent}>
-                    <div className={styles.eCommerce}>E-commerce</div>
+                    <div className={styles.eCommerce}>UI/UX Website Design</div>
                     <div className={styles.ourTeamWorksContainer}>
                       <p className={styles.ourTeamWorks}>
-                        Our team works closely with you to understand your
-                        business needs and deliver customized e-commerce
-                        solutions that drive sales and increase customer
-                        loyalty.
+                        We understand that a well-designed website can
+                        significantly improve customer experience and drive
+                        business growth.
                       </p>
                     </div>
                     <div className={styles.weHaveDevelopedContainer}>
-                      <span
-                        className={styles.weHaveDeveloped}
-                      >{`We have developed more than `}</span>
-                      <b className={styles.eCommercePortals}>
-                        31 e-commerce portals.
-                      </b>
+                      <span className={styles.weHaveDeveloped}>
+                        Our team has designed over
+                      </span>
+                      <b className={styles.eCommercePortals}> <br/>440 websites.</b>
                     </div>
                   </div>
                 </div>
@@ -73,26 +72,24 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-819.svg"
+                    src="/frame (6).png"
                   />
                   <div className={styles.mobileApplicationsParent}>
                     <div className={styles.mobileApplications}>
-                      Mobile Applications
+                      User Experience Testing
                     </div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                        We specialize in delivering exceptional user experiences
-                        for mobile users, helping you reach your target audience
-                        and achieve your business goals.
+                        Our team uses cutting-edge technology and best practices
+                        to identify and resolve user experience issues, helping
+                        companies save money.
                       </p>
                     </div>
                     <div className={styles.optimizedAndDevelopedContainer}>
-                      <span
-                        className={styles.weHaveDeveloped}
-                      >{`Optimized and developed more than `}</span>
-                      <b className={styles.eCommercePortals}>
-                        172 mobile applications.
-                      </b>
+                      <span className={styles.weHaveDeveloped}>
+                        Reduced overhead costs to companies by an average of{" "}
+                      </span>
+                      <b className={styles.eCommercePortals}>21%.</b>
                     </div>
                   </div>
                 </div>
@@ -100,24 +97,26 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-814.svg"
+                    src="/frame (5).png"
                   />
                   <div className={styles.cmsParent}>
-                    <div className={styles.mobileApplications}>CMS</div>
+                    <div className={styles.mobileApplications}>
+                      Conversion Rate Optimization
+                    </div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                        Our expert team ensures that your website is up-to-date
-                        and running smoothly, so you can focus on growing your
-                        business.
+                        Our team uses data-driven strategies to optimize
+                        websites and increase conversions, helping our clients
+                        achieve their business objectives.
                       </p>
                     </div>
                     <div className={styles.installedAndOptimizedContainer}>
                       <p className={styles.ourTeamWorks}>
-                        <span
-                          className={styles.weHaveDeveloped}
-                        >{`Installed and optimized over `}</span>
-                        <b className={styles.websites}>144 CMS</b>
-                        <span className={styles.platforms}> platforms.</span>
+                        <span className={styles.weHaveDeveloped}>
+                          Increased revenue for our clients by{" "}
+                        </span>
+                        <b className={styles.websites}>21%-34%.</b>
+                        {/* <span className={styles.platforms}> platforms.</span> */}
                       </p>
                     </div>
                   </div>
@@ -128,25 +127,23 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-817.svg"
+                    src="/frame (4).png"
                   />
                   <div className={styles.corporateWebsiteParent}>
                     <div className={styles.mobileApplications}>
-                      Corporate Website
+                      UI/UX Website Redesign
                     </div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                        Our team is dedicated to delivering user-friendly and
-                        efficient applications that help you achieve your
-                        business goals.
+                      Our team specializes in redesigning websites to provide a smoother customer interface that drives engagement and conversions.
                       </p>
                     </div>
                     <div className={styles.ourTeamHasContainer}>
                       <p className={styles.ourTeamWorks}>
                         <span
                           className={styles.weHaveDeveloped}
-                        >{`Our team has reworked and enhanced over `}</span>
-                        <b className={styles.websites}>34 websites</b>
+                        >Helped our clients increase revenue by </span>
+                        <b className={styles.websites}>7%-13%</b>
                         <span className={styles.platforms}>.</span>
                       </p>
                     </div>
@@ -156,26 +153,23 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-818.svg"
+                    src="/frame (3).png"
                   />
                   <div className={styles.webApplicationsParent}>
                     <div className={styles.mobileApplications}>
-                      Web Applications
-                    </div>
+                    Landing Pages & Funnels                    </div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                        Our expert team ensures that your website is up-to-date
-                        and running smoothly, so you can focus on growing your
-                        business.
+                      Our team creates landing pages and funnels that are optimized for conversions, helping our clients achieve their marketing goals.
                       </p>
                     </div>
                     <div className={styles.weHaveDevelopedContainer}>
                       <p className={styles.ourTeamWorks}>
                         <span
                           className={styles.weHaveDeveloped}
-                        >{`Increased productivity and generated over `}</span>
+                        >Brand engagement for our clients by </span>
                         <b className={styles.websites}>
-                          $144 million in revenue.
+                        13%-21%.
                         </b>
                       </p>
                     </div>
@@ -185,17 +179,16 @@ const UiUxInterface = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/group-815.svg"
+                    src="/frame (2).png"
                   />
                   <div className={styles.cmsParent}>
                     <div className={styles.mobileApplications}>
-                      Website Accessibility
+                    Rapid Web Design
+
                     </div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                        Our team specializes in optimizing your website for all
-                        users, including those with disabilities, to ensure that
-                        your website is inclusive and accessible to everyone.
+                      Our team is committed to delivering high-quality websites quickly, so our clients can start generating revenue and growing their business as soon as possible.
                       </p>
                       <p className={styles.ourTeamWorks}>&nbsp;</p>
                     </div>
@@ -203,10 +196,10 @@ const UiUxInterface = () => {
                       <p className={styles.ourTeamWorks}>
                         <span
                           className={styles.weHaveDeveloped}
-                        >{`We have increased user engagement by `}</span>
+                        >Generated total revenue growth of </span>
                         <span className={styles.eCommercePortals}>
-                          <b className={styles.b}>34%</b>
-                          <span className={styles.span2}>.</span>
+                          <b className={styles.b}>7%-12% </b>
+                          <span className={styles.span2}>for our clients.</span>
                         </span>
                       </p>
                     </div>
@@ -217,8 +210,10 @@ const UiUxInterface = () => {
           </div>
         </div>
       </div>
+
       <ToolsSlider />
-      <ContactForm1 />
+      <ContactUsBar content="Want to make your user’s experience intuitively easy and seamless?" btnTxt="Contact Us"/>
+      <ContactUsForm />
 
       <TrustedByBrands />
     </>

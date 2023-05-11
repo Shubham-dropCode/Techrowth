@@ -1,7 +1,7 @@
 import styles from "./ToolsSlider.module.css";
 const ToolsSlider = () => {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className={styles.interestedinsoftwaredevelopmenInner}>
         <div className={styles.frameParent}>
           <div className={styles.toolsParent}>
