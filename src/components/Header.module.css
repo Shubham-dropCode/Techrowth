@@ -287,16 +287,16 @@
 .analytics {
   color: var(--text-grey);
 }
-.digitalMarketing {
+/* .digitalMarketing {
   width: 8.1rem;
   
-}
+} */
 .digitalMarketing,
 .itServices,
 .whoWeAre {
   color: var(--text-grey);
 }
-.itServices {
+/* .itServices {
   width: 4.44rem;
 }
 .analytics {
@@ -304,7 +304,7 @@
 }
 .whoWeAre {
   width: 5.25rem;
-}
+} */
 .links,
 .vectorIcon {
   align-self: stretch;

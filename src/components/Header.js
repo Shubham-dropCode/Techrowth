@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
-
+import "animate.css";
 import styles from "./Header.module.css";
 import { useEffect, useState } from "react";
 import DropdownMenu from "./DropdownMenu";
@@ -119,7 +119,10 @@ const Header = () => {
                     to="/DigitalMarketing"
                     onMouseEnter={handleMouseEnter}
                     className={styles.digitalMarketing}
-                    style={{ border: "none" }}
+                    style={{
+                      border: "none",
+                      
+                    }}
                   >
                     Digital Marketing
                   </Link>
@@ -162,6 +165,7 @@ const Header = () => {
         )}
         {isOpen && (
           <DropdownMenuIT
+            style={{ TransitionEvent: "transform 0.3s ease-in-out;" }}
             onMouseEnter={handleMouseEnterIT}
             sendDataToParent={handleDataFromChildIT}
           />
