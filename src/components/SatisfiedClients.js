@@ -20,9 +20,9 @@ const SatisfiedClients = ({show}) => {
                   <img
                     className={styles.n1Icon}
                     alt=""
-                    src="/324417929-476612977997303-8923770136300221903-n-1@2x.png"
+                    src="/izb-1@2x.png"
                   />
-                  <img className={styles.izb1Icon} alt="" src="/izb-1@2x.png" />
+                  <img className={styles.izb1Icon} alt="" src="/324417929-476612977997303-8923770136300221903-n-1@2x.png" />
                   <img
                     className={styles.izb1Icon}
                     alt=""

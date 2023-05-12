@@ -9,7 +9,7 @@ const DropdownMenu = ({ sendDataToParent }) => {
   return (
     <div
       className="container-fluid position-absolute"
-      style={{ backgroundColor: "#E9EEF4", zIndex: "1", top: "22%" }}
+      style={{ backgroundColor: "#E9EEF4", zIndex: "1", top: "20%" }}
     >
       <div className="row py-4 px-4" style={{ gap: "2rem" }}>
         <div className="col text-white" style={{ backgroundColor: "#0076A2" }}>

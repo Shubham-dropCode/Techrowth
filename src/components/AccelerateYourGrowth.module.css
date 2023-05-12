@@ -1,24 +1,26 @@
 .accelerateYourGrowth1 {
   position: relative;
-  line-height: 4.85rem;
+  /* line-height: 4.85rem; */
 }
 .withOurVersatile {
   position: relative;
   font-size: var(--font-size-base);
   font-weight: 500;
   color: var(--blue);
+
   display: inline-block;
-  width: 22.31rem;
-  height: 1.38rem;
+  /* width: 22.31rem; */
+  /* height: 1.38rem; */
   flex-shrink: 0;
 }
 .accelerateYourGrowthHeading {
   align-self: stretch;
+  margin-top: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-8xs);
+  gap: .5rem;
 }
 .groupChild {
   position: absolute;
@@ -98,6 +100,7 @@
   text-align: left;
 }
 .frameGroup {
+  margin-top: .8rem;
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -194,12 +197,12 @@
   justify-content: center;
 }
 .frameParent {
-  gap: var(--gap-21xl);
+  gap: 2rem;
 }
 .accelerateYourGrowth {
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-12xl) var(--padding-79xl);
+  padding: 0 var(--padding-79xl);
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--text-grey);

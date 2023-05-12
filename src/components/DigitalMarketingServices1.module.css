@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-8xs);
+  gap: .5rem;
   font-size: var(--font-size-31xl);
 }
 .child,
@@ -44,11 +44,12 @@
 .div {
   flex: 1;
   border-radius: var(--br-lg);
+  align-self: normal;
   background-color: var(--white);
   box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
   flex-direction: column;
   padding: var(--padding-5xl) var(--padding-6xl);
-  justify-content: center;
+  /* justify-content: center; */
   gap: var(--gap-3xs);
 }
 .div1 {
@@ -96,6 +97,7 @@
 .parent {
   align-self: stretch;
   flex-direction: row;
+  align-items: start;
   justify-content: flex-start;
   gap: var(--gap-31xl);
 }
@@ -160,11 +162,11 @@
   align-items: center;
 }
 .frameGroup {
-  width: 74.88rem;
-  height: 31.25rem;
+  /* width: 74.88rem;
+  height: 31.25rem; */
   flex-shrink: 0;
   justify-content: center;
-  gap: var(--gap-11xl);
+  gap: 2rem;
 }
 .frameWrapper {
   align-self: stretch;
@@ -209,7 +211,7 @@
   color: var(--white);
 }
 .frameParent {
-  gap: var(--gap-21xl);
+  gap: 2rem;
 }
 .digitalMarketingServices,
 .digitalMarketingServicesInner,
@@ -223,7 +225,7 @@
 .digitalMarketingServicesInner {
   background-color: var(--light-blue);
   overflow: hidden;
-  padding: var(--padding-34xl) var(--padding-101xl);
+  padding: 2rem var(--padding-101xl);
 }
 .digitalMarketingServices {
   text-align: center;

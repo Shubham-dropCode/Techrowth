@@ -9,7 +9,7 @@ const DigitalMarketingServices1 = () => {
             <b className={styles.digitalMarketingServices1}>
               Digital Marketing Services
             </b>
-            <div className={styles.intentWeServe} >Intent We serve</div>
+            <div className={styles.intentWeServe}>Intent We serve</div>
           </div>
           <div className={styles.frameWrapper}>
             <div className={styles.frameGroup}>
@@ -30,7 +30,104 @@ const DigitalMarketingServices1 = () => {
                     <p className={styles.unleashYourBrands}>Succeed</p>
                   </div>
                 </div>
-                <div className={styles.div1}>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-35.svg" />
+                  <div className={styles.enquiry}>{`Bradning `}</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Creating distinctive brands that leave a lasting
+                      impression{" "}
+                    </p>
+                    {/* <p
+                      className={styles.unleashYourBrands}
+                    >{`digital potential: `}</p>
+                    <p
+                      className={styles.unleashYourBrands}
+                    >{`Discover, Convert, `}</p>
+                    <p className={styles.unleashYourBrands}>Succeed</p> */}
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-36.svg" />
+                  <div className={styles.enquiry}>{`Engagement `}</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Elevating brand engagement to new heights, one click at a
+                      time.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-37.svg" />
+                  <div className={styles.enquiry}>Downloading</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Leveraging the Power of Downloads to Achieve Your Goals
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-38.svg" />
+                  <div className={styles.enquiry}>E-Commerce</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Streamlining your online business through our expert
+                      e-commerce solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.parent}>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-39.svg" />
+                  <div className={styles.enquiry}>{`Upselling `}</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Experience premium up-selling services for faster growth.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-40.svg" />
+                  <div className={styles.enquiry}>Cross-selling</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Enhancing your marketing efforts with targeted
+                      cross-selling.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-41.svg" />
+                  <div className={styles.enquiry}>{`Remarketing `}</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Maximizing your ROI with our powerful remarketing
+                      services.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-42.svg" />
+                  <div className={styles.enquiry}>Redownloading</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Reviving your customer base, Re-Download and reignite!
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.div}>
+                  <img className={styles.child} alt="" src="/frame-43.svg" />
+                  <div className={styles.enquiry}>Reactivation</div>
+                  <div className={styles.unleashYourBrandsContainer}>
+                    <p className={styles.unleashYourBrands}>
+                      Bringing your dormant accounts back to life and Accelerate
+                      your banking success
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* <div className={styles.div1}>
                   <img className={styles.child} alt="" src="/frame-35.svg" />
                   <div className={styles.enquiry}>Branding</div>
                   <div className={styles.unleashYourBrandsContainer}>
@@ -91,9 +188,9 @@ const DigitalMarketingServices1 = () => {
                       e-commerce solutions.
                     </p>
                   </div>
-                </div>
-              </div>
-              <div className={styles.parent}>
+                </div> */}
+
+              {/* <div className={styles.parent}>
                 <div className={styles.div5}>
                   <img className={styles.child} alt="" src="/frame-39.svg" />
                   <div className={styles.enquiry}>Upselling</div>
@@ -171,7 +268,7 @@ const DigitalMarketingServices1 = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.frameContainer}>

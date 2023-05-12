@@ -1,7 +1,7 @@
 .exploreOurCase {
   align-self: stretch;
   position: relative;
-  line-height: 4.85rem;
+  /* line-height: 4.85rem; */
 }
 .ourDataDrivenStrategies {
   align-self: stretch;
@@ -396,7 +396,7 @@
   color: var(--blue);
 }
 .frameGroup {
-  gap: var(--gap-21xl);
+  gap: 2rem;
 }
 .exploreStudies {
   position: relative;
@@ -423,7 +423,8 @@
 .frameParent {
   border-radius: var(--br-mid-5);
   background-color: var(--light-blue);
-  height: 65.63rem;
+  /* height: 65.63rem; */
+  margin: 2rem 0;
   flex-shrink: 0;
   gap: var(--gap-21xl);
 }
@@ -443,7 +444,7 @@
 .exploreourcasestudies {
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-65xl) var(--padding-81xl);
+  padding: 2rem var(--padding-81xl);
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--text-grey);

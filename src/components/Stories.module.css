@@ -1,7 +1,8 @@
 .ourInsideStories {
   align-self: stretch;
   position: relative;
-  line-height: 4.99rem;
+  margin-bottom: 2rem;
+  /* line-height: 4.99rem; */
 }
 .frameChild {
   position: relative;
@@ -26,7 +27,6 @@
   mix-blend-mode: multiply;
 }
 .revolutionizingTraditionalBa {
-
   margin: 0;
 }
 .revolutionizingTraditionalBaContainer {
@@ -85,15 +85,16 @@
 }
 .ourInsideStoriesParent {
   width: 84.75rem;
-  gap: var(--gap-21xl);
+  /* gap: var(--gap-21xl); */
 }
 .clients {
   font-size: var(--font-size-31xl);
 }
 .discoverWhy100Container {
+  margin: 2rem 0;
   /* margin-bottom: 3rem; */
   position: relative;
-  line-height: 4.99rem;
+  /* line-height: 4.99rem; */
   font-size: var(--font-size-11xl);
 }
 .frameInner {
@@ -116,7 +117,8 @@
 }
 .logo1Icon {
   position: relative;
-  width: 7.83rem;
+  top: 20px;
+  /* width: 7.83rem; */
   height: 3.38rem;
   flex-shrink: 0;
   object-fit: cover;
@@ -125,7 +127,7 @@
   position: absolute;
   height: 71.09%;
   width: 100%;
-  top: 36.8%;
+  top: 28%;
   left: 0;
   display: inline-block;
 }
@@ -133,7 +135,7 @@
   position: absolute;
   height: 8.14%;
   width: 59.63%;
-  top: 0;
+  top: 25px;
   right: 20.13%;
   bottom: 91.86%;
   left: 20.25%;
@@ -166,7 +168,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-xs);
+  gap:var(--gap-xs) ;
 }
 .child1,
 .child2 {
@@ -353,7 +355,7 @@
 .clientReview {
   position: relative;
   width: 84.84rem;
-  height: 24.25rem;
+  height: 22.25rem;
   flex-shrink: 0;
   text-align: justify;
   font-size: var(--font-size-xs);
@@ -365,15 +367,15 @@
   justify-content: flex-start;
 }
 .frameParent {
-  width: 84.75rem;
+  /* width: 84.75rem; */
   align-items: center;
-  gap: var(--gap-41xl);
+  /* gap: var(--gap-41xl); */
 }
 .stories {
   background-color: var(--white);
   width: 90rem;
   overflow: hidden;
-  padding: var(--padding-39xl) var(--padding-23xl);
+  padding: 0 var(--padding-23xl);
   box-sizing: border-box;
   align-items: flex-start;
   text-align: center;

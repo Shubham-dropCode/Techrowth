@@ -109,7 +109,7 @@
 }
 .foundernote {
   background-color: var(--white);
-  height: 30.63rem;
+  /* height: 30.63rem; */
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-177xl);

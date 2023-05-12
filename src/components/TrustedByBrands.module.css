@@ -232,17 +232,17 @@
 }
 .trustedParent {
   position: absolute;
-  top: 3.81rem;
+  /* top: 3.81rem; */
   left: 12.06rem;
   width: 65.31rem;
-  height: 33.9rem;
+  height: 30.9rem;
   flex-direction: column;
 }
 .trustedByBrands {
   position: relative;
   background-color: var(--white);
   width: 90rem;
-  height: 41.5rem;
+  height: 33.5rem;
   flex-shrink: 0;
   overflow: hidden;
   text-align: center;

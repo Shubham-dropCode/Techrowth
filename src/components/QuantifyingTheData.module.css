@@ -164,12 +164,12 @@
   justify-content: center;
 }
 .quantifyingTheDataParent {
-  gap: var(--gap-21xl);
+  gap: 2rem;
 }
 .quantifyingTheData {
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-30xl) var(--padding-203xl);
+  padding: 0 var(--padding-203xl);
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--text-grey);

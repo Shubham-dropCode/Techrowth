@@ -80,7 +80,7 @@ const BusinessAnalystics = ({ show, onDisplay, titleDiplay }) => {
           <div className={styles.businessAnalysticsInner}>
             <div className={styles.frameParent1}>
               <div className={styles.parent}>
-                <div className={styles.div}>
+                <div className={styles.div2}>
                   <div className={styles.div1}>24%</div>
                   <div className={styles.revenueIncrement}>
                     <p className={styles.unlockThePower}>Revenue</p>
@@ -91,11 +91,11 @@ const BusinessAnalystics = ({ show, onDisplay, titleDiplay }) => {
                   <div className={styles.div1}>987</div>
                   <div className={styles.seoAudits}>SEO Audits</div>
                 </div>
-                <div className={styles.div4}>
+                <div className={styles.div2}>
                   <div className={styles.div1}>22%</div>
                   <div className={styles.seoAudits}>Conversion Rate</div>
                 </div>
-                <div className={styles.div6}>
+                <div className={styles.div2}>
                   <div className={styles.div1}>172</div>
                   <div className={styles.seoAudits}>Mobile Apps</div>
                 </div>

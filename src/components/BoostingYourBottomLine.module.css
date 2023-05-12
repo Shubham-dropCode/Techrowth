@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-8xs);
+  gap: .5rem;
 }
 .areYouSeeking {
   margin: 0;
@@ -35,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-21xl);
+  gap: 1.5rem;
 }
 .child,
 .icon {
@@ -172,12 +172,12 @@
 .boostingYourBottomLineInner {
   border-radius: var(--br-11xl);
   border: 2px solid var(--blue);
-  padding: var(--padding-80xl) var(--padding-51xl);
+  padding: 2rem var(--padding-51xl);
   align-items: center;
   justify-content: center;
 }
 .boostingYourBottomLine {
-  padding: var(--padding-47xl) var(--padding-81xl);
+  padding: 2rem var(--padding-81xl);
   align-items: flex-start;
   justify-content: flex-start;
   text-align: center;

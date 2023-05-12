@@ -16,8 +16,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
   /* justify-content: flex-start; */
-  gap: var(--gap-8xs);
+  gap: .5rem;
   text-align: center;
 }
 .div {
@@ -117,6 +118,7 @@
   font-size: 3.72rem;
 }
 .frameGroup {
+  margin-bottom: 2rem;
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -214,12 +216,13 @@
   margin-top: 2rem;
   /* height: 34.5rem; */
   flex-shrink: 0;
-  gap: var(--gap-21xl);
+  /* gap: var(--gap-21xl); */
 }
 .onestopsolution {
   background-color: var(--white);
   overflow: hidden;
-  padding: var(--padding-18xl) var(--padding-176xl);
+  /* margin-top: 10px; */
+  padding: 0 var(--padding-176xl);
   text-align: left;
   font-size: var(--font-size-31xl);
   color: var(--text-grey);

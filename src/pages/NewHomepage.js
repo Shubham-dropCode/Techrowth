@@ -50,7 +50,7 @@ const NewHomepage = () => {
       <ITServices1 />
       {/* <DropdownMenu /> */}
 
-      <BusinessAnalystics show={true} onDisplay={true}/>
+      <BusinessAnalystics show={true} onDisplay={true} titleDiplay={true} />
       <SatisfiedClients />
       <FounderNote />
       <ContactFrom1 />
