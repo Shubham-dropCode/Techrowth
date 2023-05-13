@@ -37,7 +37,7 @@
   position: relative;
   color: var(--text-grey);
   display: inline-block;
-  height: 3.38rem;
+  /* height: 3.38rem; */
   flex-shrink: 0;
 }
 .weHaveDeveloped {
@@ -81,7 +81,7 @@
   color: var(--text-grey);
   display: inline-block;
   width: 26.19rem;
-  height: 3.38rem;
+  /* height: 3.38rem; */
   flex-shrink: 0;
 }
 .optimizedAndDevelopedContainer {
@@ -99,7 +99,7 @@
 }
 .mobileApplicationsParent {
   flex: 1;
-  height: 9.19rem;
+  /* height: 9.19rem; */
   flex-direction: column;
   gap: var(--gap-5xs);
 }
@@ -163,16 +163,16 @@
 .corporateWebsiteParent,
 .webApplicationsParent {
   flex: 1;
-  height: 9.06rem;
+  /* height: 9.06rem; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.webApplicationsParent {
+/* .webApplicationsParent {
   height: 9.63rem;
-}
+} */
 .b,
 .span2 {
   font-family: var(--font-montserrat);

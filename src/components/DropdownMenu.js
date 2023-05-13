@@ -159,12 +159,12 @@ const DropdownMenu = ({ sendDataToParent }) => {
             </li>
             <li className="mb-3">
               <Link to="" onClick={handleClick} className="text-white">
-                Video Editing Photoshoot t/Video Graphics Packaging
+                Video Editing 
               </Link>
             </li>
             <li className="mb-3">
               <Link to="" onClick={handleClick} className="text-white">
-                Photoshoot t/Video Graphics
+                Photoshoot/Video Graphics
               </Link>
             </li>
             <li className="mb-3">

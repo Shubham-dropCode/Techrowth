@@ -35,7 +35,7 @@
   position: relative;
   color: var(--text-grey);
   display: inline-block;
-  height: 3.38rem;
+  /* height: 3.38rem; */
   flex-shrink: 0;
 }
 .weHaveDeveloped {
@@ -79,7 +79,7 @@
   color: var(--text-grey);
   display: inline-block;
   width: 26.19rem;
-  height: 3.38rem;
+  /* height: 3.38rem; */
   flex-shrink: 0;
 }
 .optimizedAndDevelopedContainer {

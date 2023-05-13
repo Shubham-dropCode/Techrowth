@@ -130,7 +130,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
         <div className="col text-white" style={{ backgroundColor: "#0076A2", borderRadius:"18px" }}>
           <ul className="text-center px-0 py-3">
             <li className= "mb-3">
-              <Link to="/ITMain" onClick={handleClick}>
+              <Link to="/ITManagement" onClick={handleClick}>
                 <h5 className="text-white">IT Management</h5>
               </Link>
             </li>
