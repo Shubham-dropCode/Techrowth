@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "../components/InterestedDevelopment.module.css";
-import ToolsSlider from "../components/ToolsSlider";
+import ITSlider from "../components/ToolsSliders/ITSlider";
 import ContactUsBar from "../components/ContactUsBar";
 import heroBg from "../assets/Itmanagementbgimg.jpg";
 import ContactUsForm from "../components/ContactUsForm";
@@ -41,7 +41,7 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (1).png"
+                    src="/group (2).png"
                   />
                   <div className={styles.eCommerceParent}>
                     <div className={styles.eCommerce}>Consulting</div>
@@ -63,13 +63,11 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (6).png"
+                    src="/group111.png"
                   />
                   <div className={styles.mobileApplicationsParent}>
-                    <div className={styles.mobileApplications}>
-                      Tech Support
-                    </div>
-                    <div className={styles.weSpecializeInContainer}>
+                    <div className={styles.eCommerce}>Tech Support</div>
+                    <div className={styles.ourTeamWorksContainer}>
                       <p className={styles.ourTeamWorks}>
                         Decreased downtime and increased productivity through
                         the resolution of technical issues.
@@ -87,13 +85,11 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (5).png"
+                    src="/group (3).png"
                   />
                   <div className={styles.cmsParent}>
-                    <div className={styles.mobileApplications}>
-                      Cloud Services
-                    </div>
-                    <div className={styles.weSpecializeInContainer}>
+                    <div className={styles.eCommerce}>Cloud Services</div>
+                    <div className={styles.ourTeamWorksContainer}>
                       <p className={styles.ourTeamWorks}>
                         Increased flexibility and scalability through the use of
                         cloud-based resources.
@@ -116,21 +112,20 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (4).png"
+                    src="/group (4).png"
                   />
                   <div className={styles.corporateWebsiteParent}>
-                    <div className={styles.mobileApplications}>
-                      Infrastructure
-                    </div>
-                    <div className={styles.weSpecializeInContainer}>
+                    <div className={styles.eCommerce}>Infrastructure</div>
+                    <div className={styles.ourTeamWorksContainer}>
                       <p className={styles.ourTeamWorks}>
-                      Improved performance, scalability, and reliability of the company's technology infrastructure.
+                        Improved performance, scalability, and reliability of
+                        the company's technology infrastructure.
                       </p>
                     </div>
                     <div className={styles.ourTeamHasContainer}>
                       <p className={styles.ourTeamWorks}>
                         <span className={styles.weHaveDeveloped}>
-                        Overhead Cost Reduced by 
+                          Overhead Cost Reduced by
                         </span>
                         <b className={styles.websites}> $144 Mn</b>
                         <span className={styles.platforms}>.</span>
@@ -142,21 +137,22 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (3).png"
+                    src="/group (6).png"
                   />
                   <div className={styles.webApplicationsParent}>
-                    <div className={styles.mobileApplications}>
+                    <div className={styles.eCommerce}>
                       Software as a Service
                     </div>
-                    <div className={styles.weSpecializeInContainer}>
+                    <div className={styles.ourTeamWorksContainer}>
                       <p className={styles.ourTeamWorks}>
-                      Streamlined operations and increased productivity through the use of personalized software.
+                        Streamlined operations and increased productivity
+                        through the use of personalized software.
                       </p>
                     </div>
                     <div className={styles.weHaveDevelopedContainer}>
                       <p className={styles.ourTeamWorks}>
                         <span className={styles.weHaveDeveloped}>
-                        Increased Revenue 
+                          Increased Revenue
                         </span>
                         <b className={styles.websites}> 21%</b>
                       </p>
@@ -167,22 +163,20 @@ const ITManagement = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/frame (2).png"
+                    src="/group (5).png"
                   />
                   <div className={styles.cmsParent}>
-                    <div className={styles.mobileApplications}>
-                    Data Center Services
-                    </div>
+                    <div className={styles.eCommerce}>Data Center Services</div>
                     <div className={styles.weSpecializeInContainer}>
                       <p className={styles.ourTeamWorks}>
-                      Improved data management and protection through efficient and secure data center operations.
+                        Improved data management and protection through
+                        efficient and secure data center operations.
                       </p>
-                      <p className={styles.ourTeamWorks}>&nbsp;</p>
                     </div>
                     <div className={styles.weHaveIncreasedContainer}>
                       <p className={styles.ourTeamWorks}>
                         <span className={styles.weHaveDeveloped}>
-                        Data Breach Avoided 
+                          Data Breach Avoided
                         </span>
                         <span className={styles.eCommercePortals}>
                           <b className={styles.b}> 144 times</b>
@@ -197,9 +191,10 @@ const ITManagement = () => {
         </div>
       </div>
 
-      <ToolsSlider />
+      <ITSlider/>
       <ContactUsBar
-        content="Want to make your user’s experience intuitively easy and seamless?"
+        content="Transform your true potential into your business reality! Discover how we can help you unlock new levels of IT management & security.
+        "
         btnTxt="Contact Us"
       />
       <ContactUsForm />

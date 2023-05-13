@@ -47,7 +47,7 @@
   color: var(--white);
 }
 .frameParent {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 0 7rem;
   /* height: 9.44rem; */
   flex-shrink: 0;
@@ -73,7 +73,7 @@
   background-color: var(--white);
   width: 100%;
   overflow: hidden;
-  padding: 4.81rem var(--padding-201xl);
+  padding: 0 var(--padding-201xl);
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
@@ -81,7 +81,9 @@
   color: var(--color-steelblue-400);
   font-family: var(--font-montserrat);
 }
-
+.revenueGeneratedThrough{
+  color: var(--blue)
+}
 .frameGroup {
   align-self: stretch;
   display: flex;

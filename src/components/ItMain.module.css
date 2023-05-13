@@ -82,7 +82,8 @@
 }
 .frameParent {
   width: 90rem;
-  height: 28.38rem;
+  margin-top: 3rem;
+  /* height: 28.38rem; */
   flex-direction: column;
   justify-content: center;
   gap: var(--gap-21xl);
@@ -438,9 +439,9 @@
 }
 .exploreOtherServicesParent {
   /* height: 49.5rem; */
-  margin: 4rem 0;
+  margin-bottom: 4rem ;
   flex-direction: column;
-  gap: var(--gap-41xl);
+  gap: 1rem;
   font-size: var(--font-size-16xl);
 }
 .n1Icon {
@@ -664,7 +665,7 @@
 }
 .digite {
   justify-content: center;
-  margin: 4rem 0;
+  margin: 3rem 0;
   color: var(--blue);
 }
 .accelerateYourGrowth {
@@ -1316,7 +1317,8 @@
   gap: var(--gap-xl);
 }
 .frameParent16 {
-  margin: 4rem 0;
+  margin-top:   3rem;
+  margin-bottom: 1rem;
   gap: 2rem;
   /* height: 46.25rem; */
   display: flex;
@@ -1802,9 +1804,10 @@
   color: var(--blue);
 }
 .frameParent23 {
+  margin-top: 2rem;
   overflow: hidden;
   justify-content: flex-start;
-  gap: 4.81rem;
+  gap: 3rem;
 }
 .topFactorsInvolved {
   position: relative;

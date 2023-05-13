@@ -4,14 +4,14 @@ import styles from "./BusinessAnalystics.module.css";
 const GraphicDesignCounter = () => {
   return (
     <>
-      <div className="container my-4">
+      <div className="container my-5">
         <div className={styles.businessAnalysticsInner}>
           <div className={styles.frameParent1}>
             <div className={styles.parent}>
               <div className={styles.div2}>
                 <div className={styles.div1}>~34</div>
                 <div className={styles.revenueIncrement}>
-                  <p className={styles.unlockThePower}>min/month Video </p>
+                <p className={styles.unlockThePower}>Min/month Video </p>
                   <p className={styles.unlockThePower}>Editing occurs</p>
                 </div>
               </div>

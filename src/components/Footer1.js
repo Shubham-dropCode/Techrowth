@@ -71,7 +71,7 @@ const Footer1 = () => {
           </div>
           <div className={styles.lineDiv} />
           <div className={styles.termsConditionsPrivacyPParent}>
-            <div className={styles.termsConditionsContainer}>
+            <div className={styles.termsConditionsContainer}> 
               <p className={styles.aboutTechrowth}>{`Terms & Conditions	   `}</p>
               <p className={styles.aboutTechrowth}>{`Privacy Policy   `}</p>
               <p className={styles.aboutTechrowth}>Sitemap  </p>

@@ -2,7 +2,7 @@ import styles from "./AdvantageOfTechrowth.module.css";
 const AdvantageOfTechrowth = () => {
   return (
     <div className={styles.secondPageIntent}>
-      <div className="container py-4">
+      <div className="container py-5">
       <b className={styles.advantageOfTechrowth}>Advantage of Techrowth</b>
       <div className={styles.weExploreDifferentContainer +" my-4"}>
         <p className={styles.weExploreDifferent}>

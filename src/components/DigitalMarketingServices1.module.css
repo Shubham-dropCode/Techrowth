@@ -5,7 +5,10 @@
 .intentWeServe {
   font-size: var(--font-size-16xl);
   font-weight: 500;
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
+}
+.digitalMarketingServices1{
+  padding-top: 8px;
 }
 .digitalMarketingServicesParent {
   align-self: stretch;

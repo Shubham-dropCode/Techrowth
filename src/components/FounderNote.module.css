@@ -72,6 +72,8 @@
   color: var(--text-grey);
 }
 .coFounderNoteParent {
+  color: var(--color-steelblue-200);
+
   width: 39.71rem;
   display: flex;
   flex-direction: row;
@@ -82,7 +84,6 @@
   position: relative;
   font-size: var(--font-size-sm);
   line-height: 1.13rem;
-  color: var(--color-steelblue-200);
   text-align: justify;
   display: inline-block;
   width: 39.63rem;

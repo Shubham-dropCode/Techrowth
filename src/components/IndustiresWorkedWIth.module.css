@@ -215,11 +215,11 @@
   flex-shrink: 0;
   padding: var(--padding-19xl) var(--padding-75xl);
   box-sizing: border-box;
-  gap: var(--gap-21xl);
+  gap: 1rem;
 }
 .industiresWorkedWith {
   background-color: var(--white);
-  padding: var(--padding-23xl) var(--padding-81xl);
+  padding: 3rem var(--padding-81xl);
   text-align: center;
   font-size: var(--font-size-6xl);
   color: var(--text-grey);

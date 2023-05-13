@@ -1,7 +1,7 @@
 import styles from "./ContactUsForm.module.css";
 const ContactUsForm = () => {
   return (
-    <div className="container-fluid" style={{padding:"0 6rem"}}>
+    <div className="container-fluid" style={{padding:"0 6rem",marginBottom:"3rem"}}>
       <div className={styles.contactusform}>
         <div className={styles.frameParent}>
           <div className={styles.lookingToSolveANaggingBusParent}>

@@ -444,7 +444,8 @@
 .exploreourcasestudies {
   background-color: var(--white);
   overflow: hidden;
-  padding: 2rem var(--padding-81xl);
+  padding: 0 var(--padding-81xl);
+  padding-top: 3rem;
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--text-grey);

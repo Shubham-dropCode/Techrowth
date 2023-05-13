@@ -80,12 +80,12 @@ const ToolsWeUseContent = () => {
           </div>
           <div className={styles.frameGroup}>
             <div className={styles.frameParent}>
-              <div className={styles.toolWeUseHeading}>
-                <div className={styles.toolsWeUseParent}>
-                  <b className={styles.toolsWeUse1}>Tools we use</b>
-                  <div className={styles.ourCompanysInfrastructure}>
+              <div className={styles.servicesWeServeHeadingParent}>
+                <div className={styles.servicesWeServeHeading}>
+                  <b className={styles.servicesWeServe}>Tools we use</b>
+                  <div className={styles.ourCompanyTakes}>
                     Our company’s infrastructure we employ enables us to
-                    optimize our workflows and deliver high-quality services to
+                    optimize our workflows <br></br> and deliver high-quality services to
                     our clients
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const ToolsWeUseContent = () => {
                 <b className={styles.servicesWeServe}>Services we serve</b>
                 <div className={styles.ourCompanyTakes}>
                   Our company takes pride in the innovative solutions we deliver
-                  to help our clients achieve their business goals
+                  to help our clients <br></br> achieve their business goals
                 </div>
               </div>
               <div className={styles.frameParent5}>

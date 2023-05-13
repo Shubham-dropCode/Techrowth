@@ -4,7 +4,7 @@ import styles from "./Stories.module.css";
 const Testimonial = () => {
   return (
     <>
-      <div className={styles.stories}>
+      <div className={styles.stories} style={{margin:"0"}}>
         <div className={styles.frameParent}>
           <div className={styles.discoverWhy100Container}>
             Discover why{" "}

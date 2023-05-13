@@ -64,7 +64,7 @@ const UiUxInterface = () => {
                       <span className={styles.weHaveDeveloped}>
                         Our team has designed over
                       </span>
-                      <b className={styles.eCommercePortals}> <br/>440 websites.</b>
+                      <b className={styles.eCommercePortals}> 440 websites.</b>
                     </div>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ const UiUxInterface = () => {
                       <p className={styles.ourTeamWorks}>
                       Our team is committed to delivering high-quality websites quickly, so our clients can start generating revenue and growing their business as soon as possible.
                       </p>
-                      <p className={styles.ourTeamWorks}>&nbsp;</p>
+                      {/* <p className={styles.ourTeamWorks}>&nbsp;</p> */}
                     </div>
                     <div className={styles.weHaveIncreasedContainer}>
                       <p className={styles.ourTeamWorks}>

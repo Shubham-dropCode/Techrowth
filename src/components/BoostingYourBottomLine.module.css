@@ -70,6 +70,7 @@
   list-style-type: circle;
   margin: 0;
   padding-left: var(--padding-2xl);
+  line-height: 1.1;
 }
 .seoServicesEcommerceContainer {
   /* display: list-item; */
@@ -177,7 +178,7 @@
   justify-content: center;
 }
 .boostingYourBottomLine {
-  padding: 2rem var(--padding-81xl);
+  padding: 3rem var(--padding-81xl);
   align-items: flex-start;
   justify-content: flex-start;
   text-align: center;

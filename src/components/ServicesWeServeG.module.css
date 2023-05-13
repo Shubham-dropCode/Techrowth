@@ -1,0 +1,81 @@
+.servicesWeServe,
+.technologicalInfrastructureW {
+  align-self: stretch;
+  position: relative;
+}
+.technologicalInfrastructureW {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--blue);
+}
+.servicesWeServeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.frameChild {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logoDesign {
+  position: relative;
+  font-weight: 600;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameGroup,
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  padding: 0 var(--padding-41xl);
+  justify-content: space-between;
+}
+.frameParent4 {
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.servicesWeServeG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  border-radius: 30px;
+  align-self: stretch;
+  padding: 3rem 0;
+  background-color: var(--light-blue);
+  /* height: 18.56rem; */
+  justify-content: center;
+  gap: var(--gap-24xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--blue);
+}
+.servicesWeServeG {
+  position: relative;
+  width: 100%;
+  height: 26.56rem;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--text-grey);
+  font-family: var(--font-montserrat);
+}

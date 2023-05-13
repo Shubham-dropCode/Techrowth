@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import heroBg from "../assets/DigitalMarketingBg.jpg";
 import RecentResult from "../components/RecentResult";
-
+import ServicesWeServeG from "../components/ServicesWeServeG";
 import ToolsWeUseMainG from "../components/ToolsWeUseMainG";
 
 import TrustedByBrands from "../components/TrustedByBrands";
@@ -31,16 +31,20 @@ const GraphicDesign = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs/>
+      <Breadcrumbs />
 
+      <div style={{height:"1rem"}}/>
       <GraphicDesignCounter />
 
       <ToolsWeUseMainG />
 
+      <ServicesWeServeG />
+      <div style={{height:"1rem"}}/>
       <ContactUsBar
         content="Drive your Success With Unique Brand Elements. Book your Consultation Today!"
         btnTxt="Contact Us"
       />
+
       <ContactUsForm />
 
       <TrustedByBrands />

@@ -76,7 +76,7 @@
 .frameWrapper {
   /* flex: 1; */
   /* position: relative; */
-  padding: 2rem 1rem ; 
+  padding: 2rem 1rem;
   border-radius: var(--br-11xl);
   background-color: var(--blue);
   /* height: 26.44rem; */
@@ -232,7 +232,7 @@
   flex-direction: column;
   gap: 1rem;
 }
-.frameParent{
+.frameParent {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -255,7 +255,7 @@
 .frameParent {
   align-self: stretch;
   padding: 3rem 0;
-  
+
   flex-direction: row;
   /* gap: var(--gap-21xl); */
 }
@@ -263,6 +263,7 @@
   position: absolute;
   top: 3.31rem;
   left: 6.5rem;
+  
   border-radius: var(--br-11xl);
   background-color: var(--light-blue);
   width: 77.07rem;

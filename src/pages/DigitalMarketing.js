@@ -51,7 +51,7 @@ const DigitalMarketing = () => {
       <RevenueGenerated />
 
       <ITServices1 />
-      <BusinessAnalystics show={false} onDisplay={true} />
+      <BusinessAnalystics show={false} onDisplay={true} titleDiplay={true} />
       <ContactUsForm />
 
       <TrustedByBrands />

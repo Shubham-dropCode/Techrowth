@@ -282,11 +282,11 @@
 }
 .toolsPageParent {
   gap: var(--gap-21xl);
+  margin-top: 3rem;
 }
 .toolsPageParent,
 .toolsWeUse,
 .toolsWeUseInner {
-  margin: 2rem 0;
   align-self: stretch;
   display: flex;
   flex-direction: column;

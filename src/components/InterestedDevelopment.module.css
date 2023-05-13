@@ -193,7 +193,7 @@
   display: flex;
   flex-direction: row;
   padding: var(--padding-8xl) 0;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: var(--gap-11xl);
   text-align: left;
@@ -204,7 +204,7 @@
   border-radius: var(--br-11xl);
   background-color: var(--light-blue);
   flex-direction: column;
-  padding: 4rem 0;
+  padding: 2rem 1rem;
   /* padding: var(--padding-54xl) var(--padding-5xl); */
   align-items: flex-start;
   justify-content: flex-start;

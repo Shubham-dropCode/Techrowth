@@ -76,7 +76,7 @@ const BusinessAnalystics = ({ show, onDisplay, titleDiplay }) => {
         )}
       </div>
       {show && (
-        <div>
+        <div className="container">
           <div className={styles.businessAnalysticsInner}>
             <div className={styles.frameParent1}>
               <div className={styles.parent}>

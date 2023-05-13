@@ -66,7 +66,7 @@ const InterestedDevelopment = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.frameDiv}>
+              <div className={styles.frameDiv} style={{paddingTop:"1.5rem"}}>
                 <img
                   className={styles.frameChild}
                   alt=""
@@ -167,7 +167,7 @@ const InterestedDevelopment = () => {
                       users, including those with disabilities, to ensure that
                       your website is inclusive and accessible to everyone.
                     </p>
-                    <p className={styles.ourTeamWorks}>&nbsp;</p>
+                    {/* <p className={styles.ourTeamWorks}>&nbsp;</p> */}
                   </div>
                   <div className={styles.weHaveIncreasedContainer}>
                     <p className={styles.ourTeamWorks}>

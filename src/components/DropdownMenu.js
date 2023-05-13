@@ -29,7 +29,7 @@ const DropdownMenu = ({ sendDataToParent }) => {
               <Link to="/IntentPrototype" onClick={handleClick}>
                 <h5 className="text-white">
                   Intent We Serve
-                  <AiOutlineArrowRight onMouseEnter={() => setSetHover(true)} />
+                  {/* <AiOutlineArrowRight onMouseEnter={() => setSetHover(true)} /> */}
                 </h5>
               </Link>
             </li>

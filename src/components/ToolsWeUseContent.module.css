@@ -240,7 +240,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 75.63rem;
+  /* width: 75.63rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,25 +293,24 @@
   font-size: var(--font-size-5xl);
 }
 .servicesWeServe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  align-items: flex-end;
-  width: 75.5rem;
+ 
+  align-items: center;
+  /* width: 75.5rem; */
 }
 .ourCompanyTakes {
-  position: absolute;
+  /* position: absolute; */
   top: 4.69rem;
   left: 0;
   font-size: var(--font-size-lg);
   font-weight: 500;
   color: var(--blue);
   display: inline-block;
-  width: 75.63rem;
+  /* width: 75.63rem; */
   height: 1.69rem;
 }
 .servicesWeServeHeading {
   align-self: stretch;
+  text-align: center;
   position: relative;
   height: 6.38rem;
   flex-shrink: 0;
@@ -397,7 +396,7 @@
 }
 .servicesWeServeHeadingParent {
   align-self: stretch;
-  height: 18.5rem;
+  /* height: 18.5rem; */
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -418,7 +417,7 @@
 }
 .frameParent {
   justify-content: flex-start;
-  gap: var(--gap-51xl);
+  gap: 3rem;
 }
 .toolsWeUse {
   background-color: var(--white);

@@ -1,8 +1,9 @@
 import ContactUsBar from "./ContactUsBar";
 import styles from "./ItMain.module.css";
-import Testimonial from "../components/Testimonial"
+import Testimonial from "../components/Testimonial";
 import ExploreOurCaseStudies from "../components/ExploreOurCaseStudies";
-import FrameComponent from "../components/FrameComponent"
+import FrameComponent from "../components/FrameComponent";
+import IndustriesWorkedWith from "../components/IndustiresWorkedWIth"
 const ItMain = () => {
   const RecentText =
     "Ready to take your business to new heights? Book a free consultation today and know more";
@@ -23,7 +24,7 @@ const ItMain = () => {
               <p className={styles.yearsOfAverage}>Team Experience</p>
             </div>
           </div>
-          
+
           <div className={styles.parent}>
             <div className={styles.div}>200+</div>
             <div className={styles.yearsOfAverageContainer}>
@@ -170,7 +171,8 @@ const ItMain = () => {
             <div className={styles.logo1Parent}>
               <b className={styles.b1}>172+</b>
               <div className={styles.mobileApplicationsDeveloped}>
-                Mobile Applications<br/> Developed
+                Mobile Applications
+                <br /> Developed
               </div>
             </div>
             <div className={styles.logo1Parent}>
@@ -472,7 +474,7 @@ const ItMain = () => {
         </div>
       </div>
 
-      <Testimonial/>
+      <Testimonial />
       {/* <div className={styles.discoverWhy100ClientsRaveWrapper}>
         <div className={styles.discoverWhy100Container}>
           <span>{`Discover why `}</span>
@@ -587,13 +589,9 @@ const ItMain = () => {
           </div>
         </div>
         <div className={styles.iconSymbole1Parent}>
-          <img
-            className={styles.iconSymbole1}
-            alt=""
-            src="/KRACimg.png"
-          />
+          <img className={styles.iconSymbole1} alt="" src="/KRACimg.png" />
         </div>
-          
+
         <div className={styles.experienceASoftwareDevelopmParent}>
           <div className={styles.experienceASoftwareContainer}>
             <span>{`Experience a software development cycle that really kicks it up a notch with `}</span>
@@ -732,7 +730,7 @@ const ItMain = () => {
             </div>
           </div>
         </div> */}
-        <FrameComponent/>
+        <FrameComponent />
       </div>
       <ExploreOurCaseStudies />
       <ContactUsBar
@@ -822,7 +820,9 @@ const ItMain = () => {
             <span
               className={styles.weveDrivenOver}
             >{`We’ve driven over `}</span>
-            <b className={styles.b5}>548,623 <br/></b>
+            <b className={styles.b5}>
+              548,623 <br />
+            </b>
             <span className={styles.weveDrivenOver}> Leads for clients </span>
           </div>
           <div className={styles.frameParent37}>
@@ -871,7 +871,7 @@ const ItMain = () => {
           </div>
         </div>
       </div>
-      <div className={styles.itMainInner1}>
+      {/* <div className={styles.itMainInner1}>
         <div className={styles.industriesWeveWorkedWithParent}>
           <div className={styles.industriesWeveWorked}>
             Industries we’ve worked with
@@ -953,7 +953,11 @@ const ItMain = () => {
                 <div className={styles.groupChild28} />
               </div>
               <div className={styles.vectorParent}>
-                <img className={styles.vectorIcon} alt="" src="/Realstates.png" />
+                <img
+                  className={styles.vectorIcon}
+                  alt=""
+                  src="/Realstates.png"
+                />
                 <div className={styles.automotive}>Real Estate</div>
               </div>
             </div>
@@ -983,7 +987,9 @@ const ItMain = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+            <IndustriesWorkedWith />
+
       <div className={styles.exploreOtherServicesParent}>
         <div className={styles.exploreOtherServices}>
           Explore Other Services
