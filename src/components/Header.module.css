@@ -79,12 +79,12 @@
   display: inline-block;
 }
 .div1 {
-  top: 0.88rem;
+  top: 1rem;
   right: 0;
   width: 7.69rem;
 }
 .sales {
-  top: 0;
+  top: -2px;
   right: 3.41rem;
   color: var(--blue);
   width: 4.25rem;

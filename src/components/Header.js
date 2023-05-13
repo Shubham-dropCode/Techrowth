@@ -121,7 +121,6 @@ const Header = () => {
                     className={styles.digitalMarketing}
                     style={{
                       border: "none",
-                      
                     }}
                   >
                     Digital Marketing
@@ -165,7 +164,6 @@ const Header = () => {
         )}
         {isOpen && (
           <DropdownMenuIT
-            style={{ TransitionEvent: "transform 0.3s ease-in-out;" }}
             onMouseEnter={handleMouseEnterIT}
             sendDataToParent={handleDataFromChildIT}
           />
