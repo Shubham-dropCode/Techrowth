@@ -134,7 +134,7 @@ const Header = () => {
                     className={styles.digitalMarketing}
                     style={{ border: "none" }}
                   >
-                    IT SERVICES
+                    IT Services
                   </Link>
                 </div>
                 <div className={styles.analytics}>Analytics</div>
