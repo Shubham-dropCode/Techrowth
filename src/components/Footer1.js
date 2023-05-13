@@ -51,7 +51,8 @@ const Footer1 = () => {
             </p>
             <p className={styles.aboutTechrowth}>&nbsp;</p>
             <p className={styles.aboutTechrowth}>
-              info@techrowth.com | <br/>(+260) 767527931
+              info@techrowth.com | <br />
+              (+260) 767527931
             </p>
           </div>
           <div className={styles.groupInner} />
@@ -65,7 +66,7 @@ const Footer1 = () => {
             </p>
             <p className={styles.aboutTechrowth}>&nbsp;</p>
             <p className={styles.aboutTechrowth}>
-              info@techrowth.com |<br/> +91 80731 62943
+              info@techrowth.com |<br /> +91 80731 62943
             </p>
           </div>
           <div className={styles.lineDiv} />

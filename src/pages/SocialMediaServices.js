@@ -11,7 +11,7 @@ import RecentResult from "../components/RecentResult";
 import ContactUsForm from "../components/ContactUsForm";
 
 const SocialMediaServices = () => {
-  const HeroTitel = "Social Media Services";
+  const HeroTitel = "Digital Marketing Services";
   const HeroContent =
     "Unleash the power of digital marketing and watch as your resources flourish into bountiful rewards for a thriving customer base. ";
   const RecentText =

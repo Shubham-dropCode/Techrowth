@@ -18,7 +18,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", stiffness: 100, damping: 20 }}
       className="container-fluid position-absolute"
-      style={{ backgroundColor: "#E9EEF4", top: "22%", zIndex: "1" }}
+      style={{ backgroundColor: "#E9EEF4", top: "23%", zIndex: "1" }}
     >
       <div className="row py-4 px-4" style={{ gap: "2rem" }}>
         <div
