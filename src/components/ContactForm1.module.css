@@ -208,6 +208,7 @@
 }
 .letsGetStarted {
   position: relative;
+  padding-left: 4px;
   font-size: var(--font-size-base);
   font-weight: 600;
   font-family: var(--font-montserrat);

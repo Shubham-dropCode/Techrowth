@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Footer1.module.css";
 
 const Footer1 = () => {
@@ -10,7 +11,8 @@ const Footer1 = () => {
       <div className={styles.resourcesAboutTechrowthContainer}>
         <p className={styles.resources}>Resources</p>
         <p className={styles.aboutTechrowth}>
-          About Techrowth | Contact Us | Blogs | Careers | Locations{" "}
+          About Techrowth | Contact Us |<Link to="/BlogPage">Blogs</Link> |
+          Careers | Locations | <Link to="/Resource"> Resource</Link>
         </p>
         <p className={styles.aboutTechrowth}>&nbsp;</p>
         <p className={styles.resources}>Intent we serve</p>
@@ -71,7 +73,7 @@ const Footer1 = () => {
           </div>
           <div className={styles.lineDiv} />
           <div className={styles.termsConditionsPrivacyPParent}>
-            <div className={styles.termsConditionsContainer}> 
+            <div className={styles.termsConditionsContainer}>
               <p className={styles.aboutTechrowth}>{`Terms & Conditions	   `}</p>
               <p className={styles.aboutTechrowth}>{`Privacy Policy   `}</p>
               <p className={styles.aboutTechrowth}>Sitemap  </p>

@@ -57,7 +57,6 @@ const Resource = () => {
         <div className={styles.sidebar}>
           <div className={styles.categories}>
             <div className={styles.frameParent}>
-              
               <div className={styles.frameContainer}>
                 <button className={styles.frameButton}>
                   <div className={styles.frameDiv}>
@@ -85,7 +84,6 @@ const Resource = () => {
                     </div>
                   </div>
                 </button>
-               
               </div>
               <div className={styles.categoriesParent}>
                 <div className={styles.executionStrategy}>Categories</div>
@@ -123,6 +121,7 @@ const Resource = () => {
                     />
                   </div>
                 </button> */}
+
                   <button className={styles.frameButton}>
                     <div className={styles.frameDiv}>
                       <img

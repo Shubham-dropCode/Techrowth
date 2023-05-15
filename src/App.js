@@ -12,7 +12,9 @@ import Ecommerce from "./pages/Ecommerce";
 import Header from "./components/Header";
 import Footer from "./components/Footer1";
 import Resource from "./pages/Resource";
-// import resourcePage24 from "./pages/BlogPage";
+
+import BlogPage from "./pages/Resource"
+// import Resource from "./pages/Resource";
 
 import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
@@ -22,10 +24,11 @@ import DevelopmentPage from "./pages/DevelopmentPage";
 import UiUxInterface from "./pages/UiUxInterface";
 import IntegrationPage from "./pages/IntegrationPage";
 import WhoWeAre from "./pages/WhoWeAre";
-import ITMain from "./pages/ITMain"
-import QualityTestingPage from "./pages/QualityTestingPage"
+import ITMain from "./pages/ITMain";
+import QualityTestingPage from "./pages/QualityTestingPage";
 import ITManagement from "./pages/ITManagement";
-import ResourcePage24 from "./pages/Resource";
+import ResourcePage24 from "./pages/Blog";
+import Blog from "./pages/Blog";
 
 function App() {
   const action = useNavigationType();
@@ -48,7 +51,6 @@ function App() {
         metaDescription = "";
         break;
     }
-    
 
     if (title) {
       document.title = title;
@@ -76,14 +78,18 @@ function App() {
         <Route path="/IntentPrototype" element={<IntentPrototype />} />
         {/* <Route path="/Resource" element={<Resource />} /> */}
         <Route path="/Resource" element={<Resource />} />
-        <Route path="/Content" element={<Content/>} />
-        <Route path="/DevelopmentPage" element={<DevelopmentPage/>} />
-        <Route path="/IntegrationPage" element={<IntegrationPage/>} />
-        <Route path="/ITMain" element={<ITMain/>} />
-        <Route path="/QualityTestingPage" element={<QualityTestingPage/>} />
-        <Route path="/UiUxInterface" element={<UiUxInterface/>} />
-        <Route path="/WhoWeAre" element={<WhoWeAre/>} />
-        <Route path="/ITManagement" element={<ITManagement/>} />
+
+        {/* <Route path="/ResourcePage" element={<ResourcePage24 />} /> */}
+        <Route path="/Content" element={<Content />} />
+        <Route path="/DevelopmentPage" element={<DevelopmentPage />} />
+        <Route path="/IntegrationPage" element={<IntegrationPage />} />
+        <Route path="/ITMain" element={<ITMain />} />
+        <Route path="/QualityTestingPage" element={<QualityTestingPage />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/UiUxInterface" element={<UiUxInterface />} />
+        <Route path="/WhoWeAre" element={<WhoWeAre />} />
+        {/* <Route path="/Blog" element={<BlogPage />} /> */}
+        <Route path="/ITManagement" element={<ITManagement />} />
       </Routes>
       <Footer />
     </>
