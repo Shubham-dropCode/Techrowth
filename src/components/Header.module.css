@@ -389,6 +389,7 @@
   background-color: var(--light-blue);
   padding: var(--padding-4xs) var(--padding-31xl);
   justify-content: space-between;
+  align-items: center;
 }
 .header,
 .navigationBar {

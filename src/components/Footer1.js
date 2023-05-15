@@ -11,7 +11,7 @@ const Footer1 = () => {
       <div className={styles.resourcesAboutTechrowthContainer}>
         <p className={styles.resources}>Resources</p>
         <p className={styles.aboutTechrowth}>
-          About Techrowth | Contact Us |<Link to="/BlogPage">Blogs</Link> |
+          About Techrowth | Contact Us |<Link to="/Blog">Blogs</Link> |
           Careers | Locations | <Link to="/Resource"> Resource</Link>
         </p>
         <p className={styles.aboutTechrowth}>&nbsp;</p>

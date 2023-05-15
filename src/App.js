@@ -76,10 +76,7 @@ function App() {
         <Route path="/Ecommerce" element={<Ecommerce />} />
         <Route path="/SocialMediaServices" element={<SocialMediaServices />} />
         <Route path="/IntentPrototype" element={<IntentPrototype />} />
-        {/* <Route path="/Resource" element={<Resource />} /> */}
         <Route path="/Resource" element={<Resource />} />
-
-        {/* <Route path="/ResourcePage" element={<ResourcePage24 />} /> */}
         <Route path="/Content" element={<Content />} />
         <Route path="/DevelopmentPage" element={<DevelopmentPage />} />
         <Route path="/IntegrationPage" element={<IntegrationPage />} />
@@ -88,7 +85,6 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/UiUxInterface" element={<UiUxInterface />} />
         <Route path="/WhoWeAre" element={<WhoWeAre />} />
-        {/* <Route path="/Blog" element={<BlogPage />} /> */}
         <Route path="/ITManagement" element={<ITManagement />} />
       </Routes>
       <Footer />
