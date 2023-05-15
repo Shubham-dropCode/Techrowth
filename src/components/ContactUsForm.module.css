@@ -150,7 +150,7 @@
   background-color: var(--white);
   border-radius: var(--br-5xs);
   box-sizing: border-box;
-  width: 16.77rem;
+  /* width: 16.77rem; */
   height: 3.13rem;
   flex-direction: column;
   /* padding: var(--padding-mini) 0 var(--padding-mini) var(--padding-xl); */
@@ -171,7 +171,7 @@
   justify-content: flex-start;
 }
 .input4 {
-  width: 33.5rem;
+  width: auto;
   height: 6rem;
   border: 1px solid var(--color-silver);
   font-family: var(--font-montserrat);
