@@ -25,7 +25,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
           className="col text-white"
           style={{ backgroundColor: "#0076A2", borderRadius: "18px" }}
         >
-          <ul className="text-center px-0 py-3 gap-2">
+          <ul className="text-center px-0 py-3 gap-2"  style={{listStyle:"none"}}>
             <li className="mb-3">
               <Link to="/DevelopmentPage" onClick={handleClick}>
                 <h5 className="text-white">Development</h5>
@@ -82,7 +82,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
           className="col text-white"
           style={{ backgroundColor: "#0076A2", borderRadius: "18px" }}
         >
-          <ul className="text-center px-0 py-3">
+          <ul className="text-center px-0 py-3" style={{listStyle:"none"}}>
             <li className="mb-3">
               <Link to="/UiUxInterface" onClick={handleClick}>
                 <h5 className="text-white">UI/UX Interactive</h5>
@@ -139,7 +139,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
           className="col text-white"
           style={{ backgroundColor: "#0076A2", borderRadius: "18px" }}
         >
-          <ul className="text-center px-0 py-3">
+          <ul className="text-center px-0 py-3" style={{listStyle:"none"}}>
             <li className="mb-3">
               <Link to="/ITManagement" onClick={handleClick}>
                 <h5 className="text-white">IT Management</h5>
@@ -196,7 +196,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
           className="col text-white"
           style={{ backgroundColor: "#0076A2", borderRadius: "18px" }}
         >
-          <ul className="text-center px-0 py-3">
+          <ul className="text-center px-0 py-3" style={{listStyle:"none"}}>
             <li className="mb-3">
               <Link to="/IntegrationPage" onClick={handleClick}>
                 <h5 className="text-white">Integration</h5>
@@ -258,7 +258,7 @@ const DropdownMenuIT = ({ sendDataToParent }) => {
           className="col text-white"
           style={{ backgroundColor: "#0076A2", borderRadius: "18px" }}
         >
-          <ul className="text-center px-0 py-3">
+          <ul className="text-center px-0 py-3" style={{listStyle:"none"}}>
             <li className="mb-3">
               <Link to="/qualityTestingPage" onClick={handleClick}>
                 <h5 className="text-white">Quality Testing</h5>

@@ -36,7 +36,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className={styles.header} >
+      <header className={styles.header} onMouseLeave={handleMouseEnterMenu}>
         <div className={styles.topbar}>
           <div className={styles.topbar1} id="TopHeader">
             <Link to="/">

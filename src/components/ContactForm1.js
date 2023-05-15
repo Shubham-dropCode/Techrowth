@@ -98,7 +98,7 @@ const ContactForm1 = () => {
                   placeholder="How can we help?"
                 />
               </div>
-              <button className={styles.letsGetStartedWrapper + "w-auto mb-3"}>
+              <button className={styles.letsGetStartedWrapper + "w-auto mb-3"} style={{borderRadius:"30px",padding:".8rem 3rem", background:"#0076A2", border:"none"}}>
                 <div className={styles.letsGetStarted}>Let’s get Started!</div>
               </button>
             </div>
