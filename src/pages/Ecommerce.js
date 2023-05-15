@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ServicesWeServeEcommerce from "../components/ServicesWeServeEcommerce";
 import heroBg from "../assets/Ecommercebg.jpg";
 import Hero from "../components/Hero";
@@ -11,6 +11,14 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsBar from "../components/ContactUsBar";
 import ContactUsForm from "../components/ContactUsForm"
 const Ecommerce = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing >", path: "/DigitalMarketing" },
+      { name: "E-commerces", path: "/Ecommerce" },
+    ]);
+  }, []);
   const HeroTitel = "E-Commerce";
   const HeroContent =
     "Experience a seamless connection between the digital and physical world. Shop without boundaries on a platform that merges virtual and real-world experiences.";
@@ -24,7 +32,7 @@ const Ecommerce = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <ServicesWeServeEcommerce />
       <ToolsWeUseEcommerce />
       {/* <ContactForm1 /> */}

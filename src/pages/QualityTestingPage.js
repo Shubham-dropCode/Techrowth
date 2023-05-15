@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import heroBg from "../assets/Qualitybg.jpg";
 import Hero from "../components/Hero";
 import styles from "../components/InterestedDevelopment.module.css";
@@ -11,6 +11,14 @@ import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsForm from "../components/ContactUsForm";
 const QualityTestingPage = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main >", path: "/ITMain" },
+      { name: "Quality Testing", path: "/QualityTestingPage" },
+    ]);
+  }, []);
   const HeroTitel =
     "A service focused on transforming software from good to great!";
   const HeroContent =
@@ -25,7 +33,7 @@ const QualityTestingPage = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <div className="container my-5">
         <div className="row">
           <div className={styles.interestedInSoftwareDevelopParent}>

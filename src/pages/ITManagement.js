@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import RecentResult from "../components/RecentResult";
 import Breadcrumbs from "../components/Breadcrumbs";
@@ -10,6 +10,14 @@ import ContactUsForm from "../components/ContactUsForm";
 import TrustedByBrands from "../components/TrustedByBrands";
 
 const ITManagement = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main >", path: "/ITMain" },
+      { name: "IT Management", path: "/ITManagement" },
+    ]);
+  }, []);
   const HeroTitel =
     "Maximize the benefits your business can reap by using our IT support.";
   const HeroContent =
@@ -23,7 +31,7 @@ const ITManagement = () => {
       />
 
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <div className="container my-5">
         <div className="row">
           <div className={styles.frameParent}>

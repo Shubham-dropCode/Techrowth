@@ -47,6 +47,13 @@
   height: 12.5rem;
   flex-shrink: 0;
 }
+.parent:hover {
+  background-color: var(--blue);
+  color:white
+}
+.yearsOfAverage:hover{
+  color: #FFF;
+}
 .clientsAcross5Container,
 .div1 {
   position: relative;
@@ -72,6 +79,10 @@
   gap: var(--gap-smi);
   font-size: 3.72rem;
 }
+.group:hover{
+  background-color: var(--blue);
+  color: #FFF;
+}
 .div2,
 .projects {
   position: absolute;
@@ -83,15 +94,23 @@
   top: 7.06rem;
   left: 3.88rem;
   font-size: var(--font-size-lg);
+  color: var(--text-grey);
+}
+.projects:hover{
+  color:#FFF
 }
 .container {
   position: relative;
   border-radius: var(--br-3xl);
-  background-color: var(--blue);
+  background-color: var(--light-blue);
   width: 12.5rem;
   height: 12.5rem;
   flex-shrink: 0;
-  color: var(--white);
+  color: var(--blue);
+}
+.container:hover {
+  background-color: var(--blue);
+  color: #FFF;
 }
 .div3,
 .provenTrackRecordContainer {
@@ -116,6 +135,10 @@
   flex-shrink: 0;
   overflow: hidden;
   font-size: 3.72rem;
+}
+.frameDiv:hover{
+  background-color: var(--blue);
+  color: #FFF;
 }
 .frameGroup {
   margin-bottom: 2rem;

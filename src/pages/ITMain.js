@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import heroBg from "../assets/newitMainbg.jpg";
 
 import ItMain from "../components/ItMain";
@@ -9,6 +9,13 @@ import ContactUsForm from "../components/ContactUsForm";
 import TrustedByBrands from "../components/TrustedByBrands";
 
 const ITMain = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main", path: "/ITMain" },
+    ]);
+  }, []);
   const HeroTitel =
     "Empowering you for a Better Tomorrow";
   const HeroContent =
@@ -21,7 +28,7 @@ const ITMain = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <ItMain />
       <ContactUsForm/>
       <TrustedByBrands/>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import heroBg from "../assets/socialimg.jpg";
 import Breadcrumb from "../components/Breadcrumbs";
@@ -11,6 +11,14 @@ import RecentResult from "../components/RecentResult";
 import ContactUsForm from "../components/ContactUsForm";
 
 const SocialMediaServices = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing >", path: "/DigitalMarketing" },
+      { name: "Services", path: "/SocialMediaServices" },
+    ]);
+  }, []);
   const HeroTitel = "Digital Marketing Services";
   const HeroContent =
     "Unleash the power of digital marketing and watch as your resources flourish into bountiful rewards for a thriving customer base. ";
@@ -24,7 +32,7 @@ const SocialMediaServices = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumb />
+      <Breadcrumb breadcrumb={breadcrumb} />
       <NumberCounterSocial />
       <IndustriesWorkedWith />
       <TechnologiesWeUseAndServiSocia />

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Hero from '../components/Hero'
 import RecentResult from '../components/RecentResult'
 import heroBg from "../assets/ContentImage.jpg";
@@ -10,6 +10,14 @@ import Breadcrumbs from '../components/Breadcrumbs';
 
 
 const Content = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing >", path: "/DigitalMarketing" },
+      { name: "Content", path: "/Content" },
+    ]);
+  }, []);
     useEffect(() => {
         window.scrollTo(0, 0);
       }, [])
@@ -27,7 +35,7 @@ const Content = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult/>
-      <Breadcrumbs/>
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <ToolsWeUseContent/>
       <ContactUsBar content={RecentText} btnTxt="Contact Us"/>
       <ContactUsForm />

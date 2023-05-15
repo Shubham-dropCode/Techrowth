@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../components/OneStopSolution1.module.css";
 import Hero from "../components/Hero";
 import heroBg from "../assets/Integrationbg.jpg";
@@ -11,6 +11,14 @@ import RecentResult from "../components/RecentResult";
 import ContactUsForm from "../components/ContactUsForm";
 
 const IntegrationPage = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main >", path: "/ITMain" },
+      { name: "Integration", path: "/IntegrationPage" },
+    ]);
+  }, []);
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -27,7 +35,7 @@ const IntegrationPage = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult/>
-      <Breadcrumbs/>
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <div className="container my-5">
         <div className={styles.frameGroup}>
           <div className={styles.parent}>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../components/Hero";
 import heroBg from "../assets/DigitalMarketingBg.jpg";
 import RecentResult from "../components/RecentResult";
@@ -15,6 +15,14 @@ import ContactUsForm from "../components/ContactUsForm";
 import Breadcrumbs from "../components/Breadcrumbs";
 
 const GraphicDesign = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing >", path: "/DigitalMarketing" },
+      { name: "Graphic Design", path: "/GraphicDesign" },
+    ]);
+  }, []);
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -31,7 +39,7 @@ const GraphicDesign = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs  breadcrumb={breadcrumb}/>
 
       <div style={{height:"1rem"}}/>
       <GraphicDesignCounter />

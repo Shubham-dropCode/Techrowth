@@ -146,14 +146,15 @@
 .input2 {
   border: 1px solid var(--color-silver);
   font-family: var(--font-montserrat);
+  gap: ;
   font-size: var(--font-size-mini);
   background-color: var(--white);
   border-radius: var(--br-5xs);
   box-sizing: border-box;
-  /* width: 16.77rem; */
+  width: 48%;
   height: 3.13rem;
   flex-direction: column;
-  /* padding: var(--padding-mini) 0 var(--padding-mini) var(--padding-xl); */
+  padding: var(--padding-mini) 0 var(--padding-mini) var(--padding-xl);
   justify-content: flex-start;
   opacity: 0.8;
 }
@@ -180,7 +181,7 @@
   border-radius: var(--br-5xs);
   overflow: hidden;
   flex-direction: row;
-  /* padding: var(--padding-22xl) 0 var(--padding-22xl) var(--padding-xl); */
+  padding: var(--padding-22xl) 0 var(--padding-22xl) var(--padding-xl);
 }
 .frameDiv {
   /* height: 17.5rem; */
@@ -190,6 +191,7 @@
 .submit {
   position: relative;
   font-size: var(--font-size-base);
+  padding: 1rem 5rem;
   font-weight: 600;
   font-family: var(--font-montserrat);
   color: var(--white);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../components/Hero.module.css";
 import MyBackgroundImage from "../assets/Development.jpg";
 import RecentResult from "../components/RecentResult";
@@ -10,6 +10,14 @@ import ContactUsForm from "../components/ContactUsForm"
 import ContactUsBar from "../components/ContactUsBar";
 
 const DevelopmentPage = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main >", path: "/ITMain" },
+      { name: "Development", path: "/DevelopmentPage" },
+    ]);
+  }, []);
   const RecentText = "Let us help your Potential Flourish Access the power of our Result-Driven Development Cycle for Your Business’s Growth!"
   return (
     <>
@@ -38,7 +46,7 @@ const DevelopmentPage = () => {
         </div>
       </div>
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb}/>
       <InterestedDevelopement />
       <ToolsSlider />
       <ContactUsBar content={RecentText} btnTxt="Contact Us"/>

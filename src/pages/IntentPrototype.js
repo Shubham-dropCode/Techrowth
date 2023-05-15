@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../components/Hero";
 import heroBg from "../assets/intentbgimg.jpg";
 import RecentResult from "../components/RecentResult";
@@ -17,6 +17,14 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsForm from "../components/ContactUsForm";
 
 const IntentPrototype = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing >", path: "/DigitalMarketing" },
+      { name: "Intent We Serve", path: "/IntentPrototype" },
+    ]);
+  }, []);
   const HeroTitel = "Intent";
   const HeroContent =
     "Business intent is what an organization wants to achieve, whether it's in the short or long term. It could be anything, from improving customer service to reaching a specific objective.";
@@ -30,8 +38,8 @@ const IntentPrototype = () => {
           content={HeroContent}
           MyBackgroundImage={heroBg}
         />
-        <RecentResult />
-        <Breadcrumbs/>
+        <RecentResult  />
+        <Breadcrumbs breadcrumb={breadcrumb}/>
         <AdvantageOfTechrowth />
         {/* <BusinessAnalystics /> */}
         <div className={styles.digitalMarketingServices}>

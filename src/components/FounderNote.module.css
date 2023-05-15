@@ -1,7 +1,7 @@
 .founderNoteChild {
   position: absolute;
   top: 4.88rem;
-  left: 0;
+  left: 15px;
   border-radius: var(--br-11xl);
   background-color: var(--light-blue);
   width: 62.85rem;
@@ -25,7 +25,7 @@
 .asifSirF12Icon {
   position: absolute;
   top: 0;
-  left: 42.03rem;
+  left: 43.03rem;
   width: 22.97rem;
   height: 27.56rem;
   object-fit: cover;

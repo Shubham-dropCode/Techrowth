@@ -13,15 +13,13 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
           <div className={styles.parent}>
             <div className={styles.div}>7+</div>
             <div className={styles.yearsOfAverageContainer}>
-              <p className={styles.yearsOfAverage}> Years of Average</p>
-              <p className={styles.yearsOfAverage}>Team Experience</p>
+              <p className={styles.yearsOfAverage}> Years of Average <br/> Team Experience</p>
             </div>
           </div>
           <div className={styles.group}>
             <div className={styles.div1}>100+</div>
             <div className={styles.clientsAcross5Container}>
-              <p className={styles.yearsOfAverage}>Clients across</p>
-              <p className={styles.yearsOfAverage}>5 countries</p>
+              <p className={styles.yearsOfAverage}>Clients across <br/>5 countries</p>
             </div>
           </div>
           <div className={styles.container}>
@@ -31,8 +29,7 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
           <div className={styles.frameDiv}>
             <div className={styles.div3}>100%</div>
             <div className={styles.provenTrackRecordContainer}>
-              <p className={styles.yearsOfAverage}>Proven Track</p>
-              <p className={styles.yearsOfAverage}>Record</p>
+              <p className={styles.yearsOfAverage}>Proven Track <br/>Record</p>
             </div>
           </div>
         </div>

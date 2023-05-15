@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import RecentResult from "../components/RecentResult";
 import OneStopSolution1 from "../components/OneStopSolution1";
@@ -20,6 +20,14 @@ import ContactUsForm from "../components/ContactUsForm";
 import ContactUsBar from "../components/ContactUsBar";
 
 const DigitalMarketing = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "Digital Marketing", path: "/DigitalMarketing" },
+    ]);
+  }, []);
+
   const HeroTitel = "Unleash the power of your brand voice with Techrowth";
   const HeroContent =
     "Unlock the potential of your brand and seize future growth opportunities with our result-driven strategies. Our extensive digital channels can help you reach a wider audience, boost brand visibility, and drive growth.";
@@ -35,7 +43,7 @@ const DigitalMarketing = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb} />
 
       <OneStopSolution1 />
       <ContactUsBar content={RecentText} btnTxt="Contact Us" />

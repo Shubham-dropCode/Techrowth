@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 // import styles from "../components/Hero.module.css";
 import heroBg from "../assets/UIUX.jpg";
 
@@ -14,6 +14,14 @@ import Hero from "../components/Hero";
 import ContactUsBar from "../components/ContactUsBar";
 
 const UiUxInterface = () => {
+  const [breadcrumb, setBreadcrumb] = useState([]);
+  useEffect(() => {
+    setBreadcrumb([
+      { name: "Home >", path: "/" },
+      { name: "IT Main >", path: "/ITMain" },
+      { name: "UI/UX Interactive", path: "/UiUxInterface" },
+    ]);
+  }, []);
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -31,7 +39,7 @@ const UiUxInterface = () => {
       />
 
       <RecentResult />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumb={breadcrumb} />
       <div className="container my-5">
         <div className="row">
           <div className={styles.frameParent}>

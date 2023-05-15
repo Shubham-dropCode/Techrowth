@@ -57,8 +57,11 @@ const DigitalMarektingComponent = () => {
           </div>
         </div>
       </div>
+      
       <div className={styles.problemsWeHaveSolvedParent}>
         <div className={styles.problemsWeHave}>Problems We have Solved</div>
+        <div className="container">
+
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
             <div className={styles.groupContainer}>
@@ -113,6 +116,7 @@ const DigitalMarektingComponent = () => {
             </div>
           </div>
         </div>
+          </div>
       </div>
       <div className={styles.cta}>
         <div className={styles.rectangleParent}>
