@@ -3,7 +3,7 @@ import styles from "./Blog.module.css";
 const Blog = () => {
   return (
     <>
-      <div className="container-fluid" style={{ padding: "2rem 6rem" }}>
+      <div className="container-fluid" style={{ padding: "2rem 4rem" }}>
         <div className={styles.resourcePage24}>
           <div className={styles.sliderParent}>
             <div className={styles.blog}>

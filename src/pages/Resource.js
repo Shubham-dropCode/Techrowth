@@ -3,7 +3,7 @@ import styles from "./Resource.module.css";
 const Resource = () => {
   return (
     <>
-      <div className="container-fluid" style={{ padding: "2rem 6rem" }}>
+      <div className="container-fluid" style={{ padding: "2rem 4rem" }}>
         <div className={styles.resourcePage24}>
           <div className={styles.sliderParent}>
             <div className={styles.slider}>
@@ -256,7 +256,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                     }}
@@ -266,7 +266,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                     }}
@@ -280,7 +280,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                     }}
@@ -296,7 +296,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                     }}
@@ -312,7 +312,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                     }}
@@ -355,7 +355,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -372,7 +372,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -390,7 +390,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -408,7 +408,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -425,7 +425,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0 mb-3"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -471,7 +471,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -488,7 +488,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -506,7 +506,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -524,7 +524,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -541,7 +541,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0 mb-3"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -589,7 +589,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -606,7 +606,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -624,7 +624,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
@@ -642,7 +642,7 @@ const Resource = () => {
                   <button
                     className="btn btn-light w-100 p-0 mb-3"
                     style={{
-                      fontSize: "16px",
+                      fontSize: "15px",
                       fontWeight: "600",
                       color: "#0076A2",
                       textAlign: "start",
