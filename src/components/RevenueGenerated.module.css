@@ -24,6 +24,10 @@
   justify-content: center;
   gap: var(--gap-xl);
 }
+.mnParent:hover{
+  background-color: var(--blue);
+  color: white;
+}
 .incrementInAverage {
   align-self: stretch;
   position: relative;

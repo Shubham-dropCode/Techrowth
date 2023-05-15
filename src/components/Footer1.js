@@ -11,8 +11,18 @@ const Footer1 = () => {
       <div className={styles.resourcesAboutTechrowthContainer}>
         <p className={styles.resources}>Resources</p>
         <p className={styles.aboutTechrowth}>
-          About Techrowth | Contact Us |<Link to="/Blog">Blogs</Link> |
-          Careers | Locations | <Link to="/Resource"> Resource</Link>
+          <Link to="/WhoWeAre" className="text-white">
+            About Techrowth
+          </Link>{" "}
+          | Contact Us |
+          <Link to="/Blog" className="text-white">
+            Blogs
+          </Link>{" "}
+          | Careers | Locations |{" "}
+          <Link to="/Resource" className="text-white">
+            {" "}
+            Resource
+          </Link>
         </p>
         <p className={styles.aboutTechrowth}>&nbsp;</p>
         <p className={styles.resources}>Intent we serve</p>
@@ -21,15 +31,51 @@ const Footer1 = () => {
           Remarketing| Reactivation | Downloading | Redownloading | E-commerce
         </p>
         <p className={styles.aboutTechrowth}>&nbsp;</p>
-        <p className={styles.resources}>Digital Marketing</p>
-        <p
-          className={styles.aboutTechrowth}
-        >{`Intents We Serve | Services | Graphic & Design | E-commerce | Content`}</p>
+        <p className={styles.resources}> <Link to="/DigitalMarketing" className="text-white">Digital Marketing</Link></p>
+        <p className={styles.aboutTechrowth}>
+          <Link to="/IntentPrototype" className="text-white">
+          {" "}  Intents We Serve{" "}
+          </Link>
+          |
+          <Link to="/SocialMediaServices" className="text-white">
+          {" "}  Services{" "}
+          </Link>
+          |
+          <Link to="/GraphicDesign" className="text-white">
+          {" "} Graphic & Design{" "}
+          </Link>
+          |
+          <Link to="/Ecommerce" className="text-white">
+          {" "}  E-commerce{" "}
+          </Link>
+          |
+          <Link to="/Content" className="text-white">
+          {" "}  Content{" "}
+          </Link>
+        </p>
         <p className={styles.aboutTechrowth}>&nbsp;</p>
-        <p className={styles.resources}>IT Services</p>
-        <p
-          className={styles.aboutTechrowth}
-        >{`Development | UI/UX & Interactive | IT Management | Integrations | Quality Testing`}</p>
+        <p className={styles.resources}><Link to="/ITMain" className="text-white">IT Services</Link></p>
+        <p className={styles.aboutTechrowth}>
+          <Link to="/DevelopmentPage" className="text-white">
+          {" "}   Development{" "}
+          </Link>
+          |
+          <Link to="/UiUxInterface" className="text-white">
+          {" "} UI/UX & Interactive{" "}
+          </Link>
+          |
+          <Link to="/ITManagement" className="text-white">
+          {" "}   IT Management{" "}
+          </Link>
+          |
+          <Link to="/IntegrationPage" className="text-white">
+          {" "}    Integrations{" "}
+          </Link>
+          |
+          <Link to="/qualityTestingPage" className="text-white">
+          {" "}    Quality Testing{" "}
+          </Link>
+        </p>
         <p className={styles.blankLine3}>&nbsp;</p>
         <p className={styles.resources}>Analytics</p>
         <p className={styles.businessIntelligence}>

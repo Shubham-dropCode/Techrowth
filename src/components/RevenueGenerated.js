@@ -31,9 +31,9 @@ const RevenueGenerated = () => {
               Overall Leads generated
             </div>
           </div>
-          <div className={styles.parent}>
+          <div className={styles.mnParent}>
             <div className={styles.mn}>130+</div>
-            <div className={styles.incrementInAverage}>
+            <div className={styles.overallLeadsGenerated}>
               increment in average followers
             </div>
           </div>
