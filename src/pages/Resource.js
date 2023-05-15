@@ -32,10 +32,10 @@ const Resource = () => {
               </p>
             </div>
             <div className={styles.emotionalMarketingPromotedContainer}>
-              <ul className={styles.emotionalMarketingPromoted}>
-                <span
-                  className={styles.emotionalMarketing}
-                >{`Emotional marketing: `}</span>
+              <ol className={styles.emotionalMarketingPromoted}>
+                <span className={styles.emotionalMarketing}>
+                  Emotional marketing:{" "}
+                </span>
                 <span>
                   Promoted milk through other dairy products, for example, by
                   promoting the goodness of milk through their curd, cheese, or
@@ -43,7 +43,169 @@ const Resource = () => {
                   values, and creating a bond between the product and the
                   customer.
                 </span>
-              </ul>
+              </ol>
+            </div>
+            <div className={styles.blogInner}>
+              <div className={styles.continueReadingWrapper}>
+                <div className={styles.continueReading}>Continue Reading</div>
+              </div>
+            </div>
+            <img className={styles.blogItem} alt="" src="/line-47.svg" />
+          </div>
+          <div className={styles.blog}>
+            <div className={styles.theDairySectorContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                <span>
+                  The aviation company wanted to overcome its low sales and
+                  increase brand visibility while transitioning from their{" "}
+                </span>
+                <span className={styles.southIndianMarket}>
+                  government to private sector.
+                </span>
+              </p>
+            </div>
+            <img className={styles.blogChild} alt="" src="/img (1).jpg" />
+            <div className={styles.increasedSalesBy}>
+              Increased ticket sales by 21%{" "}
+            </div>
+            <div className={styles.executionStrategy}>Execution Strategy :</div>
+            <div className={styles.toOvercomeTheContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                The company executed a rational marketing strategy to increase
+                brand awareness and sales. The strategy included following
+                channels and methods:
+              </p>
+            </div>
+            <div className={styles.emotionalMarketingPromotedContainer}>
+              <ol className={styles.emotionalMarketingPromoted}>
+                <span className={styles.emotionalMarketing}>
+                  Rational Marketing:
+                </span>
+                <span>
+                  To address this issue, the company implemented a rational
+                  marketing strategy to increase brand awareness and sales.
+                </span>
+              </ol>
+            </div>
+            <div className={styles.blogInner}>
+              <div className={styles.continueReadingWrapper}>
+                <div className={styles.continueReading}>Continue Reading</div>
+              </div>
+            </div>
+            <img className={styles.blogItem} alt="" src="/line-47.svg" />
+          </div>
+          <div className={styles.blog}>
+            <div className={styles.theDairySectorContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                <span>
+                  The transportation service company was struggling with low
+                  engagement for their AC buses in comparison to their{" "}
+                </span>
+                <span className={styles.southIndianMarket}>Non-AC buses.</span>
+              </p>
+            </div>
+            <img className={styles.blogChild} alt="" src="/img (2).jpg" />
+            <div className={styles.increasedSalesBy}>
+              Increased overall engagement by 46%
+            </div>
+            <div className={styles.executionStrategy}>Execution Strategy :</div>
+            <div className={styles.toOvercomeTheContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                The company executed an Emotional Marketing strategy to increase
+                engagement and bookings for AC buses. The strategy included
+              </p>
+            </div>
+            <div className={styles.emotionalMarketingPromotedContainer}>
+              <ol className={styles.emotionalMarketingPromoted}>
+                <span className={styles.emotionalMarketing}>
+                  Identifying the Issue:
+                </span>
+                <span>
+                  Lack of Amenities and Comfort - The company identified that
+                  the lack of basic amenities and comfort was the main reason
+                  for low engagement of AC buses.
+                </span>
+              </ol>
+            </div>
+            <div className={styles.blogInner}>
+              <div className={styles.continueReadingWrapper}>
+                <div className={styles.continueReading}>Continue Reading</div>
+              </div>
+            </div>
+            <img className={styles.blogItem} alt="" src="/line-47.svg" />
+          </div>
+          <div className={styles.blog}>
+            <div className={styles.theDairySectorContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                <span>
+                  The banking website had slow loading speed, leading to low
+                  engagement among users which is  
+                </span>
+                <span className={styles.southIndianMarket}>
+                  what the company wanted resolved.
+                </span>
+              </p>
+            </div>
+            <img className={styles.blogChild} alt="" src="/img (4).jpg" />
+            <div className={styles.increasedSalesBy}>
+               Increased website loading speed by 81%{" "}
+            </div>
+            <div className={styles.executionStrategy}>Execution Strategy :</div>
+            <div className={styles.toOvercomeTheContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                The company implemented IT strategies to address the issue of
+                slow website loading, resulting in increased user engagement on
+                their website. The strategy involved a series of steps that are
+                as follows:
+              </p>
+            </div>
+            <div className={styles.emotionalMarketingPromotedContainer}>
+              <ol className={styles.emotionalMarketingPromoted}>
+                <span className={styles.emotionalMarketing}>
+                  Fixed Redirecting and Server Issues:
+                </span>
+                <span>
+                  Identified and fixed the website's redirecting and server
+                  issues to improve performance.
+                </span>
+              </ol>
+            </div>
+            <div className={styles.blogInner}>
+              <div className={styles.continueReadingWrapper}>
+                <div className={styles.continueReading}>Continue Reading</div>
+              </div>
+            </div>
+            <img className={styles.blogItem} alt="" src="/line-47.svg" />
+          </div>
+          <div className={styles.blog}>
+            <div className={styles.theDairySectorContainer}>
+              <p className={styles.theDairySectorWantedToBoo}>
+                <span>
+                  The business wanted to revamp their website for sales and
+                  inquiries and wanted a website that could
+                </span>
+                <span className={styles.southIndianMarket}>
+                  adequately handle their incoming traffic
+                </span>
+              </p>
+            </div>
+            <img className={styles.blogChild} alt="" src="/img (5).jpg" />
+            <div className={styles.increasedSalesBy}>
+              Increased sales enquiry rates by 62%
+            </div>
+            <div className={styles.executionStrategy}>Execution Strategy :</div>
+
+            <div className={styles.emotionalMarketingPromotedContainer}>
+              <ol className={styles.emotionalMarketingPromoted}>
+                <span className={styles.emotionalMarketing}>
+                  Redesigning the Website:
+                </span>
+                <span>
+                  The complete website was redesigned to improve the user
+                  interface, provide easy navigation, and make it more
+                  user-friendly.
+                </span>
+              </ol>
             </div>
             <div className={styles.blogInner}>
               <div className={styles.continueReadingWrapper}>
@@ -58,104 +220,78 @@ const Resource = () => {
           <div className={styles.categories}>
             <div className={styles.frameParent}>
               <div className={styles.frameContainer}>
-                <button className={styles.frameButton}>
-                  <div className={styles.frameDiv}>
-                    <div
-                      style={{
-                        fontSize: "12px",
-                        fontWeight: "600",
-                        color: "#0076A2",
-                      }}
-                    >
-                      Business Analytics
-                    </div>
-                  </div>
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                  }}
+                >
+                  Business Analytics
                 </button>
-                <button className={styles.frameButton}>
-                  <div className={styles.frameDiv}>
-                    <div
-                      style={{
-                        fontSize: "12px",
-                        fontWeight: "600",
-                        color: "#0076A2",
-                      }}
-                    >
-                      Popular Post
-                    </div>
-                  </div>
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                  }}
+                >
+                  Popular Post
                 </button>
               </div>
-              <div className={styles.categoriesParent}>
-                <div className={styles.executionStrategy}>Categories</div>
-                <div className={styles.frameContainer}>
-                  <button className={styles.frameButton}>
-                    <div className={styles.frameDiv}>
-                      <img
-                        className={styles.frameIcon}
-                        alt=""
-                        src="/frame-1339@2x.png"
-                        width={24}
-                      />
-                      <div
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "600",
-                          color: "#0076A2",
-                        }}
-                      >
-                        Digital Marketing
-                      </div>
-                    </div>
-                  </button>
-                  {/* <button className={styles.frameWrapper}>
-                  <div className={styles.frameDiv}>
-                    <img
-                      className={styles.frameInner}
-                      alt=""
-                      src="/frame-1339@2x.png"
-                    />
-                    <img
-                      className={styles.digitalMarketingIcon}
-                      alt=""
-                      src="/digital-marketing.svg"
-                    />
-                  </div>
-                </button> */}
-
-                  <button className={styles.frameButton}>
-                    <div className={styles.frameDiv}>
-                      <img
-                        className={styles.frameIcon}
-                        alt=""
-                        src="/frame-1340@2x.png"
-                        width={24}
-                      />
-                      <div
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "600",
-                          color: "#0076A2",
-                        }}
-                      >
-                        Business Analytics
-                      </div>
-                    </div>
-                  </button>
-                  <div className={styles.frameWrapper1}>
-                    <div className={styles.frameParent2}>
-                      <img
-                        className={styles.frameChild1}
-                        alt=""
-                        src="/frame-1341@2x.png"
-                      />
-                      <img
-                        className={styles.itServicesIcon}
-                        alt=""
-                        src="/it-services.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
+              {/* <div className={styles.categoriesParent}> */}
+              <div className={styles.executionStrategy}>Categories</div>
+              <div className={styles.frameContainer}>
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1339@2x.png"
+                    width={24}
+                  />
+                  Digital Marketing
+                </button>
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1340@2x.png"
+                    width={24}
+                  />
+                  Business Analytics
+                </button>{" "}
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1341@2x.png"
+                    width={24}
+                  />
+                  IT Services
+                </button>
               </div>
             </div>
           </div>
@@ -183,64 +319,310 @@ const Resource = () => {
                 </div>
               </div>
               <div className={styles.buttons}>
-                <button className={styles.intent}>
-                  <div className={styles.frameParent3}>
-                    <img
-                      className={styles.imgIcon}
-                      alt=""
-                      src="/frame-1128@2x.png"
-                    />
-                    <div className={styles.intent1}>Intent</div>
-                  </div>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1128@2x.png"
+                    width={35}
+                  />
+                  Intent{" "}
                 </button>
-                <div className={styles.services}>
-                  <div className={styles.frameParent4}>
-                    <img
-                      className={styles.frameChild3}
-                      alt=""
-                      src="/frame-1130@2x.png"
-                    />
-                    <div className={styles.continueReading}>Services</div>
-                  </div>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1130@2x.png"
+                    width={35}
+                  />
+                  Services
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1131@2x.png"
+                    width={35}
+                  />
+                  E-commerce
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1132@2x.png"
+                    width={35}
+                  />
+                  Content{" "}
+                </button>
+                <button
+                  className="btn btn-light w-100 p-0 mb-3"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/frame-1133@2x.png"
+                    width={35}
+                  />
+                  Graphics & Designs
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.maindigitalmarketing}>
+            <div className={styles.digitalMarekting}>
+              <div className={styles.head}>
+                <div className={styles.headcontainer}>
+                  <img
+                    className={styles.imgIcon}
+                    alt=""
+                    src="/information-technology.png"
+                  />
+                  <div className={styles.continueReading}>IT Services </div>
+                  <img
+                    className={styles.arrowRightIcon}
+                    alt=""
+                    src="/arrowright.svg"
+                  />
                 </div>
-                <div className={styles.ecommerce}>
-                  <div className={styles.ecommerceInner}>
-                    <div className={styles.frameParent5}>
-                      <img
-                        className={styles.frameChild3}
-                        alt=""
-                        src="/frame-1131@2x.png"
-                      />
-                      <div className={styles.eCommerce}>E-commerce</div>
-                    </div>
-                  </div>
+              </div>
+              <div className={styles.unlockThePotentialOfYourBWrapper}>
+                <div className={styles.unlockThePotential}>
+                  Unlock the potential of your brand and seize future growth
+                  opportunities with our result-driven strategies. Our extensive
+                  digital channels can help you reach a wider audience, boost
+                  brand visibility, and drive growth.
                 </div>
-                <div className={styles.buttonsInner}>
-                  <div className={styles.frameWrapper2}>
-                    <div className={styles.frameParent6}>
-                      <img
-                        className={styles.frameChild3}
-                        alt=""
-                        src="/frame-1132@2x.png"
-                      />
-                      <div className={styles.eCommerce}>Content</div>
-                    </div>
+              </div>
+              <div className={styles.buttons}>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/coding (1).png"
+                    width={35}
+                  />
+                  Development
+                </button>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/consulting (1).png"
+                    width={35}
+                  />
+                  IT Management
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/u"
+                    width={35}
+                  />
+                  UI/UX Interface{" "}
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/technology.png"
+                    width={35}
+                  />
+                  Integration
+                </button>
+                <button
+                  className="btn btn-light w-100 p-0 mb-3"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/secure-shield.png"
+                    width={35}
+                  />
+                  Quality Testing
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.maindigitalmarketing}>
+            <div className={styles.digitalMarekting}>
+              <div className={styles.head}>
+                <div className={styles.headcontainer}>
+                  <img
+                    className={styles.imgIcon}
+                    alt=""
+                    src="/frame-1094@2x.png"
+                  />
+                  <div className={styles.continueReading}>
+                    Business Analytics{" "}
                   </div>
+                  <img
+                    className={styles.arrowRightIcon}
+                    alt=""
+                    src="/arrowright.svg"
+                  />
                 </div>
-                <div className={styles.ecommerce}>
-                  <div className={styles.frameWrapper3}>
-                    <div className={styles.frameParent7}>
-                      <img
-                        className={styles.frameChild6}
-                        alt=""
-                        src="/frame-1133@2x.png"
-                      />
-                      <div
-                        className={styles.graphicsDesigns}
-                      >{`Graphics & Designs`}</div>
-                    </div>
-                  </div>
+              </div>
+              <div className={styles.unlockThePotentialOfYourBWrapper}>
+                <div className={styles.unlockThePotential}>
+                  Unlock the potential of your brand and seize future growth
+                  opportunities with our result-driven strategies. Our extensive
+                  digital channels can help you reach a wider audience, boost
+                  brand visibility, and drive growth.
                 </div>
+              </div>
+              <div className={styles.buttons}>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/Frame 1139.png"
+                    width={35}
+                  />
+                  Analytics & Insights
+                </button>
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/Frame 1140.png"
+                    width={35}
+                  />
+                  Customized Dashboards
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/Frame 1141.png"
+                    width={35}
+                  />
+                  Social Media Analytics
+                </button>
+
+                <button
+                  className="btn btn-light w-100 p-0 mb-3"
+                  style={{
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameIcon}
+                    alt=""
+                    src="/Frame 1142.png"
+                    width={35}
+                  />
+                  Mobile Analytics{" "}
+                </button>
               </div>
             </div>
           </div>
