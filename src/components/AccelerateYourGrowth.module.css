@@ -166,13 +166,12 @@
   height: 1.5rem;
 }
 .a31483e59ee069da94c581Parent {
-  width: 70.21rem;
-  flex-shrink: 0;
+
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: 0 var(--padding-mini);
-  box-sizing: border-box;
+ 
+  gap: 2rem;
   align-items: center;
   justify-content: space-between;
 }
