@@ -191,11 +191,16 @@
 .frameDiv {
   position: relative;
   border-radius: var(--br-xl);
-  background-color: var(--blue);
+  color: var(--blue);
+  background-color: var(--light-blue);
   width: 31.25rem;
   height: 18.75rem;
   overflow: hidden;
   flex-shrink: 0;
+}
+.frameDiv:hover{
+  background-color: var(--blue);
+  color: white;
 }
 .originality {
   position: relative;
@@ -238,6 +243,10 @@
   overflow: hidden;
   flex-shrink: 0;
   color: var(--blue);
+}
+.frameWrapper1:hover {
+  background-color: var(--blue);
+  color: white;
 }
 .frameContainer {
   /* width: 65rem; */
@@ -338,6 +347,10 @@
   height: 20.75rem;
   overflow: hidden;
   flex-shrink: 0;
+}
+.groupWrapper:hover{
+  background-color: var(--blue);
+  color: white;
 }
 .frameParent1 {
   align-self: stretch;
@@ -755,6 +768,7 @@
 .thePortfolioParent {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-21xl);

@@ -44,20 +44,17 @@ const DigitalMarketing = () => {
       />
       <RecentResult />
       <Breadcrumbs breadcrumb={breadcrumb} />
-
       <OneStopSolution1 />
       <ContactUsBar content={RecentText} btnTxt="Contact Us" />
       <SatisfiedClients show={false} />
       <AccelerateYourGrowth />
       <DigitalMarektingComponent />
-
       <DigitalMarketingServices1 />
       <Testimonial />
       <BISCCBOR />
       <ExploreOurCaseStudies />
       <ContactUsBar content={cotactBarContent} btnTxt="Contact Us" />
       <RevenueGenerated />
-
       <ITServices1 />
       <BusinessAnalystics show={false} onDisplay={true} titleDiplay={true} />
       <ContactUsForm />

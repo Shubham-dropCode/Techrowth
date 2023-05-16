@@ -22,7 +22,8 @@ const IntegrationPage = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-  const HeroTitel = "Let Techrowth be your guide towards a journey of ever-expanding growth.";
+  const HeroTitel =
+    "Let Techrowth be your guide towards a journey of ever-expanding growth.";
   const HeroContent =
     "Integration is becoming a rising phoenix by turning the ashes of all your past interactions into a springboard for your rebirth in sales. With the power of technology, you can unlock limitless possibilities for your business.";
   const RecentText =
@@ -34,8 +35,8 @@ const IntegrationPage = () => {
         content={HeroContent}
         MyBackgroundImage={heroBg}
       />
-      <RecentResult/>
-      <Breadcrumbs breadcrumb={breadcrumb}/>
+      <RecentResult />
+      <Breadcrumbs breadcrumb={breadcrumb} />
       <div className="container my-5">
         <div className={styles.frameGroup}>
           <div className={styles.parent}>

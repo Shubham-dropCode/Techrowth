@@ -53,6 +53,13 @@
   font-size: 2rem;
   position: absolute;
   top: 0;
+  left: 2.25rem;
+  font-weight: 500;
+}
+.div11 {
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
   left: 3.25rem;
   font-weight: 500;
 }

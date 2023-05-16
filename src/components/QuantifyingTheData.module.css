@@ -43,7 +43,7 @@
   position: relative;
   font-weight: 600;
   display: inline-block;
-  width: 9.05rem;
+  /* width: 9.05rem; */
   height: 6.38rem;
   flex-shrink: 0;
 }

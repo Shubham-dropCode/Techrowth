@@ -113,6 +113,17 @@
   position: relative;
   font-weight: 600;
 }
+.div3 {
+  position: relative;
+  font-weight: 600;
+  left: 40px;
+}
+.div4 {
+  position: relative;
+  font-weight: 600;
+  left: 60px;
+}
+
 .revenueIncrement {
   position: relative;
   font-size: var(--font-size-xl);
@@ -221,13 +232,14 @@
 .div13 {
   position: absolute;
   top: 0;
-  left: 5.88rem;
+  left: 7.1rem;
   font-weight: 600;
 }
 .socialMediaInteractionContainer {
   position: absolute;
   top: 5.4rem;
   left: 64px;
+  width: inherit;
   font-size: var(--font-size-xl);
   font-weight: 500;
   text-align: center;

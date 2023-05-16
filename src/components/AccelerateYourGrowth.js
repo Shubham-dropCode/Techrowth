@@ -4,13 +4,20 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const AccelerateYourGrowth = () => {
+
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    autoplay: true,
+    slidesToShow: 5,
     slidesToScroll: 1,
+    initialSlide: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 1000,
+    cssEase: "linear",
+
   };
   return (
     <div className={styles.accelerateYourGrowth}>
@@ -45,14 +52,14 @@ const AccelerateYourGrowth = () => {
             </button>
           </div>
         </div>
-        <div className={styles.frameContainer}>
+        {/* <div className={styles.frameContainer}>
           <button className={styles.frameButton}>
             <img className={styles.groupIcon} alt="" src="/group-358.svg" />
-          </button>
+          </button> */}
 
-          <div className={styles.a31483e59ee069da94c581Parent}>
-            {/* <Slider {...settings}> */}
-            <div className="px-2">
+        {/* <div className={styles.a31483e59ee069da94c581Parent}> */}
+        {/* <Slider {...settings}> */}
+        {/* <div className="px-2">
               <img
                 className={styles.a31483e59ee069da94c581Icon}
                 alt=""
@@ -94,12 +101,62 @@ const AccelerateYourGrowth = () => {
                 alt=""
                 src="/semrush-logo-1@2x.png"
               />
-            </div>
-          {/* </Slider> */}
-          </div>
-          <button className={styles.frameButton}>
+            </div> */}
+        {/* </Slider> */}
+        {/* </div> */}
+        {/* <button className={styles.frameButton}>
             <img className={styles.groupIcon} alt="" src="/group-359.svg" />
           </button>
+        </div> */}
+        <div className="container">
+          <div className="row d-block align-items-center">
+            <Slider {...settings}>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/629a31483e59ee069da94c58-1@2x.png"
+                />
+              </div>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/5841c471a6515b1e0ad75aa2-1@2x.png"
+                />
+              </div>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/hubspotlogo-1@2x.png"
+                />
+              </div>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/images-1@2x.png"
+                />
+              </div>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/mailchimp-logohorizontal-black-1@2x.png"
+                />
+              </div>
+              <div className="col">
+                <img
+                  className={styles.images1Icon}
+                  alt=""
+                  src="/semrush-logo-1@2x.png"
+                />
+              </div>
+            </Slider>
+            {/* <div className="col"></div>
+            <div className="col"></div> */}
+          </div>
         </div>
       </div>
     </div>

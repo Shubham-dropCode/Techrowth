@@ -14,6 +14,7 @@ const DigitalMarektingComponent = () => {
           <div className={styles.percentageBoxParent}>
             <div className={styles.percentageBox}>
               <div className={styles.parent}>
+              
                 <b className={styles.b}>{`170% `}</b>
                 <div className={styles.increaseInVertical}>
                   Increase in Vertical Revenue

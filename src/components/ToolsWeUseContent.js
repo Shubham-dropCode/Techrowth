@@ -1,4 +1,6 @@
 import styles from "./ToolsWeUseContent.module.css";
+import NumberCounter from 'number-counter';
+
 const ToolsWeUseContent = () => {
   return (
     <div className="container my-5">
@@ -8,7 +10,9 @@ const ToolsWeUseContent = () => {
             <div className={styles.groupContainer}>
               <div className={styles.stBlockContentWrapper}>
                 <div className={styles.stBlockContent}>
-                  <div className={styles.div1}>89</div>
+                <NumberCounter end={89} delay={1} className={styles.div1}/>
+
+                  {/* <div className={styles.div1}>89</div> */}
                   <div className={styles.companyProfilesCreated}>
                     Company Profiles Created per year
                   </div>
@@ -36,7 +40,9 @@ const ToolsWeUseContent = () => {
                   <div className={styles.copywritingPerMonth}>
                     Copywriting per month
                   </div>
-                  <div className={styles.div1}>55</div>
+                  <NumberCounter end={55} delay={1} className={styles.div1}/>
+
+                  {/* <div className={styles.div1}>55</div> */}
                 </div>
               </div>
               <img className={styles.groupItem} alt="" src="/group-411.svg" />
@@ -44,7 +50,8 @@ const ToolsWeUseContent = () => {
             <div className={styles.groupContainer}>
               <div className={styles.stBlockContent1}>
                 <div className={styles.wrapper}>
-                  <div className={styles.div2}>377</div>
+                <NumberCounter end={377} delay={1} className={styles.div2}/>
+                  {/* <div className={styles.div2}>377</div> */}
                 </div>
                 <div className={styles.blogsOrArticles}>
                   Blogs or Articles per year
@@ -55,7 +62,8 @@ const ToolsWeUseContent = () => {
             <div className={styles.groupContainer}>
               <div className={styles.stBlockContent1}>
                 <div className={styles.parent}>
-                  <div className={styles.div3}>233</div>
+                <NumberCounter end={233} delay={1} className={styles.div3}/>
+                  {/* <div className={styles.div3}>233</div> */}
                   <div className={styles.revampedContentQuarterly}>
                     Revamped Content Quarterly
                   </div>

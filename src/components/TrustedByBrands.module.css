@@ -240,6 +240,7 @@
 }
 .trustedByBrands {
   position: relative;
+  margin-top: 3rem;
   background-color: var(--white);
   width: 90rem;
   height: 33.5rem;

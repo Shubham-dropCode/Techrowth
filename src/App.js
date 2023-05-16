@@ -15,7 +15,8 @@ import Resource from "./pages/Resource";
 
 import BlogPage from "./pages/Resource"
 // import Resource from "./pages/Resource";
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import IntentPrototype from "./pages/IntentPrototype";

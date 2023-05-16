@@ -63,7 +63,7 @@
   justify-content: space-between;
 }
 .parent {
-  width: 76.19rem;
+  /* width: 76.19rem; */
   flex-shrink: 0;
 }
 .frameGroup {
@@ -305,8 +305,7 @@
   flex-shrink: 0;
 }
 .div7,
-.frameContainer,
-.group {
+.frameContainer {
   display: flex;
   align-items: center;
 }
@@ -326,17 +325,18 @@
   gap: var(--gap-12xl);
 }
 .group {
-  width: 76.54rem;
+  display: block;
+  /* width: 76.54rem; */
   flex-shrink: 0;
   justify-content: flex-start;
 }
-.frameContainer {
+/* .frameContainer {
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
   justify-content: center;
-}
+} */
 .circlesChild {
   position: relative;
   width: 0.76rem;
@@ -354,9 +354,9 @@
   justify-content: space-between;
 }
 .clientReview {
-  position: relative;
+  /* position: relative;
   width: 84.84rem;
-  height: 22.25rem;
+  height: 22.25rem; */
   flex-shrink: 0;
   text-align: justify;
   font-size: var(--font-size-xs);
@@ -374,7 +374,7 @@
 }
 .stories {
   background-color: var(--white);
-  width: 90rem;
+  /* width: 90rem; */
   margin: 1rem ;
   overflow: hidden;
   padding: 0 var(--padding-23xl);
@@ -385,3 +385,10 @@
   color: var(--text-grey);
   font-family: var(--font-montserrat);
 }
+
+/* .slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+} */

@@ -1,4 +1,6 @@
 import styles from "./AdvantageOfTechrowth.module.css";
+import NumberCounter from 'number-counter';
+
 const AdvantageOfTechrowth = () => {
   return (
     <div className={styles.secondPageIntent}>
@@ -13,25 +15,29 @@ const AdvantageOfTechrowth = () => {
       <div className={styles.secondPageIntentInner +" my-4"}>
         <div className={styles.frameParent }>
           <div className={styles.parent}>
-            <div className={styles.div}>34%</div>
+          <NumberCounter end={34} delay={1} className={styles.div} postFix="%"/>
+            {/* <div className={styles.div}>34%</div> */}
             <div className={styles.incrementInGross}>
               Increment in Gross Revenue
             </div>
           </div>
           <div className={styles.parent}>
-            <div className={styles.div}>21%</div>
+          <NumberCounter end={21} delay={1} className={styles.div} postFix="%"/>
+            {/* <div className={styles.div}>21%</div> */}
             <div className={styles.incrementInSocial}>
               Increment in Social Media Interaction
             </div>
           </div>
           <div className={styles.parent}>
-            <div className={styles.div}>9%</div>
+          <NumberCounter end={9} delay={1} className={styles.div} postFix="%"/>
+            {/* <div className={styles.div}>9%</div> */}
             <div className={styles.incrementInSocial}>
               Increment in Conversion Rate
             </div>
           </div>
           <div className={styles.parent}>
-            <div className={styles.div}>36%</div>
+          <NumberCounter end={36} delay={1} className={styles.div} postFix="%"/>
+            {/* <div className={styles.div}>36%</div> */}
             <div className={styles.incrementInSocial}>
               Increment in Customer Retension
             </div>

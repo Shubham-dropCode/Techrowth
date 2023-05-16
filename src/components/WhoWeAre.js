@@ -1,5 +1,6 @@
 import styles from "./WhoWeAre.module.css";
 import WhoWeAreImg from "../assets/who we are img.png";
+import Testimonial from "./Testimonial";
 const WhoWeAre = () => {
   return (
     <div className={styles.whoWeAre}>
@@ -10,7 +11,17 @@ const WhoWeAre = () => {
         >
           <img alt="" src={WhoWeAreImg} className="position-relative" />
 
-          <div className="text position-absolute text-white" style={{top:"175px", left:"38%",fontSize:"50px" ,fontWeight:"700"}}>Who We Are</div>
+          <div
+            className="text position-absolute text-white"
+            style={{
+              top: "175px",
+              left: "38%",
+              fontSize: "50px",
+              fontWeight: "700",
+            }}
+          >
+            Who We Are
+          </div>
         </div>
         <div className={styles.frameWrapper}>
           <div className={styles.searchingForRelevant21stCeParent}>
@@ -219,16 +230,13 @@ const WhoWeAre = () => {
       <div className={styles.ourTeamParent}>
         <b className={styles.ourTeam}>Our Team</b>
         <div className={styles.rectangleGroup}>
-          <img
-            className={styles.groupChild}
-            alt=""
-            src="/TeamImg.jpeg"
-          />
+          <img className={styles.groupChild} alt="" src="/TeamImg.jpeg" />
           <div className="overlay" />
           <div className={styles.groupItem} />
         </div>
       </div>
-      <div className={styles.discoverWhy100ClientsRaveParent}>
+      <Testimonial />
+      {/* <div className={styles.discoverWhy100ClientsRaveParent}>
         <div className={styles.ourTeam}>
           <span>{`Discover why `}</span>
           <b className={styles.clients}>100+ Clients</b>
@@ -352,7 +360,7 @@ const WhoWeAre = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={styles.thePortfolioParent}>
         <b className={styles.ourCoreValues}>The Portfolio</b>
         <div className={styles.groupParent13}>

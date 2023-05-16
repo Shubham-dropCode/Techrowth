@@ -24,6 +24,7 @@
 .div {
   position: absolute;
   top: 2.56rem;
+  font-size: 3.5rem;
   left: 4.63rem;
   font-weight: 500;
 }
@@ -36,7 +37,7 @@
   left: 1.31rem;
   font-size: var(--font-size-lg);
   font-weight: 500;
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
   text-align: center;
 }
 .parent {
@@ -61,7 +62,7 @@
 }
 .clientsAcross5Container {
   font-size: var(--font-size-lg);
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
   text-align: center;
 }
 .group {
@@ -72,7 +73,7 @@
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-8xl) var(--padding-12xl);
+  /* padding: var(--padding-8xl) var(--padding-12xl); */
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
@@ -87,14 +88,15 @@
 .projects {
   position: absolute;
   top: 2.56rem;
-  left: 2.69rem;
+  font-size: 3.5rem;
+  left: 1.69rem;
   font-weight: 500;
 }
 .projects {
   top: 7.06rem;
   left: 3.88rem;
   font-size: var(--font-size-lg);
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
 }
 .projects:hover{
   color:#FFF
@@ -123,7 +125,7 @@
   top: 7.22rem;
   left: 2.66rem;
   font-size: var(--font-size-lg);
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
   text-align: center;
 }
 .frameDiv {

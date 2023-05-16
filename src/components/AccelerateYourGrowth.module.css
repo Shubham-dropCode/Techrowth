@@ -138,15 +138,15 @@
 .c471a6515b1e0ad75aa21Icon,
 .hubspotLogo1Icon,
 .images1Icon {
-  position: relative;
-  flex-shrink: 0;
-  object-fit: cover;
+  /* position: relative;
+  flex-shrink: 0; */
+  object-fit: fill;
 }
 .c471a6515b1e0ad75aa21Icon {
   width: 9.88rem;
 }
 .hubspotLogo1Icon {
-  width: 9.19rem;
+  width: 10.19rem;
   height: 6.13rem;
 }
 .images1Icon {
