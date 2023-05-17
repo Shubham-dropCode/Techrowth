@@ -5,8 +5,20 @@ import styles from "./Header.module.css";
 import { useEffect, useState } from "react";
 import DropdownMenu from "./DropdownMenu";
 import DropdownMenuIT from "./DropdownMenuIT";
+import { useRef } from "react";
 
 const Header = () => {
+  const sectionRef = useRef(null);
+
+  const handleClick = () => {
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -137,7 +149,9 @@ const Header = () => {
                     IT Services
                   </Link>
                 </div>
-                <div className={styles.analytics}>Analytics</div>
+                <Link to="/ContactusPage" style={{ border: "none" }}>
+                  <div className={styles.analytics}>Analytics</div>
+                </Link>
                 <div
                   className={styles.whoWeAre}
                   onMouseEnter={handleMouseEnterMenu}
@@ -151,7 +165,7 @@ const Header = () => {
                 <img className={styles.vectorIcon} alt="" src="/vector-1.svg" />
               </button>
             </nav>
-            <button className={styles.navbutton} id="#ContactForm">
+            <button className={styles.navbutton} onClick={handleClick}>
               <div className={styles.contactUs}>Contact Us</div>
             </button>
           </div>

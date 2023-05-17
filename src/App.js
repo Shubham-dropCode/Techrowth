@@ -30,6 +30,7 @@ import QualityTestingPage from "./pages/QualityTestingPage";
 import ITManagement from "./pages/ITManagement";
 import ResourcePage24 from "./pages/Blog";
 import Blog from "./pages/Blog";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   const action = useNavigationType();
@@ -87,6 +88,7 @@ function App() {
         <Route path="/UiUxInterface" element={<UiUxInterface />} />
         <Route path="/WhoWeAre" element={<WhoWeAre />} />
         <Route path="/ITManagement" element={<ITManagement />} />
+        <Route path="/ContactUsPage" element={<ContactUsPage />} />
       </Routes>
       <Footer />
     </>

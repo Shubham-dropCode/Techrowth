@@ -1,6 +1,7 @@
 import styles from "./WhoWeAre.module.css";
 import WhoWeAreImg from "../assets/who we are img.png";
 import Testimonial from "./Testimonial";
+import { Link } from "react-router-dom";
 const WhoWeAre = () => {
   return (
     <div className={styles.whoWeAre}>
@@ -431,56 +432,111 @@ const WhoWeAre = () => {
             </div>
             <div className={styles.frameWrapper8}>
               <div className={styles.frameParent7}>
-                <div className={styles.servicesParent}>
-                  <div className={styles.frameParent8}>
+                <Link to="/IntentPrototype" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
                     <img
-                      className={styles.frameChild3}
+                      className={styles.frameItem + "ps-1"}
                       alt=""
                       src="/frame-1128@2x.png"
+                      width={35}
                     />
-                    <div className={styles.intent}>Intent</div>
-                  </div>
-                </div>
-                <div className={styles.servicesParent}>
-                  <div className={styles.services}>Services</div>
-                  <img
-                    className={styles.frameChild4}
-                    alt=""
-                    src="/frame-1130@2x.png"
-                  />
-                </div>
-                <div className={styles.frameWrapper10}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.eCommerce}>E-commerce</div>
+                    Intent{" "}
+                  </button>
+                </Link>
+                <Link to="/SocialMediaServices" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
                     <img
-                      className={styles.frameChild5}
+                      className={styles.frameItem + " mr-1"}
+                      alt=""
+                      src="/frame-1130@2x.png"
+                      width={35}
+                    />
+                    Services{" "}
+                  </button>
+                </Link>
+                <Link to="/Ecommerce" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + " mr-1"}
                       alt=""
                       src="/frame-1131@2x.png"
+                      width={35}
                     />
-                  </div>
-                </div>
-                <div className={styles.frameWrapper10}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.content}>Content</div>
+                    E-commerce
+                  </button>
+                </Link>
+                <Link to="/Content" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
                     <img
-                      className={styles.frameChild6}
+                      className={styles.frameItem + " mr-1"}
                       alt=""
-                      src="/frame-1132@2x.png"
+                      src="/frame-1130@2x.png"
+                      width={35}
                     />
-                  </div>
-                </div>
-                <div className={styles.frameWrapper10}>
-                  <div className={styles.eCommerceParent}>
-                    <div
-                      className={styles.graphicsDesigns}
-                    >{`Graphics & Designs`}</div>
+                    Content{" "}
+                  </button>
+                </Link>
+                <Link to="/GraphicDesign" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
                     <img
-                      className={styles.frameChild7}
+                      className={styles.frameItem + " mr-1"}
                       alt=""
                       src="/frame-1133@2x.png"
+                      width={35}
                     />
-                  </div>
-                </div>
+                    Graphic & Designs{" "}
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -495,7 +551,113 @@ const WhoWeAre = () => {
               </div>
               <div className={styles.frameWrapper8}>
                 <div className={styles.frameParent7}>
-                  <div className={styles.servicesParent}>
+                  <Link to="/DevelopmentPage" style={{ width: "100%" }}>
+                    <button
+                      className="btn btn-light w-100"
+                      style={{
+                        fontSize: "18px",
+                        width: "18.3rem",
+                        height: "3.75rem",
+                        fontWeight: "600",
+                        color: "#0076A2",
+                        textAlign: "start",
+                      }}
+                    >
+                      <img
+                        className={styles.frameItem + "ps-1"}
+                        alt=""
+                        src="/frame-1134@2x.png"
+                        width={35}
+                      />
+                      Development{" "}
+                    </button>
+                  </Link>
+                  <Link to="/UiUxInterface" style={{ width: "100%" }}>
+                    <button
+                      className="btn btn-light w-100"
+                      style={{
+                        fontSize: "18px",
+                        width: "18.3rem",
+                        height: "3.75rem",
+                        fontWeight: "600",
+                        color: "#0076A2",
+                        textAlign: "start",
+                      }}
+                    >
+                      <img
+                        className={styles.frameItem + " mr-1"}
+                        alt=""
+                        src="/frame-1135@2x.png"
+                        width={35}
+                      />
+                      UI/UX Interface{" "}
+                    </button>
+                  </Link>
+                  <Link to="/ITManagement" style={{ width: "100%" }}>
+                    <button
+                      className="btn btn-light w-100"
+                      style={{
+                        fontSize: "18px",
+                        width: "18.3rem",
+                        height: "3.75rem",
+                        fontWeight: "600",
+                        color: "#0076A2",
+                        textAlign: "start",
+                      }}
+                    >
+                      <img
+                        className={styles.frameItem + " mr-1"}
+                        alt=""
+                        src="/frame-1136@2x.png"
+                        width={35}
+                      />
+                      IT Management
+                    </button>
+                  </Link>
+                  <Link to="/IntegrationPage" style={{ width: "100%" }}>
+                    <button
+                      className="btn btn-light w-100"
+                      style={{
+                        fontSize: "18px",
+                        width: "18.3rem",
+                        height: "3.75rem",
+                        fontWeight: "600",
+                        color: "#0076A2",
+                        textAlign: "start",
+                      }}
+                    >
+                      <img
+                        className={styles.frameItem + " mr-1"}
+                        alt=""
+                        src="/frame-1137@2x.png"
+                        width={35}
+                      />
+                      Integration{" "}
+                    </button>
+                  </Link>
+                  <Link to="/qualityTestingPage" style={{ width: "100%" }}>
+                    <button
+                      className="btn btn-light w-100"
+                      style={{
+                        fontSize: "18px",
+                        width: "18.3rem",
+                        height: "3.75rem",
+                        fontWeight: "600",
+                        color: "#0076A2",
+                        textAlign: "start",
+                      }}
+                    >
+                      <img
+                        className={styles.frameItem + " mr-1"}
+                        alt=""
+                        src="/frame-1138@2x.png"
+                        width={35}
+                      />
+                      Quality Testing{" "}
+                    </button>
+                  </Link>
+
+                  {/* <div className={styles.servicesParent}>
                     <div className={styles.frameParent10}>
                       <img
                         className={styles.frameChild8}
@@ -552,7 +714,7 @@ const WhoWeAre = () => {
                         <div className={styles.intent}>Quality Testing</div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className={styles.groupParent17}>

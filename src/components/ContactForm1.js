@@ -2,7 +2,7 @@ import styles from "./ContactForm1.module.css";
 
 const ContactForm1 = () => {
   return (
-    <div id="ContectFrom" className={styles.contactform}>
+    <div id="#ContectFrom" className={styles.contactform}>
       <div className={styles.contactformInner}>
         <div className={styles.frameParent}>
           <div className={styles.frameWrapper}>

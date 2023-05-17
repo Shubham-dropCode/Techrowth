@@ -5,6 +5,7 @@ import ExploreOurCaseStudies from "../components/ExploreOurCaseStudies";
 import FrameComponent from "../components/FrameComponent";
 import IndustriesWorkedWith from "../components/IndustiresWorkedWIth";
 import AccelerateYourGrowth from "./AccelerateYourGrowth";
+import { Link } from "react-router-dom";
 const ItMain = () => {
   const RecentText =
     "Ready to take your business to new heights? Book a free consultation today and know more";
@@ -1029,105 +1030,111 @@ const ItMain = () => {
             </div>
             <div className={styles.frameWrapper}>
               <div className={styles.frameParent2}>
-                <button
-                  className="btn btn-light w-100"
-                  style={{
-                    fontSize: "18px",
-                    width: "18.3rem",
-                    height: "3.75rem",
-                    fontWeight: "600",
-                    color: "#0076A2",
-                    textAlign: "start",
-                  }}
-                >
-                  <img
-                    className={styles.frameItem + "ps-1"}
-                    alt=""
-                    src="/frame-1128@2x.png"
-                    width={35}
-                  />
-                  Intent{" "}
-                </button>
-
-                <button
-                  className="btn btn-light w-100"
-                  style={{
-                    fontSize: "18px",
-                    width: "18.3rem",
-                    height: "3.75rem",
-                    fontWeight: "600",
-                    color: "#0076A2",
-                    textAlign: "start",
-                  }}
-                >
-                  <img
-                    className={styles.frameItem + " mr-1"}
-                    alt=""
-                    src="/frame-1130@2x.png"
-                    width={35}
-                  />
-                  Services{" "}
-                </button>
-
-                <button
-                  className="btn btn-light w-100"
-                  style={{
-                    fontSize: "18px",
-                    width: "18.3rem",
-                    height: "3.75rem",
-                    fontWeight: "600",
-                    color: "#0076A2",
-                    textAlign: "start",
-                  }}
-                >
-                  <img
-                    className={styles.frameItem + " mr-1"}
-                    alt=""
-                    src="/frame-1131@2x.png"
-                    width={35}
-                  />
-                  E-commerce
-                </button>
-
-                <button
-                  className="btn btn-light w-100"
-                  style={{
-                    fontSize: "18px",
-                    width: "18.3rem",
-                    height: "3.75rem",
-                    fontWeight: "600",
-                    color: "#0076A2",
-                    textAlign: "start",
-                  }}
-                >
-                  <img
-                    className={styles.frameItem + " mr-1"}
-                    alt=""
-                    src="/frame-1130@2x.png"
-                    width={35}
-                  />
-                  Content{" "}
-                </button>
-
-                <button
-                  className="btn btn-light w-100"
-                  style={{
-                    fontSize: "18px",
-                    width: "18.3rem",
-                    height: "3.75rem",
-                    fontWeight: "600",
-                    color: "#0076A2",
-                    textAlign: "start",
-                  }}
-                >
-                  <img
-                    className={styles.frameItem + " mr-1"}
-                    alt=""
-                    src="/frame-1133@2x.png"
-                    width={35}
-                  />
-                  Graphic & Designs{" "}
-                </button>
+                <Link to="/IntentPrototype" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + "ps-1"}
+                      alt=""
+                      src="/frame-1128@2x.png"
+                      width={35}
+                    />
+                    Intent{" "}
+                  </button>
+                </Link>
+                <Link to="/SocialMediaServices" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + " mr-1"}
+                      alt=""
+                      src="/frame-1130@2x.png"
+                      width={35}
+                    />
+                    Services{" "}
+                  </button>
+                </Link>
+                <Link to="/Ecommerce" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + " mr-1"}
+                      alt=""
+                      src="/frame-1131@2x.png"
+                      width={35}
+                    />
+                    E-commerce
+                  </button>
+                </Link>
+                <Link to="/Content" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + " mr-1"}
+                      alt=""
+                      src="/frame-1130@2x.png"
+                      width={35}
+                    />
+                    Content{" "}
+                  </button>
+                </Link>
+                <Link to="/GraphicDesign" style={{ width: "100%" }}>
+                  <button
+                    className="btn btn-light w-100"
+                    style={{
+                      fontSize: "18px",
+                      width: "18.3rem",
+                      height: "3.75rem",
+                      fontWeight: "600",
+                      color: "#0076A2",
+                      textAlign: "start",
+                    }}
+                  >
+                    <img
+                      className={styles.frameItem + " mr-1"}
+                      alt=""
+                      src="/frame-1133@2x.png"
+                      width={35}
+                    />
+                    Graphic & Designs{" "}
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -1139,7 +1146,7 @@ const ItMain = () => {
                 Analytics services 
               </div>
               <div className={styles.groupContainer}>
-              <button
+                <button
                   className="btn btn-light w-100 mr-1"
                   style={{
                     fontSize: "18px",
@@ -1196,7 +1203,7 @@ const ItMain = () => {
                     src="/frame-1141@2x.png"
                     width={35}
                   />
-                 Social Media Analytics
+                  Social Media Analytics
                 </button>
 
                 <button
@@ -1218,7 +1225,6 @@ const ItMain = () => {
                   />
                   Mobile Analytics{" "}
                 </button>
-                
               </div>
             </div>
             <div className={styles.rectangleContainer}>

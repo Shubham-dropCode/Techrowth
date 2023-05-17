@@ -956,9 +956,11 @@
   justify-content: flex-start;
 }
 .frameParent7 {
+  width: 80%;
   gap: var(--gap-xl);
 }
 .frameWrapper8 {
+  width: 100%;
   position: absolute;
   top: 17.06rem;
   left: 1.88rem;
