@@ -10,7 +10,11 @@
   position: relative;
   font-weight: 600;
 }
-.increaseInVerticalRevenueParent,
+.increaseInVerticalRevenueParent{
+  background-color: var(--light-blue);
+  width: 100%;
+
+}
 .recentresult {
   background-color: var(--light-blue);
   width: 100%;
@@ -20,7 +24,8 @@
 }
 .increaseInVerticalRevenueParent {
   flex: 1;
-  padding: 0 var(--padding-mini);
+  overflow: hidden;
+  /* padding: 0 var(--padding-mini); */
   justify-content: space-around;
   gap: "1.3rem";
   color: var(--text-grey);
@@ -28,10 +33,14 @@
 .recentresult {
   align-self: stretch;
   padding: var(--padding-2xl) 0 var(--padding-2xl) var(--padding-3xl);
-  justify-content: center;
+  /* justify-content: center; */
   gap: var(--gap-17xl);
   text-align: left;
   font-size: var(--font-size-mini);
   color: var(--blue);
   font-family: var(--font-montserrat);
+}
+
+.slick-disabled {
+  display: none;
 }
