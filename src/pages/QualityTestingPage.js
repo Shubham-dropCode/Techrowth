@@ -33,7 +33,7 @@ const QualityTestingPage = () => {
         MyBackgroundImage={heroBg}
       />
       <RecentResult />
-      <Breadcrumbs breadcrumb={breadcrumb}/>
+      <Breadcrumbs breadcrumb={breadcrumb} />
       <div className="container my-5">
         <div className="row">
           <div className={styles.interestedInSoftwareDevelopParent}>
@@ -59,7 +59,7 @@ const QualityTestingPage = () => {
                   src="/group-816.svg"
                 />
                 <div className={styles.eCommerceParent}>
-                  <div className={styles.eCommerce} style={{color:"#666"}}>
+                  <div className={styles.eCommerce} style={{ color: "#666" }}>
                     Database & Platform Testing
                   </div>
                   {/* <div className={styles.ourTeamWorksContainer}>
@@ -91,7 +91,10 @@ const QualityTestingPage = () => {
                   src="/group-819.svg"
                 />
                 <div className={styles.mobileApplicationsParent}>
-                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                  <div
+                    className={styles.mobileApplications}
+                    style={{ color: "#666" }}
+                  >
                     Usability Testing
                   </div>
                   {/* <div className={styles.weSpecializeInContainer}>
@@ -113,7 +116,7 @@ const QualityTestingPage = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.frameContainer }>
+            <div className={styles.frameContainer}>
               <div className={styles.groupParent}>
                 <img
                   className={styles.frameChild}
@@ -121,7 +124,10 @@ const QualityTestingPage = () => {
                   src="/group-817.svg"
                 />
                 <div className={styles.corporateWebsiteParent}>
-                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                  <div
+                    className={styles.mobileApplications}
+                    style={{ color: "#666" }}
+                  >
                     Functional & Security Testing{" "}
                   </div>
                   {/* <div className={styles.weSpecializeInContainer}>
@@ -159,7 +165,10 @@ const QualityTestingPage = () => {
                   src="/group-818.svg"
                 />
                 <div className={styles.webApplicationsParent}>
-                  <div className={styles.mobileApplications} style={{color:"#666"}}>
+                  <div
+                    className={styles.mobileApplications}
+                    style={{ color: "#666" }}
+                  >
                     Compatibility Testing{" "}
                   </div>
                   {/* <div className={styles.weSpecializeInContainer}>
@@ -175,10 +184,11 @@ const QualityTestingPage = () => {
                         Ensured compatibility across various platforms, devices,
                         and operating systems resulting in a
                         <b className={styles.websites}> 40%</b> increase in
-                        customer satisfaction 
+                        customer satisfaction
                       </span>
                       <b className={styles.websites}>
-                        {" "} $144 million in revenue.
+                        {" "}
+                        $144 million in revenue.
                       </b>
                     </p>
                   </div>
@@ -198,7 +208,7 @@ const QualityTestingPage = () => {
         >
           <div
             className="col-3 py-3 d-flex align-items-center justify-content-center"
-            style={{ backgroundColor: "#0076A2", borderRadius: "50px" }}
+            style={{ backgroundColor: "#0076A2", borderRadius: "50px",  }}
           >
             <img src={automaticTesting} width={35} />
             <div className="pl-4 text-white">Automatic Testing</div>

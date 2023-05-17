@@ -5,8 +5,46 @@ import TSlide2 from "./TestimonialSlider/TSlide2";
 import TSlide3 from "./TestimonialSlider/TSlide3";
 import TSlide4 from "./TestimonialSlider/TSlide4";
 import Slider from "react-slick";
+import LeftArrow from "../assets/group-358.svg";
+import RightArrow from "../assets/group-359.svg";
 
 const Testimonial = () => {
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        className={className}
+        onClick={onClick}
+        alt=""
+        style={{
+          ...style,
+          display: "block",
+          width: "40px",
+          height: "40px",
+          left:"-80px"
+        }}
+        src={LeftArrow}
+      />
+    );
+  }
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={RightArrow}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "40px",
+          height: "40px",
+         right:"-80px"
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   const settings = {
     dots: false,
     infinite: true,
@@ -18,6 +56,8 @@ const Testimonial = () => {
     speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
     <>
@@ -32,13 +72,13 @@ const Testimonial = () => {
           </div>
           <div className={styles.clientReview}>
             <div className={styles.frameContainer}>
-              <button className={styles.groupWrapper}>
+              {/* <button className={styles.groupWrapper}>
                 <img
                   className={styles.frameInner}
                   alt=""
                   src="/group-358.svg"
                 />
-              </button>
+              </button> */}
               <div className="container d-block">
                 <div className={styles.group}>
                   <Slider {...settings}>
@@ -57,13 +97,13 @@ const Testimonial = () => {
                   </Slider>
                 </div>
               </div>
-              <button className={styles.groupWrapper}>
+              {/* <button className={styles.groupWrapper}>
                 <img
                   className={styles.frameInner}
                   alt=""
                   src="/group-359.svg"
                 />
-              </button>
+              </button> */}
             </div>
             {/* <div className={styles.circles}>
           <img className={styles.circlesChild} alt="" src="/ellipse-37.svg" />

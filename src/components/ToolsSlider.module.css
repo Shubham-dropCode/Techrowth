@@ -52,3 +52,8 @@
   color: var(--text-grey);
   font-family: var(--font-montserrat);
 }
+.images1Icon{
+  object-fit: contain;
+  width: 8.88rem;
+  height: 4.19rem;
+}

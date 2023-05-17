@@ -151,7 +151,7 @@ const Header = () => {
                 <img className={styles.vectorIcon} alt="" src="/vector-1.svg" />
               </button>
             </nav>
-            <button className={styles.navbutton}>
+            <button className={styles.navbutton} id="#ContactForm">
               <div className={styles.contactUs}>Contact Us</div>
             </button>
           </div>

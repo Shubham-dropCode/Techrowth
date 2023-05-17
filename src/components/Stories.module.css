@@ -55,7 +55,7 @@
   top: 50%;
   left: 7.86%;
 }
-.frameGroup,
+
 .parent {
   display: flex;
   flex-direction: row;
@@ -370,11 +370,13 @@
 .frameParent {
   /* width: 84.75rem; */
   align-items: center;
+  margin: auto;
   /* gap: var(--gap-41xl); */
 }
 .stories {
   background-color: var(--white);
   /* width: 90rem; */
+  width: 100%;
   margin: 1rem ;
   overflow: hidden;
   padding: 0 var(--padding-23xl);

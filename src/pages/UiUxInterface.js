@@ -12,6 +12,7 @@ import styles from "../components/InterestedDevelopment.module.css";
 import TrustedByBrands from "../components/TrustedByBrands";
 import Hero from "../components/Hero";
 import ContactUsBar from "../components/ContactUsBar";
+import ToolsSliderUI from "../components/ToolsSliderUI";
 
 const UiUxInterface = () => {
   const [breadcrumb, setBreadcrumb] = useState([]);
@@ -219,7 +220,7 @@ const UiUxInterface = () => {
         </div>
       </div>
 
-      <ToolsSlider />
+      <ToolsSliderUI />
       <ContactUsBar content="Want to make your user’s experience intuitively easy and seamless?" btnTxt="Contact Us"/>
       <ContactUsForm />
 

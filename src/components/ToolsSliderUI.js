@@ -1,8 +1,10 @@
+import React from "react";
 import Slider from "react-slick";
 import styles from "./ToolsSlider.module.css";
 import LeftArrow from "../assets/group-358.svg";
 import RightArrow from "../assets/group-359.svg";
-const ToolsSlider = () => {
+
+const ToolsSliderUI = () => {
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -70,63 +72,63 @@ const ToolsSlider = () => {
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="sql-data-base-with-logo@2x.png"
+                    src="Frame 1164.png"
                   />
                 </div>
                 <div className="col">
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="googleflutterlogo@2x.png"
+                    src="Frame 1165.png"
                   />
                 </div>
                 <div className="col">
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="/angularar21@2x.png"
+                    src="Frame 1166.png"
                   />
                 </div>
                 <div className="col">
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="/react-logo-wordmark@2x.png"
+                    src="Frame 1167.png"
                   />
                 </div>
                 <div className="col">
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="/javalogo@2x.png"
+                    src="/Frame 1169.png"
                   />
                 </div>
                 <div className="col">
                   <img
                     className={styles.images1Icon}
                     alt=""
-                    src="frame-1030@2x.png"
+                    src="Frame 1169-1.png"
                   />
                 </div>
               </Slider>
               {/* <div className="col"></div>
-            <div className="col"></div> */}
+                <div className="col"></div> */}
             </div>
           </div>
           {/* <div className={styles.groupParent}>
-            <img className={styles.frameChild} alt="" src="/group-358.svg" />
-            <img className={styles.frameItem} alt="" src="/frame-846@2x.png" />
-            <img className={styles.frameItem} alt="" src="/frame-847@2x.png" />
-            <img className={styles.frameItem} alt="" src="/frame-848@2x.png" />
-            <img className={styles.frameItem} alt="" src="/frame-849@2x.png" />
-            <img className={styles.frameItem} alt="" src="/frame-1029@2x.png" />
-            <img className={styles.frameItem} alt="" src="/frame-1030@2x.png" />
-            <img className={styles.frameChild} alt="" src="/group-359.svg" />
-          </div> */}
+                <img className={styles.frameChild} alt="" src="/group-358.svg" />
+                <img className={styles.frameItem} alt="" src="/frame-846@2x.png" />
+                <img className={styles.frameItem} alt="" src="/frame-847@2x.png" />
+                <img className={styles.frameItem} alt="" src="/frame-848@2x.png" />
+                <img className={styles.frameItem} alt="" src="/frame-849@2x.png" />
+                <img className={styles.frameItem} alt="" src="/frame-1029@2x.png" />
+                <img className={styles.frameItem} alt="" src="/frame-1030@2x.png" />
+                <img className={styles.frameChild} alt="" src="/group-359.svg" />
+              </div> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default ToolsSlider;
+export default ToolsSliderUI;

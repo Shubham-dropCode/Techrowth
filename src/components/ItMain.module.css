@@ -32,7 +32,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   font-weight: 500;
-  color: var(--text-grey);
+  /* color: var(--text-grey); */
 }
 .parent {
   align-self: stretch;
@@ -44,6 +44,10 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-xl);
+}
+.parent:hover{
+  background-color: var(--blue);
+  color: white;
 }
 .clientTestimonials {
   position: relative;
@@ -271,8 +275,10 @@
 }
 .frameParent2 {
   gap: var(--gap-xl);
+  width: 83%;
 }
 .frameWrapper {
+  width: 100%;
   position: absolute;
   top: 17.06rem;
   left: 1.88rem;
@@ -665,7 +671,8 @@
 }
 .digite {
   justify-content: center;
-  margin: 3rem 0;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   color: var(--blue);
 }
 .accelerateYourGrowth {
@@ -920,6 +927,7 @@
   color: var(--text-grey);
 }
 .problemsWeHaveSolvedParent {
+  margin-top: 2rem;
   width: 65.38rem;
   flex-direction: column;
   justify-content: flex-start;

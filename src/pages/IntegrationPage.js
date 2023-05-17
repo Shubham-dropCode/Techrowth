@@ -9,6 +9,7 @@ import TrustedByBrands from "../components/TrustedByBrands";
 import Breadcrumbs from "../components/Breadcrumbs";
 import RecentResult from "../components/RecentResult";
 import ContactUsForm from "../components/ContactUsForm";
+import ToolsSliderIntegration from "../components/ToolsSliderIntegration";
 
 const IntegrationPage = () => {
   const [breadcrumb, setBreadcrumb] = useState([]);
@@ -86,7 +87,7 @@ const IntegrationPage = () => {
           </div>
         </div>
       </div>
-      <ToolsSlider />
+      <ToolsSliderIntegration />
       <ContactUsBar content={RecentText} btnTxt="Contact Us" />
       <ContactUsForm />
       <TrustedByBrands />

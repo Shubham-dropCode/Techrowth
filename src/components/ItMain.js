@@ -3,7 +3,8 @@ import styles from "./ItMain.module.css";
 import Testimonial from "../components/Testimonial";
 import ExploreOurCaseStudies from "../components/ExploreOurCaseStudies";
 import FrameComponent from "../components/FrameComponent";
-import IndustriesWorkedWith from "../components/IndustiresWorkedWIth"
+import IndustriesWorkedWith from "../components/IndustiresWorkedWIth";
+import AccelerateYourGrowth from "./AccelerateYourGrowth";
 const ItMain = () => {
   const RecentText =
     "Ready to take your business to new heights? Book a free consultation today and know more";
@@ -31,7 +32,7 @@ const ItMain = () => {
               Subject Matter Experts
             </div>
           </div>
-          <div className={styles.frameDiv}>
+          <div className={styles.parent}>
             <div className={styles.technology}>114+</div>
             <div className={styles.clientTestimonials}>Client Testimonials</div>
           </div>
@@ -194,7 +195,8 @@ const ItMain = () => {
           </div>
         </div>
       </div>
-      <div className={styles.groupParent1}>
+
+      {/* <div className={styles.groupParent1}>
         <div className={styles.accelerateYourGrowthHeadingParent}>
           <div className={styles.accelerateYourGrowthHeading}>
             <b className={styles.accelerateYourGrowth}>
@@ -248,7 +250,9 @@ const ItMain = () => {
           </div>
           <img className={styles.groupIcon} alt="" src="/group-359.svg" />
         </div>
-      </div>
+      </div> */}
+      <AccelerateYourGrowth />
+
       <div className={styles.problemsWeHaveSolvedParent}>
         <div className={styles.exploreOtherServices}>
           Problems We have Solved
@@ -988,7 +992,7 @@ const ItMain = () => {
           </div>
         </div>
       </div> */}
-            <IndustriesWorkedWith />
+      <IndustriesWorkedWith />
 
       <div className={styles.exploreOtherServicesParent}>
         <div className={styles.exploreOtherServices}>
@@ -1025,56 +1029,105 @@ const ItMain = () => {
             </div>
             <div className={styles.frameWrapper}>
               <div className={styles.frameParent2}>
-                <div className={styles.servicesParent}>
-                  <div className={styles.frameParent3}>
-                    <img
-                      className={styles.frameItem}
-                      alt=""
-                      src="/frame-1128@2x.png"
-                    />
-                    <div className={styles.intent}>Intent</div>
-                  </div>
-                </div>
-                <div className={styles.servicesParent}>
-                  <div className={styles.services}>Services</div>
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
                   <img
-                    className={styles.frameInner}
+                    className={styles.frameItem + "ps-1"}
+                    alt=""
+                    src="/frame-1128@2x.png"
+                    width={35}
+                  />
+                  Intent{" "}
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
                     alt=""
                     src="/frame-1130@2x.png"
+                    width={35}
                   />
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.eCommerce}>E-commerce</div>
-                    <img
-                      className={styles.frameIcon}
-                      alt=""
-                      src="/frame-1131@2x.png"
-                    />
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div className={styles.content}>Content</div>
-                    <img
-                      className={styles.frameChild1}
-                      alt=""
-                      src="/frame-1132@2x.png"
-                    />
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.eCommerceParent}>
-                    <div
-                      className={styles.graphicsDesigns}
-                    >{`Graphics & Designs`}</div>
-                    <img
-                      className={styles.frameChild2}
-                      alt=""
-                      src="/frame-1133@2x.png"
-                    />
-                  </div>
-                </div>
+                  Services{" "}
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1131@2x.png"
+                    width={35}
+                  />
+                  E-commerce
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1130@2x.png"
+                    width={35}
+                  />
+                  Content{" "}
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1133@2x.png"
+                    width={35}
+                  />
+                  Graphic & Designs{" "}
+                </button>
               </div>
             </div>
           </div>
@@ -1086,68 +1139,86 @@ const ItMain = () => {
                 Analytics services 
               </div>
               <div className={styles.groupContainer}>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent4}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1139@2x.png"
-                        />
-                        <div
-                          className={styles.intent}
-                        >{`Analytics & Insights`}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent5}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1140@2x.png"
-                        />
-                        <div className={styles.intent}>
-                          Customized Dashboards
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent6}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1141@2x.png"
-                        />
-                        <div
-                          className={styles.intent}
-                        >{`Social Media Analytics `}</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.groupDiv}>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.eCommerceParent}>
-                      <div className={styles.frameParent7}>
-                        <img
-                          className={styles.frameChild3}
-                          alt=""
-                          src="/frame-1142@2x.png"
-                        />
-                        <div className={styles.intent}>Mobile Analytics</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <button
+                  className="btn btn-light w-100 mr-1"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1139@2x.png"
+                    width={35}
+                  />
+                  Analytics & Insights
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1140@2x.png"
+                    width={35}
+                  />
+                  Customized Dashboards
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1141@2x.png"
+                    width={35}
+                  />
+                 Social Media Analytics
+                </button>
+
+                <button
+                  className="btn btn-light w-100"
+                  style={{
+                    fontSize: "18px",
+                    width: "18.3rem",
+                    height: "3.75rem",
+                    fontWeight: "600",
+                    color: "#0076A2",
+                    textAlign: "start",
+                  }}
+                >
+                  <img
+                    className={styles.frameItem + " mr-1"}
+                    alt=""
+                    src="/frame-1142@2x.png"
+                    width={35}
+                  />
+                  Mobile Analytics{" "}
+                </button>
+                
               </div>
             </div>
             <div className={styles.rectangleContainer}>

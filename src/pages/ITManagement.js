@@ -8,6 +8,7 @@ import ContactUsBar from "../components/ContactUsBar";
 import heroBg from "../assets/Itmanagementbgimg.jpg";
 import ContactUsForm from "../components/ContactUsForm";
 import TrustedByBrands from "../components/TrustedByBrands";
+import ToolsSliderIT from "../components/ToolsSliderIT";
 
 const ITManagement = () => {
   const [breadcrumb, setBreadcrumb] = useState([]);
@@ -199,7 +200,7 @@ const ITManagement = () => {
         </div>
       </div>
 
-      <ITSlider/>
+      <ToolsSliderIT/>
       <ContactUsBar
         content="Transform your true potential into your business reality! Discover how we can help you unlock new levels of IT management & security.
         "

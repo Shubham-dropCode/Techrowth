@@ -4,8 +4,44 @@ import Slide2 from "./StorieSlider/Slide2";
 import Slide3 from "./StorieSlider/Slide3";
 import Slide4 from "./StorieSlider/Slide4";
 import styles from "./Stories.module.css";
-
+import LeftArrow from "../assets/group-358.svg";
+import RightArrow from "../assets/group-359.svg";
 const Stories = () => {
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        className={className}
+        onClick={onClick}
+        alt=""
+        style={{
+          ...style,
+          display: "block",
+          width: "40px",
+          height: "40px",
+          left: "-80px",
+        }}
+        src={LeftArrow}
+      />
+    );
+  }
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <img
+        src={RightArrow}
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          width: "40px",
+          height: "40px",
+          right: "-80px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
     dots: false,
     infinite: true,
@@ -17,7 +53,9 @@ const Stories = () => {
     speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    rlt:false
+    rlt: false,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <div className={styles.stories}>
@@ -26,7 +64,7 @@ const Stories = () => {
           <b className={styles.ourInsideStories}>Our Inside Stories</b>
           <div className={styles.frameWrapper}>
             <div className={styles.frameGroup}>
-              <img className={styles.frameChild} alt="" src="/frame-1108.svg" />
+              {/* <img className={styles.frameChild} alt="" src="/frame-1108.svg" /> */}
               <div className={styles.parent}>
                 <div className="container">
                   <Slider {...settings}>
@@ -48,7 +86,7 @@ const Stories = () => {
                   </Slider>
                 </div>
               </div>
-              <img className={styles.frameChild} alt="" src="/frame-357.svg" />
+              {/* <img className={styles.frameChild} alt="" src="/frame-357.svg" /> */}
             </div>
           </div>
         </div>
