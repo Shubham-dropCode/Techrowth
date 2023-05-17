@@ -8,25 +8,25 @@ const ServicesWeServeEcommerce = () => {
         <div className={styles.seconePageECommerce}>
           <div className={styles.mnParent}>
             {/* import NumberCounter from 'number-counter'; */}
-            <NumberCounter end={144} delay={1} className={styles.div} postFix="Mn+"/>
+            {/* <NumberCounter end={144} delay={1} className={styles.div} postFix="Mn+"/> */}
 
-            {/* <div className={styles.div}>144 </div> */}
+            <div className={styles.div}>144 </div>
             <div className={styles.totalRevenueGenerated}>
               Total Revenue Generated
             </div>
           </div>
           <div className={styles.mnParent}>
-          <NumberCounter end={34} delay={1} className={styles.div} postFix="%"/>
+          {/* <NumberCounter end={34} delay={1} className={styles.div} postFix="%"/> */}
 
-            {/* <div className={styles.div}>34%</div> */}
+            <div className={styles.div}>34%</div>
             <div className={styles.revenueIncreasedWrapper}>
               <div className={styles.revenueIncreased}> Revenue Increased</div>
             </div>
           </div>
           <div className={styles.mnParent}>
-          <NumberCounter end={55} delay={1} className={styles.div} postFix="%"/>
+          {/* <NumberCounter end={55} delay={1} className={styles.div} postFix="%"/> */}
 
-            {/* <div className={styles.div}>55%</div> */}
+            <div className={styles.div}>55%</div>
             <div className={styles.salesIncreased}>Sales Increased</div>
           </div>
         </div>

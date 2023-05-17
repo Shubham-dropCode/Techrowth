@@ -13,14 +13,14 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
         </div>
         <div className={styles.frameGroup}>
           <div className={styles.parent}>
-            <NumberCounter
+            {/* <NumberCounter
               end={7}
               delay={1}
               className={styles.div}
               postFix="+"
-            />
+            /> */}
 
-            {/* <div >7+</div> */}
+            <div className={styles.div}>7+</div>
             <div className={styles.yearsOfAverageContainer}>
               <p className={styles.yearsOfAverage}>
                  Years of Average <br /> Team Experience
@@ -28,13 +28,13 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
             </div>
           </div>
           <div className={styles.group}>
-            <NumberCounter
+            {/* <NumberCounter
               end={100}
               delay={1}
               className={styles.div1}
               postFix="+"
-            />
-            {/* <div className={styles.div1}>100+</div> */}
+            /> */}
+            <div className={styles.div1}>100+</div>
             <div className={styles.clientsAcross5Container}>
               <p className={styles.yearsOfAverage}>
                 Clients across <br />5 countries
@@ -42,23 +42,23 @@ const OneStopSolution1 = ({ text, text2, btnText }) => {
             </div>
           </div>
           <div className={styles.container}>
-            <NumberCounter
+            {/* <NumberCounter
               end={500}
               delay={1}
               className={styles.div2}
               postFix="+"
-            />
-            {/* <div className={styles.div2}>500+</div> */}
+            /> */}
+            <div className={styles.div2}>500+</div>
             <div className={styles.projects}>Projects</div>
           </div>
           <div className={styles.frameDiv}>
-            <NumberCounter
+            {/* <NumberCounter
               end={100}
               delay={1}
               className={styles.div3}
               postFix="%"
-            />
-            {/* <div className={styles.div3}>100%</div> */}
+            /> */}
+            <div className={styles.div3}>100%</div>
             <div className={styles.provenTrackRecordContainer}>
               <p className={styles.yearsOfAverage}>
                 Proven Track <br />

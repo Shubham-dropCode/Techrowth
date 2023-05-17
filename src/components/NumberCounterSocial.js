@@ -9,14 +9,14 @@ const NumberCounterSocial = () => {
           <div className={styles.stBlockContentParent}>
             <div className={styles.stBlockContent}>
               <div className={styles.parent}>
-                <NumberCounter
+                {/* <NumberCounter
                   end={21}
                   delay={1}
                   className={styles.div1}
                   postFix="%"
-                />
+                /> */}
 
-                {/* <div className={styles.div}>21%</div> */}
+                <div className={styles.div}>21%</div>
                 <div className={styles.increasedCustomerEngagement}>
                   Increased Customer Engagement
                 </div>
@@ -27,13 +27,13 @@ const NumberCounterSocial = () => {
           <div className={styles.stBlockContentParent}>
             <div className={styles.stBlockContent}>
               <div className={styles.group}>
-                <NumberCounter
+                {/* <NumberCounter
                   end={34}
                   delay={1}
                   className={styles.div11}
                   postFix="%"
-                />
-                {/* <div className={styles.div1}>34%</div> */}
+                /> */}
+                <div className={styles.div1}>34%</div>
                 <div className={styles.visitsIncrease}>Visits Increase</div>
               </div>
             </div>
@@ -41,14 +41,14 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.rdBlockContentParent}>
             <div className={styles.rdBlockContent}>
-              <NumberCounter
+              {/* <NumberCounter
                 end={15}
                 delay={1}
                 className={styles.div2}
                 postFix="%"
-              />
+              /> */}
 
-              {/* <div className={styles.div2}>15%</div> */}
+              <div className={styles.div2}>15%</div>
               <div className={styles.increasedCustomerInteraction}>
                 Increased Customer Interaction
               </div>
@@ -57,14 +57,14 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.thBlockContentParent}>
             <div className={styles.rdBlockContent}>
-              <NumberCounter
+              {/* <NumberCounter
                 end={12}
                 delay={1}
                 className={styles.div3}
                 postFix="%"
-              />
+              /> */}
 
-              {/* <div className={styles.div3}>12%</div> */}
+              <div className={styles.div3}>12%</div>
               <div className={styles.customerConversionIncreased}>
                 Customer Conversion Increased
               </div>
@@ -86,14 +86,14 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.ndBlockContentGroup}>
             <div className={styles.ndBlockContent1}>
-              <NumberCounter
+              {/* <NumberCounter
                 end={89}
                 delay={1}
                 className={styles.div6}
                 postFix="+"
-              />
+              /> */}
 
-              {/* <div className={styles.div6}>89+</div> */}
+              <div className={styles.div6}>89+</div>
               <div className={styles.lastYearAddition}>
                 Last Year Addition in downloads
               </div>
@@ -102,14 +102,14 @@ const NumberCounterSocial = () => {
           </div>
           <div className={styles.rdBlockContentGroup}>
             <div className={styles.ndBlockContent1}>
-              <NumberCounter
+              {/* <NumberCounter
                 end={21}
                 delay={1}
                 className={styles.div6}
                 postFix="%"
-              />
+              /> */}
 
-              {/* <div className={styles.div6}>21%</div> */}
+              <div className={styles.div6}>21%</div>
               <div className={styles.increasedSocialMedia1}>
                 Increased Social Media Conversions
               </div>

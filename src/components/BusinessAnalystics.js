@@ -83,46 +83,46 @@ const BusinessAnalystics = ({ show, onDisplay, titleDiplay }) => {
             <div className={styles.frameParent1}>
               <div className={styles.parent}>
                 <div className={styles.div2}>
-                <NumberCounter end={24} delay={1} className={styles.div1} postFix="%"/>
+                {/* <NumberCounter end={24} delay={1} className={styles.div1} postFix="%"/> */}
 
-                  {/* <div className={styles.div1}>24%</div> */}
+                  <div className={styles.div1}>24%</div>
                   <div className={styles.revenueIncrement}>
                     <p className={styles.unlockThePower}>Revenue</p>
                     <p className={styles.unlockThePower}>Increment</p>
                   </div>
                 </div>
                 <div className={styles.div2}>
-                <NumberCounter end={987} delay={1} className={styles.div1} />
-                  {/* <div className={styles.div1}>987</div> */}
+                {/* <NumberCounter end={987} delay={1} className={styles.div1} /> */}
+                  <div className={styles.div1}>987</div>
                   <div className={styles.seoAudits}>SEO Audits</div>
                 </div>
                 <div className={styles.div2}>
-                <NumberCounter end={22} delay={1} className={styles.div1} postFix="%"/>
-                  {/* <div className={styles.div1}>22%</div> */}
+                {/* <NumberCounter end={22} delay={1} className={styles.div1} postFix="%"/> */}
+                  <div className={styles.div1}>22%</div>
                   <div className={styles.seoAudits}>Conversion Rate</div>
                 </div>
                 <div className={styles.div2}>
-                <NumberCounter end={172} delay={1} className={styles.div1}/>
-                  {/* <div className={styles.div1}>172</div> */}
+                {/* <NumberCounter end={172} delay={1} className={styles.div1}/> */}
+                  <div className={styles.div1}>172</div>
                   <div className={styles.seoAudits}>Mobile Apps</div>
                 </div>
               </div>
               <div className={styles.group}>
                 <div className={styles.div8}>
-                <NumberCounter end={415} delay={1} className={styles.div9}/>
-                  {/* <div className={styles.div9}>415</div> */}
+                {/* <NumberCounter end={415} delay={1} className={styles.div9}/> */}
+                  <div className={styles.div9}>415</div>
                   <div className={styles.websitesMade}>Websites Made</div>
                 </div>
                 <div className={styles.div10}>
-                <NumberCounter end={36} delay={1} className={styles.div3} style={{left:"40px"}} postFix="%"/>
-                  {/* <div className={styles.div11}>36%</div> */}
+                {/* <NumberCounter end={36} delay={1} className={styles.div3} style={{left:"40px"}} postFix="%"/> */}
+                  <div className={styles.div11}>36%</div>
                   <div className={styles.customerRetention}>
                     Customer Retention
                   </div>
                 </div>
                 <div className={styles.div12}>
-                <NumberCounter end={11} delay={1} className={styles.div4} postFix="%"/>
-                  {/* <div className={styles.div13}>11%</div> */}
+                {/* <NumberCounter end={11} delay={1} className={styles.div4} postFix="%"/> */}
+                  <div className={styles.div13}>11%</div>
                   <div className={styles.socialMediaInteractionContainer}>
                     <p className={styles.unlockThePower}>
                       Social Media Interaction

@@ -19,34 +19,34 @@ const QuantifyingTheData = () => {
             </div>
             <div className={styles.frameGroup}>
               <div className={styles.parent}>
-              <NumberCounter end={24} delay={1} className={styles.div} postFix="%"/>
-                {/* <div className={styles.div}>24%</div> */}
+              {/* <NumberCounter end={24} delay={1} className={styles.div} postFix="%"/> */}
+                <div className={styles.div}>24%</div>
                 <div className={styles.revenueIncrement}>
                   <p className={styles.weSetThe}>Revenue</p>
                   <p className={styles.weSetThe}>Increment</p>
                 </div>
               </div>
               <div className={styles.parent}>
-              <NumberCounter end={11} delay={1} className={styles.div1} postFix="%"/>
-                {/* <div className={styles.div1}>11%</div> */}
+              {/* <NumberCounter end={11} delay={1} className={styles.div1} postFix="%"/> */}
+                <div className={styles.div1}>11%</div>
                 <button className={styles.incrementSocialMediaContainer}>
                   <p className={styles.weSetThe}>Increment Social</p>
                   <p className={styles.weSetThe}>Media Interaction</p>
                 </button>
               </div>
               <div className={styles.parent}>
-              <NumberCounter end={22} delay={1} className={styles.div2} postFix="%"/>
+              {/* <NumberCounter end={22} delay={1} className={styles.div2} postFix="%"/> */}
 
-                {/* <div className={styles.div2}>22%</div> */}
+                <div className={styles.div2}>22%</div>
                 <div className={styles.conversionRate}>
                   <p className={styles.weSetThe}>Conversion</p>
                   <p className={styles.weSetThe}>Rate</p>
                 </div>
               </div>
               <div className={styles.parent}>
-              <NumberCounter end={36} delay={1} className={styles.div1} postFix="%"/>
+              {/* <NumberCounter end={36} delay={1} className={styles.div1} postFix="%"/> */}
 
-                {/* <div className={styles.div3}>36%</div> */}
+                <div className={styles.div3}>36%</div>
                 <div className={styles.customerRetention}>
                   <p className={styles.weSetThe}>Customer</p>
                   <p className={styles.weSetThe}>Retention</p>

@@ -101,17 +101,24 @@
 }
 .groupContainer {
   cursor: pointer;
-  border: 0;
+  outline: none;
+  border: 0px;
   padding: 0;
+  border-radius: 12px;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
+  outline-style: 0 !important;
   justify-content: center;
 }
 .groupContainer:hover {
   background-color: var(--blue);
   color: white;
+}
+groupContainer:focus {
+  border: none;
+  outline-style: 0 !important;
 }
 .analytics {
   position: absolute;
