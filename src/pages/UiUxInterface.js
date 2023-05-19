@@ -15,6 +15,9 @@ import ContactUsBar from "../components/ContactUsBar";
 import ToolsSliderUI from "../components/ToolsSliderUI";
 
 const UiUxInterface = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

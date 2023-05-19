@@ -11,6 +11,9 @@ import RecentResult from "../components/RecentResult";
 import ContactUsForm from "../components/ContactUsForm";
 
 const SocialMediaServices = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

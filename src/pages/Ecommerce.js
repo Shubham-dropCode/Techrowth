@@ -11,6 +11,9 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsBar from "../components/ContactUsBar";
 import ContactUsForm from "../components/ContactUsForm"
 const Ecommerce = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

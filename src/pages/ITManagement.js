@@ -11,6 +11,9 @@ import TrustedByBrands from "../components/TrustedByBrands";
 import ToolsSliderIT from "../components/ToolsSliderIT";
 
 const ITManagement = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

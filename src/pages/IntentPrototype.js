@@ -17,6 +17,9 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsForm from "../components/ContactUsForm";
 
 const IntentPrototype = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

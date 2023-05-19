@@ -9,6 +9,9 @@ import ContactUsForm from "../components/ContactUsForm";
 import TrustedByBrands from "../components/TrustedByBrands";
 
 const ITMain = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

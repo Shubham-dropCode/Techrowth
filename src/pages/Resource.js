@@ -1,6 +1,9 @@
 import TrustedByBrands from "../components/TrustedByBrands";
 import styles from "./Resource.module.css";
 const Resource = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className="container-fluid" style={{ padding: "2rem 4rem" }}>

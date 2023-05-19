@@ -20,6 +20,9 @@ import ContactUsForm from "../components/ContactUsForm";
 import ContactUsBar from "../components/ContactUsBar";
 
 const DigitalMarketing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

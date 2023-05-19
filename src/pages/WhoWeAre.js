@@ -4,6 +4,9 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import ContactUsForm from "../components/ContactUsForm";
 import TrustedByBrands from "../components/TrustedByBrands";
 const WhoWeArePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([

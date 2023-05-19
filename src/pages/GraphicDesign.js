@@ -15,6 +15,9 @@ import ContactUsForm from "../components/ContactUsForm";
 import Breadcrumbs from "../components/Breadcrumbs";
 
 const GraphicDesign = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [breadcrumb, setBreadcrumb] = useState([]);
   useEffect(() => {
     setBreadcrumb([
